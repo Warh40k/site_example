@@ -156,6 +156,10 @@ class FormView extends ModelPrototype implements ui\state\EditInterface
                 $oField->setValue($aValues[$oField->getName()]);
             }
         }
+/*        ob_start();
+        var_dump($this);
+        $output = ob_get_clean();
+        file_put_contents('var_dump.txt', $output);*/
     }
 
     /**

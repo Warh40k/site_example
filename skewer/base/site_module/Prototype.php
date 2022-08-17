@@ -439,7 +439,10 @@ abstract class Prototype extends \yii\base\Component
             return $sVal;
         }
         //if($this->oContext->oProcessor->oRouter->getStr($sName,$sVal)) return $sVal;
-
+/*        ob_start();
+        var_dump($mDefault);
+        $output = ob_get_clean();
+        file_put_contents('var_dump.txt', $output);*/
         return $mDefault;
     }
 

@@ -189,6 +189,11 @@ class Request
             return $data[$sName];
         }
 
+/*        ob_start();
+        var_dump($sDefaultValue);
+        $output = ob_get_clean();
+        file_put_contents('var_dump.txt', $output);*/
+
         return $sDefaultValue;
     }
 

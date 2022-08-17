@@ -168,7 +168,6 @@ class Module extends Adm\Tree\ModulePrototype
 
         // Запомним данные до внесения изменений
         $aOldAttributes = $oNewsRow->getAttributes();
-
         // Заполняем запись данными из web-интерфейса
         $oNewsRow->setAttributes($aData);
 
@@ -186,6 +185,11 @@ class Module extends Adm\Tree\ModulePrototype
             $aData,
             $this->sectionId()
         );
+        ob_start();
+        var_dump($oNewsRow);
+        $output = ob_get_clean();
+        file_put_contents('var_dump.txt', $output);
+
         return $oNewsRow->id;
     }
 

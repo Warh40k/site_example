@@ -56,8 +56,8 @@ class Form extends FormView
                 ->buttonSeparator('->')
                 ->buttonDelete();
         }
-
         $this->_form->setValue($this->item->getAttributes());
+
 
         // добавление SEO блока полей
         /** @var ModulePrototype $oModule */

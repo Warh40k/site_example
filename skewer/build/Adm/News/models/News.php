@@ -67,7 +67,7 @@ class News extends ActiveRecord
             [['parent_section', 'active', 'on_main', 'gallery'], 'integer'],
             [['publication_date', 'last_modified_date'], 'safe'],
             [['announce', 'full_text'], 'string'],
-            [['news_alias', 'title', 'hyperlink', 'source_link'], 'string', 'max' => 255],
+            [['news_alias', 'title', 'hyperlink', 'source_link', 'author'], 'string', 'max' => 255],
         ];
     }
 
@@ -185,6 +185,7 @@ class News extends ActiveRecord
         $oRow->gallery = 0;
         $oRow->hyperlink = '';
         $oRow->on_main = 0;
+        $oRow->author = '';
 
         if ($aData) {
             $oRow->setAttributes($aData);

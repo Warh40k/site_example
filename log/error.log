@@ -2324,3 +2324,255 @@ Stack trace:
 #20 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
 #21 {main}
 2022-08-17 20:12:01 [127.0.0.1][-][umkau2ab6pfan4i2u3e59c39fnpea62s][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-17 21:16:04 [127.0.0.1][-][-][error][yii\web\HeadersAlreadySentException] yii\web\HeadersAlreadySentException: Headers already sent in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\News\view\Form.php on line 65. in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Response.php:366
+Stack trace:
+#0 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->sendHeaders()
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Response->send()
+#2 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#3 {main}
+2022-08-17 21:45:34 [127.0.0.1][-][-][error][application] 
+yii\base\ErrorException: file_put_contents(/var/www/var_dump.txt): failed to open stream: No such file or directory in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\News\view\Form.php:64
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_put_conten...', 'C:\\Users\\\xD0\x9D\xD0\xB8\xD0\xBA...', 64, Array)
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\News\view\Form.php(64): file_put_contents('/var/www/var_du...', 'array(14) {\n  [...')
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Tabs\ModulePrototype.php(211): skewer\build\Adm\News\view\Form->build()
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\News\Module.php(124): skewer\build\Cms\Tabs\ModulePrototype->render(Object(skewer\build\Adm\News\view\Form))
+#4 [internal function]: skewer\build\Adm\News\Module->actionShow()
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\ModulePrototype.php(148): call_user_func(Array)
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\build\Cms\Frame\ModulePrototype->execute()
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php(149): skewer\base\site_module\ProcessList->executeProcessList()
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php(24): skewer\controllers\CmsPrototype->runApplication()
+#10 [internal function]: skewer\controllers\CmsController->actionNewadmin()
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('newadmin', Array)
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('cms/newadmin', Array)
+#15 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#17 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#18 {main}
+
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\log\Logger.php:40
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\log\Logger.php:62
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php:170
+2022-08-17 21:45:34 [127.0.0.1][-][-][error][application] yii\base\ErrorException: file_put_contents(/var/www/var_dump.txt): failed to open stream: No such file or directory in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\News\view\Form.php:64
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_put_conten...', 'C:\\Users\\\xD0\x9D\xD0\xB8\xD0\xBA...', 64, Array)
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\News\view\Form.php(64): file_put_contents('/var/www/var_du...', 'array(14) {\n  [...')
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Tabs\ModulePrototype.php(211): skewer\build\Adm\News\view\Form->build()
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\News\Module.php(124): skewer\build\Cms\Tabs\ModulePrototype->render(Object(skewer\build\Adm\News\view\Form))
+#4 [internal function]: skewer\build\Adm\News\Module->actionShow()
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\ModulePrototype.php(148): call_user_func(Array)
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\build\Cms\Frame\ModulePrototype->execute()
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php(149): skewer\base\site_module\ProcessList->executeProcessList()
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php(24): skewer\controllers\CmsPrototype->runApplication()
+#10 [internal function]: skewer\controllers\CmsController->actionNewadmin()
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('newadmin', Array)
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('cms/newadmin', Array)
+#15 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#17 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#18 {main}
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php:172
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php:24
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php:103
+2022-08-17 21:47:36 [127.0.0.1][-][4467bli3m2kk6or3eg7seg1p05sdm2ip][error][Error] Error: Call to a member function getAttributes() on null in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\ui\builder\FormBuilder.php:286
+Stack trace:
+#0 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\News\view\Form.php(59): skewer\base\ui\builder\FormBuilder->setValue(Array)
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Tabs\ModulePrototype.php(211): skewer\build\Adm\News\view\Form->build()
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\News\Module.php(124): skewer\build\Cms\Tabs\ModulePrototype->render(Object(skewer\build\Adm\News\view\Form))
+#3 [internal function]: skewer\build\Adm\News\Module->actionShow()
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\ModulePrototype.php(148): call_user_func(Array)
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\build\Cms\Frame\ModulePrototype->execute()
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php(149): skewer\base\site_module\ProcessList->executeProcessList()
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php(24): skewer\controllers\CmsPrototype->runApplication()
+#9 [internal function]: skewer\controllers\CmsController->actionNewadmin()
+#10 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('newadmin', Array)
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('cms/newadmin', Array)
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#16 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#17 {main}
+2022-08-17 21:47:39 [127.0.0.1][-][4467bli3m2kk6or3eg7seg1p05sdm2ip][error][Error] Error: Call to a member function getAttributes() on null in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\ui\builder\FormBuilder.php:286
+Stack trace:
+#0 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\News\view\Form.php(59): skewer\base\ui\builder\FormBuilder->setValue(Array)
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Tabs\ModulePrototype.php(211): skewer\build\Adm\News\view\Form->build()
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\News\Module.php(124): skewer\build\Cms\Tabs\ModulePrototype->render(Object(skewer\build\Adm\News\view\Form))
+#3 [internal function]: skewer\build\Adm\News\Module->actionShow()
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\ModulePrototype.php(148): call_user_func(Array)
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\build\Cms\Frame\ModulePrototype->execute()
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php(149): skewer\base\site_module\ProcessList->executeProcessList()
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php(24): skewer\controllers\CmsPrototype->runApplication()
+#9 [internal function]: skewer\controllers\CmsController->actionNewadmin()
+#10 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('newadmin', Array)
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('cms/newadmin', Array)
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#16 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#17 {main}
+2022-08-17 22:08:08 [127.0.0.1][-][-][error][application] 
+yii\base\ErrorException: file_put_contents(/var/www/var_dump.txt): failed to open stream: No such file or directory in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\News\Module.php:174
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_put_conten...', 'C:\\Users\\\xD0\x9D\xD0\xB8\xD0\xBA...', 174, Array)
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\News\Module.php(174): file_put_contents('/var/www/var_du...', 'array(11) {\n  [...')
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\News\Module.php(133): skewer\build\Adm\News\Module->save()
+#3 [internal function]: skewer\build\Adm\News\Module->actionSave()
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\ModulePrototype.php(148): call_user_func(Array)
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\build\Cms\Frame\ModulePrototype->execute()
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php(149): skewer\base\site_module\ProcessList->executeProcessList()
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php(24): skewer\controllers\CmsPrototype->runApplication()
+#9 [internal function]: skewer\controllers\CmsController->actionNewadmin()
+#10 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('newadmin', Array)
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('cms/newadmin', Array)
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#16 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#17 {main}
+
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\log\Logger.php:40
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\log\Logger.php:62
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php:170
+2022-08-17 22:08:08 [127.0.0.1][-][-][error][application] yii\base\ErrorException: file_put_contents(/var/www/var_dump.txt): failed to open stream: No such file or directory in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\News\Module.php:174
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_put_conten...', 'C:\\Users\\\xD0\x9D\xD0\xB8\xD0\xBA...', 174, Array)
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\News\Module.php(174): file_put_contents('/var/www/var_du...', 'array(11) {\n  [...')
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\News\Module.php(133): skewer\build\Adm\News\Module->save()
+#3 [internal function]: skewer\build\Adm\News\Module->actionSave()
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\ModulePrototype.php(148): call_user_func(Array)
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\build\Cms\Frame\ModulePrototype->execute()
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php(149): skewer\base\site_module\ProcessList->executeProcessList()
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php(24): skewer\controllers\CmsPrototype->runApplication()
+#9 [internal function]: skewer\controllers\CmsController->actionNewadmin()
+#10 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('newadmin', Array)
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('cms/newadmin', Array)
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#16 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#17 {main}
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php:172
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php:24
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php:103
+2022-08-17 22:31:31 [127.0.0.1][-][4467bli3m2kk6or3eg7seg1p05sdm2ip][error][ArgumentCountError] ArgumentCountError: Too few arguments to function yii\web\Request::getBodyParam(), 0 passed in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Request.php on line 193 and at least 1 expected in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Request.php:589
+Stack trace:
+#0 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Request.php(193): yii\web\Request->getBodyParam()
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Prototype.php(403): skewer\base\site_module\Request::getStr('mode', 'out')
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\Module.php(47): skewer\base\site_module\Prototype->getStr('mode', 'Cms')
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\build\Cms\Frame\Module->execute()
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php(208): skewer\base\site_module\ProcessList->executeProcessList()
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php(24): skewer\controllers\CmsPrototype->runApplication()
+#7 [internal function]: skewer\controllers\CmsController->actionNewadmin()
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('newadmin', Array)
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('cms/newadmin', Array)
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#14 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#15 {main}
+2022-08-17 22:40:39 [127.0.0.1][-][-][error][application] 
+yii\base\ErrorException: file_put_contents(/var/www/var_dump.txt): failed to open stream: No such file or directory in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\News\Module.php:191
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_put_conten...', 'C:\\Users\\\xD0\x9D\xD0\xB8\xD0\xBA...', 191, Array)
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\News\Module.php(191): file_put_contents('/var/www/var_du...', 'object(skewer\\b...')
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\News\Module.php(133): skewer\build\Adm\News\Module->save()
+#3 [internal function]: skewer\build\Adm\News\Module->actionSave()
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\ModulePrototype.php(148): call_user_func(Array)
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\build\Cms\Frame\ModulePrototype->execute()
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php(149): skewer\base\site_module\ProcessList->executeProcessList()
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php(24): skewer\controllers\CmsPrototype->runApplication()
+#9 [internal function]: skewer\controllers\CmsController->actionNewadmin()
+#10 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('newadmin', Array)
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('cms/newadmin', Array)
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#16 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#17 {main}
+
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\log\Logger.php:40
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\log\Logger.php:62
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php:170
+2022-08-17 22:40:39 [127.0.0.1][-][-][error][application] yii\base\ErrorException: file_put_contents(/var/www/var_dump.txt): failed to open stream: No such file or directory in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\News\Module.php:191
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_put_conten...', 'C:\\Users\\\xD0\x9D\xD0\xB8\xD0\xBA...', 191, Array)
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\News\Module.php(191): file_put_contents('/var/www/var_du...', 'object(skewer\\b...')
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\News\Module.php(133): skewer\build\Adm\News\Module->save()
+#3 [internal function]: skewer\build\Adm\News\Module->actionSave()
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\ModulePrototype.php(148): call_user_func(Array)
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\build\Cms\Frame\ModulePrototype->execute()
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php(149): skewer\base\site_module\ProcessList->executeProcessList()
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php(24): skewer\controllers\CmsPrototype->runApplication()
+#9 [internal function]: skewer\controllers\CmsController->actionNewadmin()
+#10 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('newadmin', Array)
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('cms/newadmin', Array)
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#16 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#17 {main}
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php:172
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php:24
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php:103
+2022-08-17 23:07:07 [127.0.0.1][-][4467bli3m2kk6or3eg7seg1p05sdm2ip][error][Twig_Error_Runtime] yii\base\UnknownMethodException: Calling unknown method: skewer\build\Adm\News\models\News::date() in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Component.php:300
+Stack trace:
+#0 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\libs\Twig\Template.php(437): yii\base\Component->__call('date', Array)
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\cache\Twig\aa\1d\00a30bae9ae5c5913738862389aa.php(42): Twig_Template->getAttribute(Object(skewer\build\Adm\News\models\News), 'date')
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\libs\Twig\Template.php(264): __TwigTemplate_aa1d00a30bae9ae5c5913738862389aa->doDisplay(Array, Array)
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\libs\Twig\Template.php(238): Twig_Template->displayWithErrorHandling(Array, Array)
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\libs\Twig\Template.php(249): Twig_Template->display(Array)
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\Twig.php(295): Twig_Template->render(Array)
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php(203): skewer\base\Twig::render('detail_page.twi...')
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php(141): skewer\base\site_module\Parser::parseTwig('detail_page.twi...', Array, 'C:\\Users\\\xD0\x9D\xD0\xB8\xD0\xBA...')
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(215): skewer\base\site_module\Parser::render('<span class="ti...')
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(204): skewer\base\site_module\Process->render()
+#10 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\SiteController.php(156): skewer\base\site_module\Process->render()
+#11 [internal function]: skewer\controllers\SiteController->actionIndex()
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#15 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#16 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#18 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#19 {main}
+
+Next Twig_Error_Runtime: An exception has been thrown during the rendering of a template ("Calling unknown method: skewer\build\Adm\News\models\News::date()") in "detail_page.twig" at line 4. in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\libs\Twig\Template.php:279
+Stack trace:
+#0 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\libs\Twig\Template.php(238): Twig_Template->displayWithErrorHandling(Array, Array)
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\libs\Twig\Template.php(249): Twig_Template->display(Array)
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\Twig.php(295): Twig_Template->render(Array)
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php(203): skewer\base\Twig::render('detail_page.twi...')
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php(141): skewer\base\site_module\Parser::parseTwig('detail_page.twi...', Array, 'C:\\Users\\\xD0\x9D\xD0\xB8\xD0\xBA...')
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(215): skewer\base\site_module\Parser::render('<span class="ti...')
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(204): skewer\base\site_module\Process->render()
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\SiteController.php(156): skewer\base\site_module\Process->render()
+#8 [internal function]: skewer\controllers\SiteController->actionIndex()
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#15 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#16 {main}
