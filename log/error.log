@@ -2179,3 +2179,148 @@ Stack trace:
     in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
     in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
 2022-08-17 16:45:26 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-17 20:06:52 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php:164
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php:90
+2022-08-17 20:06:55 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\templates\index_new.php:212
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-17 20:06:55 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-17 20:06:58 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-17 20:07:04 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\templates\index_new.php:212
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-17 20:07:04 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-17 20:07:05 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-17 20:07:07 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-17 20:07:09 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-17 20:07:22 [127.0.0.1][-][-][error][application] 
+skewer\components\gateway\Exception: Not valid client host [shopnews] in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\gateway\Client.php:408
+Stack trace:
+#0 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\gateway\Api.php(51): skewer\components\gateway\Client->setClientHost('shopnews')
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\queue\Api.php(57): skewer\components\gateway\Api::createClient()
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\seo\Service.php(250): skewer\base\queue\Api::addTask(Array)
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\Tree\Search.php(175): skewer\components\seo\Service::updateSearchIndex()
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\search\Prototype.php(78): skewer\build\Adm\Tree\Search->beforeUpdate()
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\search\Prototype.php(222): skewer\components\search\Prototype->checkRow()
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\section\models\TreeSection.php(426): skewer\components\search\Prototype->updateByObjectId(312)
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\ActiveRecord.php(611): skewer\base\section\models\TreeSection->afterSave(true, Array)
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\ActiveRecord.php(566): yii\db\ActiveRecord->insertInternal(NULL)
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\ActiveRecord\ActiveRecord.php(114): yii\db\ActiveRecord->insert(true, NULL)
+#10 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\section\models\TreeSection.php(178): skewer\components\ActiveRecord\ActiveRecord->save(true, NULL)
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\Tree\Module.php(581): skewer\base\section\models\TreeSection->save()
+#12 [internal function]: skewer\build\Adm\Tree\Module->actionSaveSection()
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\ModulePrototype.php(148): call_user_func(Array)
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\build\Cms\Frame\ModulePrototype->execute()
+#15 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#16 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php(149): skewer\base\site_module\ProcessList->executeProcessList()
+#17 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php(24): skewer\controllers\CmsPrototype->runApplication()
+#18 [internal function]: skewer\controllers\CmsController->actionNewadmin()
+#19 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#20 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#21 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('newadmin', Array)
+#22 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('cms/newadmin', Array)
+#23 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#24 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#25 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#26 {main}
+
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\log\Logger.php:40
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\log\Logger.php:62
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\queue\Api.php:89
+2022-08-17 20:07:22 [127.0.0.1][-][-][error][application] 
+skewer\components\gateway\Exception: Not valid client host [shopnews] in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\gateway\Client.php:408
+Stack trace:
+#0 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\gateway\Api.php(51): skewer\components\gateway\Client->setClientHost('shopnews')
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\queue\Api.php(57): skewer\components\gateway\Api::createClient()
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\seo\Service.php(262): skewer\base\queue\Api::addTask(Array)
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\Tree\Module.php(612): skewer\components\seo\Service::updateSiteMap()
+#4 [internal function]: skewer\build\Adm\Tree\Module->actionSaveSection()
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\ModulePrototype.php(148): call_user_func(Array)
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\build\Cms\Frame\ModulePrototype->execute()
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php(149): skewer\base\site_module\ProcessList->executeProcessList()
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php(24): skewer\controllers\CmsPrototype->runApplication()
+#10 [internal function]: skewer\controllers\CmsController->actionNewadmin()
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('newadmin', Array)
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('cms/newadmin', Array)
+#15 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#17 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#18 {main}
+
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\log\Logger.php:40
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\log\Logger.php:62
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\queue\Api.php:89
+2022-08-17 20:07:22 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-17 20:07:22 [127.0.0.1][-][-][error][yii\web\HeadersAlreadySentException] yii\web\HeadersAlreadySentException: Headers already sent in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\queue\Api.php on line 88. in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Response.php:366
+Stack trace:
+#0 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Response.php(339): yii\web\Response->sendHeaders()
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(392): yii\web\Response->send()
+#2 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#3 {main}
+2022-08-17 20:07:22 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-17 20:07:22 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-17 20:07:24 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\templates\index_new.php:212
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-17 20:07:24 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-17 20:07:25 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-17 20:07:27 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-17 20:07:27 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-17 20:07:27 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-17 20:07:29 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-17 20:07:32 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-17 20:12:01 [127.0.0.1][-][4467bli3m2kk6or3eg7seg1p05sdm2ip][error][yii\base\ErrorException:2] yii\base\ErrorException: rmdir(C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/assets/): Directory not empty in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\helpers\BaseFileHelper.php:399
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'rmdir(C:\\Users/...', 'C:\\Users\\\xD0\x9D\xD0\xB8\xD0\xBA...', 399, Array)
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\helpers\BaseFileHelper.php(399): rmdir('C:\\Users/\xD0\x9D\xD0\xB8\xD0\xBA...')
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\CacheDropTrait.php(25): yii\helpers\BaseFileHelper::removeDirectory('C:\\Users/\xD0\x9D\xD0\xB8\xD0\xBA...')
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\design\CssParser.php(587): skewer\app\Application->clearAssets()
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\design\DesignManager.php(660): skewer\components\design\CssParser->updateDesignSettings()
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\CacheDropTrait.php(55): skewer\components\design\DesignManager::analyzeAllCssFiles()
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Tool\Utils\Api.php(128): skewer\app\Application->rebuildCss()
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\SiteController.php(77): skewer\build\Tool\Utils\Api::dropCache()
+#8 [internal function]: skewer\controllers\SiteController->actionIndex()
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#15 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#16 {main}
+2022-08-17 20:12:01 [127.0.0.1][-][umkau2ab6pfan4i2u3e59c39fnpea62s][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-17 20:12:01 [127.0.0.1][-][umkau2ab6pfan4i2u3e59c39fnpea62s][error][yii\base\ErrorException:2] yii\base\ErrorException: file_get_contents(C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/assets/ee6b8476/js/adaptive.js): failed to open stream: No such file or directory in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\libs\Compress\ChangeAssets.php:34
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_get_conten...', 'C:\\Users\\\xD0\x9D\xD0\xB8\xD0\xBA...', 34, Array)
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\libs\Compress\ChangeAssets.php(34): file_get_contents('C:\\Users/\xD0\x9D\xD0\xB8\xD0\xBA...')
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\Asset.php(228): skewer\libs\Compress\ChangeAssets::jsMin('C:\\Users/\xD0\x9D\xD0\xB8\xD0\xBA...')
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\Asset.php(89): skewer\build\Page\Main\Asset->putData('\xD0\x9D\xD0\xB8\xD0\xBA\xD0\xB8\xD1\x82\xD0\xB0/Do...', 'js', Array)
+#4 [internal function]: skewer\build\Page\Main\Asset->skewer\build\Page\Main\{closure}(Object(yii\base\Event))
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Component.php(627): call_user_func(Object(Closure), Object(yii\base\Event))
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\View.php(174): yii\base\Component->trigger('endPage')
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php(168): yii\web\View->endPage()
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\View.php(348): require('C:\\Users\\\xD0\x9D\xD0\xB8\xD0\xBA...')
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\Users\\\xD0\x9D\xD0\xB8\xD0\xBA...', Array)
+#10 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php(103): yii\base\View->renderFile('C:\\Users\\\xD0\x9D\xD0\xB8\xD0\xBA...', Array)
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(215): skewer\base\site_module\Parser::render('<span class="ti...')
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\SiteController.php(156): skewer\base\site_module\Process->render()
+#13 [internal function]: skewer\controllers\SiteController->actionIndex()
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#15 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#17 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#18 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#20 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#21 {main}
+2022-08-17 20:12:01 [127.0.0.1][-][umkau2ab6pfan4i2u3e59c39fnpea62s][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1

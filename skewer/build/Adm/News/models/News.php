@@ -43,6 +43,7 @@ use yii\helpers\StringHelper;
  * @property string $last_modified_date
  * @property string $url
  * @property string $format_announce
+ * @property string $author
  *
  * @method static News findOne($condition)
  */
@@ -89,6 +90,7 @@ class News extends ActiveRecord
             'hyperlink' => Yii::t('news', 'field_hyperlink'),
             'source_link' => Yii::t('news', 'field_source_link'),
             'last_modified_date' => Yii::t('news', 'field_modifydate'),
+            'author' => Yii::t('news', 'field_author'),
         ];
     }
 

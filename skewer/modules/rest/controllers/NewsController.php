@@ -34,6 +34,7 @@ class NewsController extends PrototypeController
             'announce' => $oNew->announce,
             'full_text' => $oNew->full_text,
             'date' => $oNew->publication_date,
+            'author' => $oNew->author,
             'gallery' => $this->getImages($oNew->gallery),
         ];
     }
@@ -88,6 +89,7 @@ class NewsController extends PrototypeController
                 'section' => $oNew->parent_section,
                 'announce' => $oNew->announce,
                 'date' => $oNew->publication_date,
+                'author' => $oNew->author,
                 'gallery' => $this->getImages($oNew->gallery),
             ];
         }

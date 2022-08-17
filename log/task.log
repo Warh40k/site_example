@@ -5018,3 +5018,5 @@
 2022-08-12 05:25:52 \skewer\base\queue\MethodTask - В работе - [2904/640815] - params: {{"parameters":[],"class":"skewer\\build\\Tool\\Users\\Service","method":"removeOldLogs"}}
 2022-08-12 05:25:53 \skewer\base\queue\MethodTask - Завершена - [2904/640815] - params: {{"parameters":[],"class":"skewer\\build\\Tool\\Users\\Service","method":"removeOldLogs"}}
 2022-08-12 05:25:53 \skewer\base\queue\MethodTask - Закрыта - [2904/640815] - params: {{"parameters":[],"class":"skewer\\build\\Tool\\Users\\Service","method":"removeOldLogs"}}
+2022-08-17 20:07:22 skewer\components\seo\SearchTask - Новая - [0/0] - params: {}
+2022-08-17 20:07:22 skewer\components\seo\SitemapTask - Новая - [0/0] - params: {}
