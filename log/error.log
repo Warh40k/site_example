@@ -2576,3 +2576,651 @@ Stack trace:
 #14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
 #15 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
 #16 {main}
+2022-08-18 07:51:57 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 07:51:58 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 07:52:07 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 07:52:07 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 07:52:21 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 07:52:21 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 07:52:26 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php:164
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php:90
+2022-08-18 07:52:31 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\templates\index_new.php:212
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 07:52:31 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 07:52:34 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 07:52:49 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\templates\index_new.php:212
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 07:52:49 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 07:52:50 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 07:52:55 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 07:54:34 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 07:54:34 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 07:54:36 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 07:54:41 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 07:54:45 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 07:55:01 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 07:55:12 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 07:59:26 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\templates\index_new.php:212
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 07:59:26 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 07:59:27 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 07:59:27 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 07:59:27 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 07:59:28 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 07:59:34 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 07:59:50 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 07:59:50 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 07:59:56 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:00:00 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:00:08 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:00:12 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:00:28 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:00:29 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:00:32 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:00:33 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:00:35 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:00:42 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:00:46 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:00:53 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:01:02 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:01:04 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:01:48 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:02:01 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:02:05 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:03:05 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 08:03:05 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:03:11 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 08:03:11 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:03:14 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 08:03:14 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:03:32 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 08:03:33 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:16:48 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:16:52 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:16:57 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:16:57 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\templates\index.php:62
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 08:16:57 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:16:58 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:16:58 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:17:05 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:17:08 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:17:09 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:30:31 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 08:30:31 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:30:32 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 08:30:32 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:30:34 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 08:30:34 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:31:59 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:32:11 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:32:11 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:32:14 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:32:19 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:32:23 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:32:29 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:32:33 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:32:57 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:38:02 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\templates\index_new.php:212
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 08:38:02 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:38:03 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:38:03 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:38:03 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:38:04 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:38:04 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:38:06 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:38:10 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:38:12 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\templates\index.php:62
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 08:38:12 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:38:13 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php:164
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php:90
+2022-08-18 08:38:13 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:38:14 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 08:38:14 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:38:14 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:38:32 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:40:12 [127.0.0.1][-][-][error][application] skewer\base\ui\ARSaveException: Значение «field_author_photo» должно быть строкой. in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\News\Module.php:175
+Stack trace:
+#0 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\News\Module.php(133): skewer\build\Adm\News\Module->save()
+#1 [internal function]: skewer\build\Adm\News\Module->actionSave()
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\ModulePrototype.php(148): call_user_func(Array)
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\build\Cms\Frame\ModulePrototype->execute()
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php(149): skewer\base\site_module\ProcessList->executeProcessList()
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php(24): skewer\controllers\CmsPrototype->runApplication()
+#7 [internal function]: skewer\controllers\CmsController->actionNewadmin()
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('newadmin', Array)
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('cms/newadmin', Array)
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#14 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#15 {main}
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\ModulePrototype.php:190
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:172
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php:117
+2022-08-18 08:40:12 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:40:51 [127.0.0.1][-][-][error][application] skewer\base\ui\ARSaveException: Значение «field_author_photo» должно быть строкой. in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\News\Module.php:175
+Stack trace:
+#0 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\News\Module.php(133): skewer\build\Adm\News\Module->save()
+#1 [internal function]: skewer\build\Adm\News\Module->actionSave()
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\ModulePrototype.php(148): call_user_func(Array)
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\build\Cms\Frame\ModulePrototype->execute()
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php(149): skewer\base\site_module\ProcessList->executeProcessList()
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php(24): skewer\controllers\CmsPrototype->runApplication()
+#7 [internal function]: skewer\controllers\CmsController->actionNewadmin()
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('newadmin', Array)
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('cms/newadmin', Array)
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#14 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#15 {main}
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\ModulePrototype.php:190
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:172
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php:117
+2022-08-18 08:40:51 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:42:13 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:42:15 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:42:18 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:42:20 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:42:23 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:42:25 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:42:29 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:54:40 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 08:54:40 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 08:54:50 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 08:54:51 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:04:38 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\templates\index_new.php:212
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:04:38 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:04:39 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:04:39 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:04:39 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:04:40 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:04:40 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:04:42 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:04:49 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\templates\index.php:62
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:04:49 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:04:49 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:04:49 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:04:57 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:05:07 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:05:43 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:05:43 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:05:45 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:05:45 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:06:24 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:06:24 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:06:26 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:06:26 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:06:49 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:06:49 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:06:51 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:06:51 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:06:52 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:06:52 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:06:53 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:06:53 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:06:55 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:06:55 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:07:44 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:07:44 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:07:46 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:07:46 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:07:49 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:07:49 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:07:51 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:07:51 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:07:53 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:07:53 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:10:52 [127.0.0.1][-][ssgvkbuu7n9v9ja8m0nle0lvg5rk3gtp][error][Error] Error: Cannot pass parameter 5 by reference in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\News\Module.php:183
+Stack trace:
+#0 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\News\Module.php(113): skewer\build\Page\News\Module->showOne(Object(skewer\build\Adm\News\models\News))
+#1 [internal function]: skewer\build\Page\News\Module->actionView('novost')
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\page\ModulePrototype.php(82): call_user_func_array(Array, Array)
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\base\site_module\page\ModulePrototype->execute()
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\SiteController.php(250): skewer\base\site_module\ProcessList->executeProcessList()
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\SiteController.php(130): skewer\controllers\SiteController->executeRootProcess()
+#7 [internal function]: skewer\controllers\SiteController->actionIndex()
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#14 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#15 {main}
+2022-08-18 09:10:52 [127.0.0.1][-][ssgvkbuu7n9v9ja8m0nle0lvg5rk3gtp][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:10:52 [127.0.0.1][-][ssgvkbuu7n9v9ja8m0nle0lvg5rk3gtp][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:11:20 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:11:20 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:11:22 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:11:22 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:11:23 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:11:23 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:12:21 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:12:21 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:12:23 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:12:23 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:12:25 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:12:25 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:12:46 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:12:46 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:12:49 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:12:49 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:12:51 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:12:51 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:15:39 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:15:39 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:15:41 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:15:41 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:15:42 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:15:42 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:17:05 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:17:05 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:17:06 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:17:06 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:17:08 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:17:08 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:17:30 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:17:30 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:17:32 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:17:32 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:17:34 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:17:34 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:18:18 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:18:18 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:18:19 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:18:19 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:18:21 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:18:21 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:20:27 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:20:27 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:20:28 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:20:28 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:20:29 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:20:29 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:20:55 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:20:55 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:20:56 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:20:56 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:20:57 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:20:57 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:21:43 [127.0.0.1][-][ssgvkbuu7n9v9ja8m0nle0lvg5rk3gtp][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: skewer\components\gallery\models\Photos::0 in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('0')
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Model.php(1026): yii\db\BaseActiveRecord->__get('0')
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\News\Module.php(186): yii\base\Model->offsetGet(0)
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\News\Module.php(113): skewer\build\Page\News\Module->showOne(Object(skewer\build\Adm\News\models\News))
+#4 [internal function]: skewer\build\Page\News\Module->actionView('novost')
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\page\ModulePrototype.php(82): call_user_func_array(Array, Array)
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\base\site_module\page\ModulePrototype->execute()
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\SiteController.php(250): skewer\base\site_module\ProcessList->executeProcessList()
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\SiteController.php(130): skewer\controllers\SiteController->executeRootProcess()
+#10 [internal function]: skewer\controllers\SiteController->actionIndex()
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#15 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#17 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#18 {main}
+2022-08-18 09:21:43 [127.0.0.1][-][ssgvkbuu7n9v9ja8m0nle0lvg5rk3gtp][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:21:43 [127.0.0.1][-][ssgvkbuu7n9v9ja8m0nle0lvg5rk3gtp][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:22:13 [127.0.0.1][-][ssgvkbuu7n9v9ja8m0nle0lvg5rk3gtp][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: skewer\components\gallery\models\Photos::_attributes:yii\db\BaseActiveRecord:private in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('_attributes:yii...')
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Model.php(1026): yii\db\BaseActiveRecord->__get('_attributes:yii...')
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\News\Module.php(186): yii\base\Model->offsetGet('_attributes:yii...')
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\News\Module.php(113): skewer\build\Page\News\Module->showOne(Object(skewer\build\Adm\News\models\News))
+#4 [internal function]: skewer\build\Page\News\Module->actionView('novost')
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\page\ModulePrototype.php(82): call_user_func_array(Array, Array)
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\base\site_module\page\ModulePrototype->execute()
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\SiteController.php(250): skewer\base\site_module\ProcessList->executeProcessList()
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\SiteController.php(130): skewer\controllers\SiteController->executeRootProcess()
+#10 [internal function]: skewer\controllers\SiteController->actionIndex()
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#15 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#17 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#18 {main}
+2022-08-18 09:22:13 [127.0.0.1][-][ssgvkbuu7n9v9ja8m0nle0lvg5rk3gtp][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:22:13 [127.0.0.1][-][ssgvkbuu7n9v9ja8m0nle0lvg5rk3gtp][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:23:15 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:23:15 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:23:16 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:23:16 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:23:18 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:23:18 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:24:04 [127.0.0.1][-][ssgvkbuu7n9v9ja8m0nle0lvg5rk3gtp][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: skewer\components\gallery\models\Photos::_attributes in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('_attributes')
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Model.php(1026): yii\db\BaseActiveRecord->__get('_attributes')
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\News\Module.php(186): yii\base\Model->offsetGet('_attributes')
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\News\Module.php(113): skewer\build\Page\News\Module->showOne(Object(skewer\build\Adm\News\models\News))
+#4 [internal function]: skewer\build\Page\News\Module->actionView('novost')
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\page\ModulePrototype.php(82): call_user_func_array(Array, Array)
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\base\site_module\page\ModulePrototype->execute()
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\SiteController.php(250): skewer\base\site_module\ProcessList->executeProcessList()
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\SiteController.php(130): skewer\controllers\SiteController->executeRootProcess()
+#10 [internal function]: skewer\controllers\SiteController->actionIndex()
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#15 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#17 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#18 {main}
+2022-08-18 09:24:04 [127.0.0.1][-][ssgvkbuu7n9v9ja8m0nle0lvg5rk3gtp][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:24:04 [127.0.0.1][-][ssgvkbuu7n9v9ja8m0nle0lvg5rk3gtp][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:24:26 [127.0.0.1][-][ssgvkbuu7n9v9ja8m0nle0lvg5rk3gtp][error][ParseError] ParseError: syntax error, unexpected ':', expecting ']' in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\News\Module.php:186
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('skewer\\build\\Pa...')
+#1 [internal function]: spl_autoload_call('skewer\\build\\Pa...')
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Prototype.php(580): class_exists('skewer\\build\\Pa...')
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\Module.php(456): skewer\base\site_module\Prototype->addChildProcess(Object(skewer\base\site_module\Context))
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\Module.php(222): skewer\build\Page\Main\Module->addProcess('content', Array)
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\Module.php(128): skewer\build\Page\Main\Module->setProcess()
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\build\Page\Main\Module->execute()
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\SiteController.php(250): skewer\base\site_module\ProcessList->executeProcessList()
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\SiteController.php(130): skewer\controllers\SiteController->executeRootProcess()
+#10 [internal function]: skewer\controllers\SiteController->actionIndex()
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#15 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#17 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#18 {main}
+
+Next ParseError: syntax error, unexpected ':', expecting ']' in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\News\Module.php:186
+Stack trace:
+#0 [internal function]: skewer\base\Autoloader::autoload('skewer\\build\\Pa...')
+#1 [internal function]: spl_autoload_call('skewer\\build\\Pa...')
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Prototype.php(580): class_exists('skewer\\build\\Pa...')
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\Module.php(456): skewer\base\site_module\Prototype->addChildProcess(Object(skewer\base\site_module\Context))
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\Module.php(222): skewer\build\Page\Main\Module->addProcess('content', Array)
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\Module.php(128): skewer\build\Page\Main\Module->setProcess()
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\build\Page\Main\Module->execute()
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\SiteController.php(250): skewer\base\site_module\ProcessList->executeProcessList()
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\SiteController.php(130): skewer\controllers\SiteController->executeRootProcess()
+#10 [internal function]: skewer\controllers\SiteController->actionIndex()
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#15 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#17 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#18 {main}
+2022-08-18 09:24:26 [127.0.0.1][-][ssgvkbuu7n9v9ja8m0nle0lvg5rk3gtp][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:24:26 [127.0.0.1][-][ssgvkbuu7n9v9ja8m0nle0lvg5rk3gtp][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:27:21 [127.0.0.1][-][ssgvkbuu7n9v9ja8m0nle0lvg5rk3gtp][error][yii\base\UnknownMethodException] yii\base\UnknownMethodException: Calling unknown method: skewer\components\gallery\models\Photos::images_data() in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Component.php:300
+Stack trace:
+#0 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\News\Module.php(186): yii\base\Component->__call('images_data', Array)
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\News\Module.php(113): skewer\build\Page\News\Module->showOne(Object(skewer\build\Adm\News\models\News))
+#2 [internal function]: skewer\build\Page\News\Module->actionView('novost')
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\page\ModulePrototype.php(82): call_user_func_array(Array, Array)
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\base\site_module\page\ModulePrototype->execute()
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\SiteController.php(250): skewer\base\site_module\ProcessList->executeProcessList()
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\SiteController.php(130): skewer\controllers\SiteController->executeRootProcess()
+#8 [internal function]: skewer\controllers\SiteController->actionIndex()
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#15 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#16 {main}
+2022-08-18 09:27:21 [127.0.0.1][-][ssgvkbuu7n9v9ja8m0nle0lvg5rk3gtp][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:27:21 [127.0.0.1][-][ssgvkbuu7n9v9ja8m0nle0lvg5rk3gtp][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:27:25 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:27:25 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:27:28 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:27:28 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 09:27:29 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 09:27:29 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:02:03 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 10:02:03 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:02:06 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 10:02:06 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:03:11 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 10:03:11 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:03:13 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 10:03:13 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:03:15 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 10:03:15 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1

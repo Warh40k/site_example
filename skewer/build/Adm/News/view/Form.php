@@ -30,6 +30,7 @@ class Form extends FormView
         $this->_form->field('id', 'ID', 'hide')
             ->field('title', \Yii::t('news', 'field_title'), 'string')
             ->field('author', \Yii::t('news', 'field_author'), 'string')
+            ->field('author_photo', \Yii::t('news', 'field_author_photo'), Editor::GALLERY)
             ->field('publication_date', \Yii::t('news', 'field_date'), 'datetime')
             ->field('active', \Yii::t('news', 'field_active'), 'check')
             ->field('on_main', \Yii::t('news', 'field_onmain'), 'check')

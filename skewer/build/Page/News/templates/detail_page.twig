@@ -5,6 +5,7 @@
             <div class="news__date"{{ Design.write(' sktag="modules.news.date"') }}>{{ news.publication_date | date('d.m.Y') }}</div>
         {% endif %}
         <div class="news__date">{{ news.author }}</div>
+        <div><img src="{{ author_photo }}"></div>
         <div class="b-editor {{ html_class }}"{{ Design.write(' sktag="editor"') }}>{{ news.full_text }}</div>
         {% if bShowGalleryInDetail and news.gallery.images %}
             {{ Design.addAsset('\\skewer\\ext\\fotorama\\Asset') }}

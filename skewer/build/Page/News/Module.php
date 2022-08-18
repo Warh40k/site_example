@@ -10,6 +10,7 @@ use skewer\build\Adm\News\models\News;
 use skewer\build\Design\Zones;
 use skewer\components\auth\CurrentAdmin;
 use skewer\components\gallery\Album;
+use skewer\components\gallery\Photo;
 use skewer\components\GalleryOnPage\Api as GalOnPageApi;
 use skewer\components\microdata\reviews\Api as MicroData;
 use skewer\components\seo;
@@ -177,6 +178,16 @@ class Module extends site_module\page\ModulePrototype
 
         $this->setData('bShowGalleryInDetail', Api::bShowGalleryInDetail());
         $this->setData('news', $news);
+
+        $album = Album::getById($news->author_photo);
+        $count = 1;
+        $photo = Photo::getFromAlbum($album->id, false, 1,1, $count)[0]->images_data;
+        ob_start();
+        print_r($photo['small']['file']);
+        $output = ob_get_clean();
+        file_put_contents('var_dump.txt', $output);
+
+        $this->setData('author_photo', $photo['small']['file']);
         $this->setTemplate($this->template_detail);
 
         return psComplete;

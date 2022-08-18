@@ -13,6 +13,7 @@ use skewer\build\Tool\SeoGen\exporter\GetListExportersEvent;
 use skewer\build\Tool\SeoGen\importer\GetListImportersEvent;
 use skewer\components\ActiveRecord\ActiveRecord;
 use skewer\components\gallery\Album;
+use skewer\components\gallery\Photo;
 use skewer\components\seo\Api;
 use skewer\components\seo\Service;
 use skewer\helpers\Html;
@@ -38,6 +39,7 @@ use yii\helpers\StringHelper;
  * @property int $active
  * @property int $on_main
  * @property array|int $gallery
+ * @property array|int $author_photo
  * @property string $hyperlink
  * @property string $source_link
  * @property string $last_modified_date
@@ -64,7 +66,7 @@ class News extends ActiveRecord
     {
         return [
             [['parent_section', 'title'], 'required'],
-            [['parent_section', 'active', 'on_main', 'gallery'], 'integer'],
+            [['parent_section', 'active', 'on_main', 'gallery', 'author_photo'], 'integer'],
             [['publication_date', 'last_modified_date'], 'safe'],
             [['announce', 'full_text'], 'string'],
             [['news_alias', 'title', 'hyperlink', 'source_link', 'author'], 'string', 'max' => 255],
@@ -87,6 +89,7 @@ class News extends ActiveRecord
             'active' => Yii::t('news', 'field_active'),
             'on_main' => Yii::t('news', 'field_onmain'),
             'gallery' => Yii::t('news', 'field_gallery'),
+            'author_photo' => Yii::t('news', 'field_author_photo'),
             'hyperlink' => Yii::t('news', 'field_hyperlink'),
             'source_link' => Yii::t('news', 'field_source_link'),
             'last_modified_date' => Yii::t('news', 'field_modifydate'),
@@ -186,6 +189,7 @@ class News extends ActiveRecord
         $oRow->hyperlink = '';
         $oRow->on_main = 0;
         $oRow->author = '';
+        $oRow->author_photo = '';
 
         if ($aData) {
             $oRow->setAttributes($aData);
@@ -274,6 +278,7 @@ class News extends ActiveRecord
         Api::del('news', $this->id);
 
         Album::removeAlbum($this->gallery);
+        Photo::removeImage($this->author_photo);
 
         $oSearch = new Search();
         $oSearch->deleteByObjectId($this->id);
