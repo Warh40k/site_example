@@ -151,7 +151,6 @@ class Documents extends ActiveRecord
         $oRow->name = '';
         $oRow->description = '';
         $oRow->file = '';
-        $oRow->documents_alias = '';
 
         if ($aData) {
             $oRow->setAttributes($aData);
@@ -279,10 +278,10 @@ class Documents extends ActiveRecord
      *
      * @return array|bool
      */
-    public static function getMaxLastModifyDate()
+    /*public static function getMaxLastModifyDate()
     {
         return (new \yii\db\Query())->select('MAX(`last_modified_date`) as max')->from(self::tableName())->one();
-    }
+    }*/
 
     /**
      * Вернет урл новости.

@@ -3,58 +3,112 @@
 namespace skewer\build\Page\Documents;
 
 use skewer\base\log\Logger;
-use skewer\base\site;
 use skewer\base\site_module;
 use skewer\base\SysVar;
-use skewer\build\Adm\Documents as DocumentsAdm;
 use skewer\build\Adm\Documents\models\Documents;
-use skewer\build\Design\Zones;
-use skewer\components\auth\CurrentAdmin;
-use skewer\components\gallery\Album;
-use skewer\components\gallery\Photo;
-use skewer\components\GalleryOnPage\Api as GalOnPageApi;
-use skewer\components\microdata\reviews\Api as MicroData;
-use skewer\components\seo;
-use skewer\components\traits\CanonicalOnPageTrait;
+use skewer\build\Adm\GuestBook\models\GuestBook;
+use skewer\build\Page\CatalogViewer\Module as CatalogViewerModule;
+use skewer\build\Page\CatalogViewer\State\DetailPage;
+use skewer\build\Page\Documents\ReviewEntity;
+use skewer\build\Tool\LeftList\Group;
+use skewer\build\Tool\Review\Api;
+use skewer\components\catalog\GoodsSelector;
+use skewer\components\forms\FormBuilder;
+use skewer\components\GalleryOnPage;
+use skewer\components\microdata;
+use yii\data\ActiveDataProvider;
 use yii\helpers\ArrayHelper;
-use yii\web\NotFoundHttpException;
 
 /**
- * Публичный модуль вывода документов
+ * Пользовательский модуль отзывов
  * Class Module.
  */
-class Module extends site_module\page\ModulePrototype
+class Module extends site_module\page\ModulePrototype implements site_module\Ajax
 {
-    use CanonicalOnPageTrait;
+    /** @var null Имя таба */
+    public $sTabName;
 
-    public $parentSections;
+    /** @var int Номер страницы из модуля CatalogViewer - DetailPage */
+    public $iPage = 0;
+
+    /** @var int id товара */
+    public $objectId;
+
+    /** @var string Указывает тип родитеской сущности */
+    public $className = '';
+
+    /** @var bool Если =true - выводится блок отзывов, если =false - отзывы с пагинатором */
+    public $showList = false;
+
+    /** @var string Заголовок блока отзывов */
+    public $titleOnMain = '';
+
+    /** @var int Максимальная длина отзыва */
+    public $maxLen = 500;
+
+    /** @var int Ид раздела из которого будут выбраны отзывы */
+    public $section_id;
+
+    /** @var int Количество записей на главной странице */
     public $onPage = 10;
-    public $template = 'list.twig';
-    public $template_detail = 'detail_page.twig';
-    public $titleOnMain = 'Документы';
-    public $showFuture;
-    public $showOnMain;  // отменяет фильтр по разделам
-    public $allDocuments;
-    public $sortDocuments;
-    public $showList;
-    public $onMainShowType = 'list';
-    public $lengthAnnounceOnMain = null;
-    // public $usePageLine = 1;
 
-    private static $showDetailLink = null;
+    /** @var int Количество записей на внутренних страницах */
+    public $onPageContent = 10;
 
-    public $aParameterList = [
-        'order' => 'DESC',
-        'future' => '',
-        'byDate' => '',
-        'on_page' => '',
-        'on_main' => '',
-        'section' => '',
-        'all_documents' => '',
-    ];
+    /** @var bool Выводить сначала отзывы, а затем форму(при =0)? */
+    public $revert = 0;
 
-    public $section_all = 0;
+    /** @var int Не выводить форму? */
+    public $hide_form = 0;
 
+    /** @var bool Отдать только микроразметку? */
+    public $bOnlyMicrodata = false;
+
+    /** @var int Показать звёзды голосования в списке отзывов? Если значение <0, то параметр будет браться глобальный параметр */
+    public $rating = -1;
+
+    /** @const int Количество отзывов, выводимых на детальную товара */
+    const onPageGoodsReviews = 10;
+
+    /** @var string Шаблон списка отзывов. Если шаблон не указан, то он определяется динамически */
+    public $template = '';
+
+    /** @var string шаблон детального состояния */
+    public $template_detail = 'view.twig';
+
+    /** @var string Тип вывода */
+    public $typeShow;
+
+    /**
+     * @return mixed
+     */
+    public function getList($iPage)
+    {
+        $query = Documents::find();
+        $dataProvider = new ActiveDataProvider([
+            'query' => $query,
+            'pagination' => [
+                'pageSize' => $this->onPage,
+                'page' => $iPage - 1,
+            ],
+        ]);
+
+        $aData = $dataProvider->getModels();
+
+        /** @var GuestBook[] $aData */
+        foreach ($aData as $aItem) {
+            $aTmpData = $aItem->toArray();
+            $aOut[] = $aTmpData;
+        }
+
+        $iTotalCount = $dataProvider->getTotalCount();
+
+        return $aOut;
+    }
+
+    /**
+     * {@inheritdoc}
+     */
     protected function onCreate()
     {
         if ($this->showList) {
@@ -64,221 +118,369 @@ class Module extends site_module\page\ModulePrototype
 
     public function init()
     {
-        $this->onPage = abs($this->onPage);
+        //Номер текущей страницы
+        $this->iPage = ($this->iPage) ? $this->iPage : $this->getInt('page', 1);
+
+        // Количество записей на странице(в блоке)
+        $this->onPage = ($this->sectionId() != \Yii::$app->sections->main())
+            ? abs($this->onPageContent)
+            : abs($this->onPage);
+
+        $this->maxLen = ($this->maxLen) ? abs($this->maxLen) : 500;
 
         $this->setParser(parserTwig);
 
-        $this->aParameterList['on_page'] = $this->onPage;
-
-        if ($this->allDocuments) {
-            $this->aParameterList['all_documents'] = 1;
-        }
-        if ($this->showOnMain) {
-            $this->aParameterList['all_documents'] = 1;
+        // Если параметр не задан строго для раздела, то взять глобальную настройку парамера rating
+        if ($this->rating < 0) {
+            $this->rating = $this->showRating();
         }
 
-        if ($this->parentSections) {
-            $this->aParameterList['section'] = $this->parentSections;
+        if ($this->bOnlyMicrodata) {
+            $this->set('cmd', 'getMicroData');
+        } elseif (
+            !$this->get('cmd')
+            || (
+                !$this->get('cmd')
+                &&
+                $this->zoneType != Group::CONTENT
+                &&
+                !$this->get('parent_class')
+            )
+        ) {
+            $this->set('cmd', 'Init');
+        }
+    }
+
+    public function actionIndex()
+    {
+        $this->actionInit();
+    }
+
+    /**
+     * @throws \Exception
+     *
+     * @return int
+     */
+    public function actionInit()
+    {
+//        \Yii::$app->router->setLastModifiedDate(Documents::getMaxLastModifyDate());
+
+        // Блок отзывов на главной и других страницах(без пагинатора и формы)
+        if ($this->showList) {
+            $this->setReviewsBlock();
+        // Отзывы в разделе, отзывы в табах товара(с пагинатором и формой)
         } else {
-            $this->aParameterList['section'] = $this->sectionId();
+            $this->setReviewsWithPaginator();
+            $this->setForm();
         }
 
-        if ($this->sectionId() == \Yii::$app->sections->main()) {
-            $this->aParameterList['on_main'] = 1;
-        }
-        if ($this->showFuture) {
-            $this->aParameterList['future'] = 1;
-        }
-        if ($this->sortDocuments) {
-            $this->aParameterList['order'] = $this->sortDocuments;
-        }
-
-        return true;
-    }
-
-    // func
-
-    /**
-     * Выводит документ по псевдониму.
-     *
-     * @param $documents_alias
-     *
-     * @throws NotFoundHttpException
-     *
-     * @return int
-     */
-   /* public function actionView($documents_alias)
-    {
-        $documents = Documents::getPublicDocumentsByAliasAndSec($documents_alias);
-
-        return $this->showOne($documents);
-    }*/
-
-    /**
-     * Выводит документ по id.
-     *
-     * @param $id
-     *
-     * @throws NotFoundHttpException
-     *
-     * @return int
-     */
-    public function actionViewById($id)
-    {
-        $documents = Documents::getPublicDocumentsById($id);
-        if (isset($documents['parent_section'], $documents['documents_alias'])) {
-            $this->setCanonicalByAlias(
-                (int) $documents['parent_section'],
-                $documents['documents_alias']
-            );
-        }
-
-
-        return $this->showOne($documents);
-    }
-
-    /**
-     * Выводит документ.
-     *
-     * @param null|Documents $documents
-     *
-     * @return int
-     *@throws NotFoundHttpException
-     *
-     */
-    public function showOne($documents)
-    {
-
-        if (!$documents) {
-            throw new NotFoundHttpException();
-        }
-        if (!$this->canShowDocuments($documents)) {
-            throw new NotFoundHttpException();
-        }
-
-        \Yii::$app->router->setLastModifiedDate($documents->last_modified_date);
-
-
-        // меняем заголовок
-        site\Page::setTitle($documents->title);
-
-        // добавляем элемент в pathline
-        site\Page::setAddPathItem($documents->title, \Yii::$app->router->rewriteURL($documents->getUrl()));
-
-        $this->setData('hideDate', $this->hasHideDatePublication());
-        $this->setData('microData', MicroData::microData4Documents($documents));
-
-        $this->setData('documents', $documents);
-
-        $this->setTemplate($this->template_detail);
         return psComplete;
     }
 
     /**
-     * Выводит список документов.
+     * Установить список отзывов с пагинатором
+     * Используется:
+     * 1. в разделе, образованном от шаблона "Отзывы"
+     * 2. в табах товара.
+     */
+    private function setReviewsWithPaginator()
+    {
+        $iTotalCount = 0;
+
+        /*$aReviews = Api::getReviewList(
+            GuestBook::className(),
+            $this->objectId ? $this->objectId : $this->sectionId(),
+            $this->iPage,
+            $this->onPage,
+            $iTotalCount
+        );*/
+        $aDocs = $this->getList($this->iPage);
+        Logger::dump($aDocs);
+        $this->setPaginatorPage($aDocs, $this->iPage, $iTotalCount);
+
+        if ($this->template) {
+            $sTemplate = $this->template;
+        } else {
+            if ($this->zoneType == Group::CONTENT) {
+                $sTemplate = Api::$aTypeShowReviews[Group::CONTENT]['list']['file'];
+            } else {
+                $sTemplate = $this->getTemplateReview();
+            }
+        }
+
+//        $oBundle = Asset::register(\Yii::$app->view);
+
+        $sViewReviews = site_module\Parser::parseTwig(
+            $sTemplate,
+            [
+            'items' => $aDocs,
+            'gallerySettings_review' => $this->getSettingsGalOnPage(),
+//            'web_path_svg' => $oBundle->baseUrl . \DIRECTORY_SEPARATOR . 'svg',
+//            'show_rating' => $this->rating,
+//            'showGallery' => $this->showGallery(),
+//            'microData' => $this->objectId ? '' : microdata\reviews\Api::buildHtml4SectionReviews($aReviews),
+//            'bIsReview4Good' => $this->objectId,
+            'aPages' => $this->getData('aPages'),
+        ],
+            __DIR__ . '/templates'
+        );
+
+        $this->setData('sViewReviews', $sViewReviews);
+
+        $this->setTemplate($this->template_detail);
+    }
+
+    private function showGallery()
+    {
+        $bHideGallery = SysVar::get('Review.HideGalleryReview', 0);
+
+        return !$bHideGallery;
+    }
+
+    /**
+     * Доп. адаптивность для шаблона одиночка не должна быть.
      *
-     * @param int $page номер страницы
-     * @param string $date фильтр по дате
+     * @return string
+     */
+    private function getSettingsGalOnPage()
+    {
+        $sTemplate = $this->getTemplateReview();
+
+        $aTpl2EntityName = [
+            'content_carousel.twig' => 'Review',
+            'content_gray.twig' => 'ReviewGray',
+            'content_bubble.twig' => 'ReviewBubble',
+            'content_single.twig' => 'ReviewSingle',
+        ];
+
+        if (!isset($aTpl2EntityName[$sTemplate])) {
+            return false;
+        }
+
+        $sEntityName = $aTpl2EntityName[$sTemplate];
+
+        $sSettings = GalleryOnPage\Api::getSettingsByEntity($sEntityName, true);
+
+        return $sSettings;
+    }
+
+    /**
+     * Установить данные пагинатора.
+     *
+     * @param array $aData - массив отзывов
+     * @param int $iPage - номер текущей страницы
+     * @param int $iTotalCount - общее количество записей
+     */
+    private function setPaginatorPage($aData, $iPage, $iTotalCount)
+    {
+        $aURLParams = [];
+        // параметры для построение пагинации для табов
+        if ($this->sTabName !== null) {
+            $aURLParams = [
+                'goods-alias' => GoodsSelector::getGoodsAlias($this->objectId),
+                'tab' => $this->sTabName,
+            ];
+
+            $this->oContext->sClassName = CatalogViewerModule::className();
+        }
+        // генерируем пагинацию только когда есть данные
+        if (count($aData)) {
+            $bHideCanonicalPagination = $this->bOnlyMicrodata || !$this->isMainModule();
+            $this->getPageLine(
+                $iPage,
+                $iTotalCount,
+                $this->sectionId(),
+                $aURLParams,
+                ['onPage' => $this->onPage],
+                'aPages',
+                $bHideCanonicalPagination
+            );
+        }
+    }
+
+    /**
+     * Отправка формы отзывов.
+     *
+     * @throws \Exception
      *
      * @return int
      */
-    public function actionIndex($page = 1, $date = '')
+    public function actionSendReview()
+    {
+        $post = $this->getPost();
+        foreach ($post as &$psValue) {
+            $psValue = strip_tags($psValue);
+        }
+
+        $reviewEntity = new ReviewEntity($this->sectionId(), $post);
+        $reviewEntity->setParamForGoodReview($this->objectId, $this->className);
+
+        $label = $this->get('label') ?: $this->oContext->getLabel();
+
+        $formBuilder = new FormBuilder(
+            $reviewEntity,
+            $this->sectionId(),
+            $label
+        );
+
+        $ajaxForm = $this->getData('ajax') ?: $reviewEntity->formAggregate->result->isPopupResultPage();
+
+        if ($formBuilder->hasSendData() && $formBuilder->validate() && $formBuilder->save()) {
+            $formBuilder->setLegalRedirect();
+
+            $aParam = ['form_section' => $this->sectionId()];
+            $aParam['answer_review'] = !$ajaxForm && $reviewEntity->isGoodReview();
+
+            $sAnswer = $formBuilder->buildSuccessAnswer(
+                $ajaxForm,
+                $this->sectionId(),
+                $aParam
+            );
+
+            if (!$ajaxForm) {
+                if ($formBuilder->canResponse()) {
+                    $this->setData('msg', $sAnswer);
+                    $this->setData('back_link', 1);
+                // Сторонняя результирующая -> редирект на другую страницу
+                } elseif ($reviewEntity->formAggregate->result->isExternalResultPage()) {
+                    $formBuilder->setRedirect();
+                }
+            }
+            $this->setData('msg', $sAnswer);
+            $this->setData('back_link', 1);
+        } else {
+            $this->setData('form', $formBuilder->getFormTemplate());
+            if (!$ajaxForm) {
+                $this->setReviewsWithPaginator();
+            }
+        }
+
+        $this->setTemplate($this->template_detail);
+
+        return psComplete;
+    }
+
+    /**
+     * Получить микроразметку отзывов.
+     */
+    public function actionGetMicroData()
+    {
+        $iTotalCount = 0;
+        $aData = Api::getReviewList(
+            $this->className,
+            $this->objectId ? $this->objectId : $this->sectionId(),
+            $this->iPage,
+            $this->onPage,
+            $iTotalCount
+        );
+        $this->setOut(microdata\reviews\Api::buildHtml4GoodReviews($aData));
+        $this->set('cmd', '');
+
+        return psComplete;
+    }
+
+    /**
+     * Показывать форму?
+     *
+     * @return bool
+     */
+    public function bShowForm()
+    {
+        return ((($this->getLabel() == DetailPage::LABEL_GOODSREVIEWS) && !$this->bOnlyMicrodata) || $this->getLabel() == 'content') && !$this->hide_form;
+    }
+
+    /**
+     * Установить форму.
+     *
+     * @throws \Exception
+     */
+    public function setForm()
+    {
+        if (!$this->bShowForm()) {
+            return;
+        }
+
+        $reviewEntity = new ReviewEntity($this->sectionId());
+        $reviewEntity->setParamForGoodReview($this->objectId, $this->className);
+
+        $label = $this->get('label') ?: $this->oContext->getLabel();
+
+        $formBuilder = new FormBuilder(
+            $reviewEntity,
+            $this->sectionId(),
+            $label
+        );
+
+        $this->setData('form', $formBuilder->getFormTemplate());
+        $this->setData('revert', $this->revert);
+    }
+
+    /**
+     * Установить блок отзывов. Используется на главной и других страницах.
+     */
+    public function setReviewsBlock()
     {
         if (!$this->onPage) {
+            return;
+        }
+
+//        $oBundle = Asset::register(\Yii::$app->view);
+
+        $aData = Api::getArrayReviews(
+            $this->onPage,
+            $this->sectionId(),
+            $this->section_id
+        );
+
+        if (empty($aData)) {
             return psComplete;
         }
 
-        $this->aParameterList['page'] = $page;
+        $this->setData('title', $this->titleOnMain);
+        $this->setData('items', $aData);
+        $this->setData('maxLen', $this->maxLen);
+        $this->setData('showList', $this->showList);
+        $this->setData('section_id', $this->section_id);
+        $this->setData('gallerySettings_review', $this->getSettingsGalOnPage());
+        $this->setData(
+            'web_path_svg',
+            $oBundle->baseUrl . \DIRECTORY_SEPARATOR . 'svg'
+        );
+        $this->setData('show_rating', $this->rating);
+        $this->setData('showGallery', $this->showGallery());
 
-        if (!empty($date)) {
-            $sDateFilter = date('Y-m-d', strtotime($date));
-            $this->aParameterList['byDate'] = $sDateFilter;
+        if ($this->template) {
+            $sTemplate = $this->template;
+        } else {
+            $sTemplate = $this->getTemplateReview();
         }
 
-        $iAllSection = 0;
-        if ($this->showOnMain) {
-            $iAllSection = $this->section_all;
-        }
-
-        if ($iAllSection) {
-            $this->aParameterList['all_documents'] = 0;
-            $this->aParameterList['section'] = $iAllSection;
-            $this->setData('section_all', $iAllSection);
-        }
-
-        // Получаем список документов
-        $dataProvider = Documents::getPublicList($this->aParameterList);
-        \Yii::$app->router->setLastModifiedDate(Documents::getMaxLastModifyDate());
-
-        //пагинатор
-        $iPage = $dataProvider->getPagination()->page + 1;
-        $iCount = $dataProvider->getTotalCount();
-        $this->getPageLine($iPage, $iCount, $this->sectionId(), [], ['onPage' => $this->aParameterList['on_page']], 'aPages', !$this->isMainModule());
-        $this->showPagination();
-
-        $this->showCarousel();
-
-        $this->setTemplate($this->template);
-        $this->setData('aDocuments', $aDocuments);
-        $this->setData('titleOnMain', $this->titleOnMain);
-        $this->setData('asset_path', $this->getAssetWebDir());
-        $this->setData('showDetailLink', self::hasShowDetailLink());
-        $this->setData('hideDate', $this->hasHideDatePublication());
-        $this->setData('onMainShowType', $this->onMainShowType);
-        $this->setData('zone', $this->zoneType);
-//        $this->setData('bShowGallery', Api::bShowGalleryInList());
-        $this->setData('sFormatImage', $sFormatImage);
-        $this->setData('date', $date);
-        $this->setData('lengthAnnounceOnMain', $this->lengthAnnounceOnMain);
-
-        return psComplete;
+        $this->setTemplate($sTemplate);
     }
 
-
     /**
-     * Флаг вывода ссылки "Подробнее".
+     * Получение шаблона отзывов.
      *
-     * @return bool
+     * @return string
      */
-    public static function hasShowDetailLink()
+    public function getTemplateReview()
     {
-        if (self::$showDetailLink === null) {
-            self::$showDetailLink = (bool) SysVar::get('Documents.showDetailLink');
-        }
+        $sZone = ($this->zoneType && $this->zoneType != Group::CONTENT) ? 'column' : Group::CONTENT;
 
-        return self::$showDetailLink;
+        return ArrayHelper::getValue(
+            Api::$aTypeShowReviews,
+            [$sZone, $this->typeShow, 'file'],
+            ''
+        );
     }
 
     /**
-     * Скрывать дату публикации?
+     * Выводить рейтинг в список отзывов?
      *
-     * @return bool
+     * @return int
      */
-    public function hasHideDatePublication()
+    public function showRating()
     {
-        return (bool) SysVar::get('Documents.hasHideDatePublication', false);
-    }
-
-    /**
-     * Пагинатор на страницу.
-     */
-    public function showPagination()
-    {
-        //выводим пагинацию только в зоне "контент"
-        if ($this->zoneType == 'content') {
-            $this->setData('showPagination', 1);
-        }
-    }
-
-    /**
-     * Проверяем, нужно ли отдать 404ю вместо документа
-     * Для админов показываются как активные, так и неактивные новости
-     * @param Documents $documents
-     * @return bool
-     */
-    private function canShowDocuments(Documents $documents): bool
-    {
-        $bIsAdmin = CurrentAdmin::isLoggedIn();
-        return $documents->active || $bIsAdmin;
+        return SysVar::get('Review.showRating', 0);
     }
 }

@@ -6022,3 +6022,347 @@ Stack trace:
 #21 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
 #22 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
 #23 {main}
+2022-08-22 21:25:52 [127.0.0.1][-][-][error][application] 
+PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'parent_section' in 'where clause' in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\Command.php:1290
+Stack trace:
+#0 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\Command.php(1290): PDOStatement->execute()
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\Command.php(1091): yii\db\Command->internalExecute('DELETE FROM `do...')
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\ActiveRecord.php(401): yii\db\Command->execute()
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\Documents\models\Documents.php(264): yii\db\ActiveRecord::deleteAll(Array)
+#4 [internal function]: skewer\build\Adm\Documents\models\Documents::removeSection(Object(yii\base\ModelEvent))
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Event.php(312): call_user_func(Array, Object(yii\base\ModelEvent))
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Component.php(636): yii\base\Event::trigger('skewer\\base\\sec...', 'beforeDelete', Object(yii\base\ModelEvent))
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\BaseActiveRecord.php(1027): yii\base\Component->trigger('beforeDelete', Object(yii\base\ModelEvent))
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\section\models\TreeSection.php(388): yii\db\BaseActiveRecord->beforeDelete()
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\ActiveRecord.php(750): skewer\base\section\models\TreeSection->beforeDelete()
+#10 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\ActiveRecord.php(720): yii\db\ActiveRecord->deleteInternal()
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\section\Tree.php(787): yii\db\ActiveRecord->delete()
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\Tree\Module.php(636): skewer\base\section\Tree::removeSection(320)
+#13 [internal function]: skewer\build\Adm\Tree\Module->actionDeleteSection()
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\ModulePrototype.php(148): call_user_func(Array)
+#15 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\build\Cms\Frame\ModulePrototype->execute()
+#16 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#17 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php(149): skewer\base\site_module\ProcessList->executeProcessList()
+#18 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php(24): skewer\controllers\CmsPrototype->runApplication()
+#19 [internal function]: skewer\controllers\CmsController->actionNewadmin()
+#20 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#21 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#22 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('newadmin', Array)
+#23 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('cms/newadmin', Array)
+#24 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#26 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#27 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'parent_section' in 'where clause'
+The SQL being executed was: DELETE FROM `documents` WHERE `parent_section`=320 in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\Schema.php:664
+Stack trace:
+#0 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\Command.php(1295): yii\db\Schema->convertException(Object(PDOException), 'DELETE FROM `do...')
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\Command.php(1091): yii\db\Command->internalExecute('DELETE FROM `do...')
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\ActiveRecord.php(401): yii\db\Command->execute()
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\Documents\models\Documents.php(264): yii\db\ActiveRecord::deleteAll(Array)
+#4 [internal function]: skewer\build\Adm\Documents\models\Documents::removeSection(Object(yii\base\ModelEvent))
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Event.php(312): call_user_func(Array, Object(yii\base\ModelEvent))
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Component.php(636): yii\base\Event::trigger('skewer\\base\\sec...', 'beforeDelete', Object(yii\base\ModelEvent))
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\BaseActiveRecord.php(1027): yii\base\Component->trigger('beforeDelete', Object(yii\base\ModelEvent))
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\section\models\TreeSection.php(388): yii\db\BaseActiveRecord->beforeDelete()
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\ActiveRecord.php(750): skewer\base\section\models\TreeSection->beforeDelete()
+#10 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\ActiveRecord.php(720): yii\db\ActiveRecord->deleteInternal()
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\section\Tree.php(787): yii\db\ActiveRecord->delete()
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\Tree\Module.php(636): skewer\base\section\Tree::removeSection(320)
+#13 [internal function]: skewer\build\Adm\Tree\Module->actionDeleteSection()
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\ModulePrototype.php(148): call_user_func(Array)
+#15 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\build\Cms\Frame\ModulePrototype->execute()
+#16 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#17 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php(149): skewer\base\site_module\ProcessList->executeProcessList()
+#18 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php(24): skewer\controllers\CmsPrototype->runApplication()
+#19 [internal function]: skewer\controllers\CmsController->actionNewadmin()
+#20 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#21 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#22 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('newadmin', Array)
+#23 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('cms/newadmin', Array)
+#24 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#26 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#27 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'parent_section' in 'where clause'
+)
+
+
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\log\Logger.php:40
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\log\Logger.php:62
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php:170
+2022-08-22 21:25:52 [127.0.0.1][-][-][error][application] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'parent_section' in 'where clause' in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\Command.php:1290
+Stack trace:
+#0 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\Command.php(1290): PDOStatement->execute()
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\Command.php(1091): yii\db\Command->internalExecute('DELETE FROM `do...')
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\ActiveRecord.php(401): yii\db\Command->execute()
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\Documents\models\Documents.php(264): yii\db\ActiveRecord::deleteAll(Array)
+#4 [internal function]: skewer\build\Adm\Documents\models\Documents::removeSection(Object(yii\base\ModelEvent))
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Event.php(312): call_user_func(Array, Object(yii\base\ModelEvent))
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Component.php(636): yii\base\Event::trigger('skewer\\base\\sec...', 'beforeDelete', Object(yii\base\ModelEvent))
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\BaseActiveRecord.php(1027): yii\base\Component->trigger('beforeDelete', Object(yii\base\ModelEvent))
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\section\models\TreeSection.php(388): yii\db\BaseActiveRecord->beforeDelete()
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\ActiveRecord.php(750): skewer\base\section\models\TreeSection->beforeDelete()
+#10 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\ActiveRecord.php(720): yii\db\ActiveRecord->deleteInternal()
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\section\Tree.php(787): yii\db\ActiveRecord->delete()
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\Tree\Module.php(636): skewer\base\section\Tree::removeSection(320)
+#13 [internal function]: skewer\build\Adm\Tree\Module->actionDeleteSection()
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\ModulePrototype.php(148): call_user_func(Array)
+#15 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\build\Cms\Frame\ModulePrototype->execute()
+#16 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#17 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php(149): skewer\base\site_module\ProcessList->executeProcessList()
+#18 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php(24): skewer\controllers\CmsPrototype->runApplication()
+#19 [internal function]: skewer\controllers\CmsController->actionNewadmin()
+#20 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#21 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#22 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('newadmin', Array)
+#23 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('cms/newadmin', Array)
+#24 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#26 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#27 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'parent_section' in 'where clause'
+The SQL being executed was: DELETE FROM `documents` WHERE `parent_section`=320 in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\Schema.php:664
+Stack trace:
+#0 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\Command.php(1295): yii\db\Schema->convertException(Object(PDOException), 'DELETE FROM `do...')
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\Command.php(1091): yii\db\Command->internalExecute('DELETE FROM `do...')
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\ActiveRecord.php(401): yii\db\Command->execute()
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\Documents\models\Documents.php(264): yii\db\ActiveRecord::deleteAll(Array)
+#4 [internal function]: skewer\build\Adm\Documents\models\Documents::removeSection(Object(yii\base\ModelEvent))
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Event.php(312): call_user_func(Array, Object(yii\base\ModelEvent))
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Component.php(636): yii\base\Event::trigger('skewer\\base\\sec...', 'beforeDelete', Object(yii\base\ModelEvent))
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\BaseActiveRecord.php(1027): yii\base\Component->trigger('beforeDelete', Object(yii\base\ModelEvent))
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\section\models\TreeSection.php(388): yii\db\BaseActiveRecord->beforeDelete()
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\ActiveRecord.php(750): skewer\base\section\models\TreeSection->beforeDelete()
+#10 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\ActiveRecord.php(720): yii\db\ActiveRecord->deleteInternal()
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\section\Tree.php(787): yii\db\ActiveRecord->delete()
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\Tree\Module.php(636): skewer\base\section\Tree::removeSection(320)
+#13 [internal function]: skewer\build\Adm\Tree\Module->actionDeleteSection()
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\ModulePrototype.php(148): call_user_func(Array)
+#15 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\build\Cms\Frame\ModulePrototype->execute()
+#16 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#17 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php(149): skewer\base\site_module\ProcessList->executeProcessList()
+#18 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php(24): skewer\controllers\CmsPrototype->runApplication()
+#19 [internal function]: skewer\controllers\CmsController->actionNewadmin()
+#20 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#21 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#22 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('newadmin', Array)
+#23 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('cms/newadmin', Array)
+#24 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#26 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#27 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'parent_section' in 'where clause'
+)
+
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php:172
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php:24
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php:103
+2022-08-22 21:27:42 [127.0.0.1][-][-][error][application] 
+yii\base\UnknownPropertyException: Setting unknown property: skewer\build\Adm\Documents\models\Documents::documents_alias in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Component.php:209
+Stack trace:
+#0 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\BaseActiveRecord.php(324): yii\base\Component->__set('documents_alias', '')
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\Documents\models\Documents.php(154): yii\db\BaseActiveRecord->__set('documents_alias', '')
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\Documents\Module.php(95): skewer\build\Adm\Documents\models\Documents::getNewRow()
+#3 [internal function]: skewer\build\Adm\Documents\Module->actionNew()
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\ModulePrototype.php(148): call_user_func(Array)
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\build\Cms\Frame\ModulePrototype->execute()
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php(149): skewer\base\site_module\ProcessList->executeProcessList()
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php(24): skewer\controllers\CmsPrototype->runApplication()
+#9 [internal function]: skewer\controllers\CmsController->actionNewadmin()
+#10 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('newadmin', Array)
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('cms/newadmin', Array)
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#16 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#17 {main}
+
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\log\Logger.php:40
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\log\Logger.php:62
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php:170
+2022-08-22 21:27:42 [127.0.0.1][-][-][error][application] yii\base\UnknownPropertyException: Setting unknown property: skewer\build\Adm\Documents\models\Documents::documents_alias in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Component.php:209
+Stack trace:
+#0 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\BaseActiveRecord.php(324): yii\base\Component->__set('documents_alias', '')
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\Documents\models\Documents.php(154): yii\db\BaseActiveRecord->__set('documents_alias', '')
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\Documents\Module.php(95): skewer\build\Adm\Documents\models\Documents::getNewRow()
+#3 [internal function]: skewer\build\Adm\Documents\Module->actionNew()
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\ModulePrototype.php(148): call_user_func(Array)
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\build\Cms\Frame\ModulePrototype->execute()
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php(149): skewer\base\site_module\ProcessList->executeProcessList()
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php(24): skewer\controllers\CmsPrototype->runApplication()
+#9 [internal function]: skewer\controllers\CmsController->actionNewadmin()
+#10 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('newadmin', Array)
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('cms/newadmin', Array)
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#16 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#17 {main}
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php:172
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php:24
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php:103
+2022-08-22 21:32:51 [127.0.0.1][-][ja3k9rblg4dj1t6te1hjtscd5s4c3epo][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_modified_date' in 'field list' in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\Command.php:1290
+Stack trace:
+#0 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\Command.php(1290): PDOStatement->execute()
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SELECT MAX(`las...')
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\Command.php(413): yii\db\Command->queryInternal('fetch', NULL)
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\Query.php(274): yii\db\Command->queryOne()
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\Documents\models\Documents.php(283): yii\db\Query->one()
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Documents\Module.php(211): skewer\build\Adm\Documents\models\Documents::getMaxLastModifyDate()
+#6 [internal function]: skewer\build\Page\Documents\Module->actionIndex(1, '')
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\page\ModulePrototype.php(82): call_user_func_array(Array, Array)
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\base\site_module\page\ModulePrototype->execute()
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#10 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\SiteController.php(250): skewer\base\site_module\ProcessList->executeProcessList()
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\SiteController.php(130): skewer\controllers\SiteController->executeRootProcess()
+#12 [internal function]: skewer\controllers\SiteController->actionIndex()
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#15 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#16 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#17 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#19 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#20 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_modified_date' in 'field list'
+The SQL being executed was: SELECT MAX(`last_modified_date`) as max FROM `documents` in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\Schema.php:664
+Stack trace:
+#0 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\Command.php(1295): yii\db\Schema->convertException(Object(PDOException), 'SELECT MAX(`las...')
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\Command.php(1158): yii\db\Command->internalExecute('SELECT MAX(`las...')
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\Command.php(413): yii\db\Command->queryInternal('fetch', NULL)
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\db\Query.php(274): yii\db\Command->queryOne()
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\Documents\models\Documents.php(283): yii\db\Query->one()
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Documents\Module.php(211): skewer\build\Adm\Documents\models\Documents::getMaxLastModifyDate()
+#6 [internal function]: skewer\build\Page\Documents\Module->actionIndex(1, '')
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\page\ModulePrototype.php(82): call_user_func_array(Array, Array)
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\base\site_module\page\ModulePrototype->execute()
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#10 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\SiteController.php(250): skewer\base\site_module\ProcessList->executeProcessList()
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\SiteController.php(130): skewer\controllers\SiteController->executeRootProcess()
+#12 [internal function]: skewer\controllers\SiteController->actionIndex()
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#15 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#16 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#17 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#19 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#20 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'last_modified_date' in 'field list'
+)
+
+2022-08-22 21:41:10 [127.0.0.1][-][-][error][application] 
+yii\base\UnknownClassException: Unable to find 'skewer\build\Page\Documents\Install' in file: C:\Users/Никита/Downloads/OpenServer/domains/shopnews/skewer/build/Page/Documents/Install.php. Namespace missing? in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('skewer\\build\\Pa...')
+#1 [internal function]: spl_autoload_call('skewer\\build\\Pa...')
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\config\installer\IntegrityManager.php(103): class_exists('skewer\\build\\Pa...')
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\config\installer\Api.php(406): skewer\components\config\installer\IntegrityManager::init('Documents', 'Page')
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Tool\ModulesManager\Module.php(133): skewer\components\config\installer\Api::getModules('Page', 3)
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Tool\ModulesManager\Module.php(105): skewer\build\Tool\ModulesManager\Module->actionList()
+#6 [internal function]: skewer\build\Tool\ModulesManager\Module->actionInit()
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\ModulePrototype.php(148): call_user_func(Array)
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\build\Cms\Frame\ModulePrototype->execute()
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#10 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php(149): skewer\base\site_module\ProcessList->executeProcessList()
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php(24): skewer\controllers\CmsPrototype->runApplication()
+#12 [internal function]: skewer\controllers\CmsController->actionNewadmin()
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#15 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('newadmin', Array)
+#16 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('cms/newadmin', Array)
+#17 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#19 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#20 {main}
+
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\log\Logger.php:40
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\log\Logger.php:62
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php:170
+2022-08-22 21:41:10 [127.0.0.1][-][-][error][application] yii\base\UnknownClassException: Unable to find 'skewer\build\Page\Documents\Install' in file: C:\Users/Никита/Downloads/OpenServer/domains/shopnews/skewer/build/Page/Documents/Install.php. Namespace missing? in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('skewer\\build\\Pa...')
+#1 [internal function]: spl_autoload_call('skewer\\build\\Pa...')
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\config\installer\IntegrityManager.php(103): class_exists('skewer\\build\\Pa...')
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\config\installer\Api.php(406): skewer\components\config\installer\IntegrityManager::init('Documents', 'Page')
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Tool\ModulesManager\Module.php(133): skewer\components\config\installer\Api::getModules('Page', 3)
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Tool\ModulesManager\Module.php(105): skewer\build\Tool\ModulesManager\Module->actionList()
+#6 [internal function]: skewer\build\Tool\ModulesManager\Module->actionInit()
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\ModulePrototype.php(148): call_user_func(Array)
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\build\Cms\Frame\ModulePrototype->execute()
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#10 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php(149): skewer\base\site_module\ProcessList->executeProcessList()
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php(24): skewer\controllers\CmsPrototype->runApplication()
+#12 [internal function]: skewer\controllers\CmsController->actionNewadmin()
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#15 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('newadmin', Array)
+#16 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('cms/newadmin', Array)
+#17 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#19 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#20 {main}
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php:172
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php:24
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php:103
+2022-08-22 21:51:14 [127.0.0.1][-][ja3k9rblg4dj1t6te1hjtscd5s4c3epo][error][Error] Error: Cannot use object of type skewer\build\Page\Documents\Module as array in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Documents\Module.php:123
+Stack trace:
+#0 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(171): skewer\build\Page\Documents\Module->init()
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\SiteController.php(250): skewer\base\site_module\ProcessList->executeProcessList()
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\SiteController.php(130): skewer\controllers\SiteController->executeRootProcess()
+#4 [internal function]: skewer\controllers\SiteController->actionIndex()
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#11 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#12 {main}
+2022-08-22 22:30:14 [127.0.0.1][-][ja3k9rblg4dj1t6te1hjtscd5s4c3epo][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: The "query" property must be an instance of a class that implements the QueryInterface e.g. yii\db\Query or its subclasses. in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\data\ActiveDataProvider.php:102
+Stack trace:
+#0 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\data\BaseDataProvider.php(101): yii\data\ActiveDataProvider->prepareModels()
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\data\BaseDataProvider.php(114): yii\data\BaseDataProvider->prepare()
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Documents\Module.php(96): yii\data\BaseDataProvider->getModels()
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Documents\Module.php(197): skewer\build\Page\Documents\Module->getList(1)
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Documents\Module.php(173): skewer\build\Page\Documents\Module->setReviewsWithPaginator()
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Documents\Module.php(156): skewer\build\Page\Documents\Module->actionInit()
+#6 [internal function]: skewer\build\Page\Documents\Module->actionIndex()
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\page\ModulePrototype.php(82): call_user_func_array(Array, Array)
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\base\site_module\page\ModulePrototype->execute()
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#10 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\SiteController.php(250): skewer\base\site_module\ProcessList->executeProcessList()
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\SiteController.php(130): skewer\controllers\SiteController->executeRootProcess()
+#12 [internal function]: skewer\controllers\SiteController->actionIndex()
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#15 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#16 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/index', Array)
+#17 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#19 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#20 {main}

@@ -2,34 +2,54 @@
 
 $aLanguage = [];
 
-$aLanguage['ru']['Documents.Page.tab_name'] = 'Документы';
+$aLanguage['ru']['GuestBook.Page.tab_name'] = 'Отзывы';
 
-$aLanguage['ru']['groups_documents'] = 'Параметры вывода документов(центр)';
-$aLanguage['ru']['groups_documents_in_column'] = 'Параметры вывода документов(колонки)';
+$aLanguage['ru']['form_title'] = 'Форма отзывов';
 
-$aLanguage['ru']['back'] = 'Назад';
-$aLanguage['ru']['documents_title'] = 'Документы';
-$aLanguage['ru']['all'] = 'Все документы';
-$aLanguage['ru']['modified'] = 'Дата последнего изменения';
-$aLanguage['ru']['param_on_page'] = 'документов в разделе';
-$aLanguage['ru']['section_all'] = 'Раздел для ссылки "все новости"';
-$aLanguage['ru']['all_section_link'] = 'Все документы';
+$aLanguage['ru']['groups_Review'] = 'Параметры вывода отзывов(центр)';
+$aLanguage['ru']['groups_Review_in_column'] = 'Параметры вывода отзывов(колонки)';
+
+$aLanguage['ru']['answer_title_template'] = 'Отзыв с сайта';
+$aLanguage['ru']['send_msg'] = 'Ваш комментарий успешно отправлен';
+$aLanguage['ru']['field_name'] = 'ФИО';
+$aLanguage['ru']['field_email'] = 'E-mail';
+$aLanguage['ru']['field_city'] = 'Город';
+$aLanguage['ru']['field_comment'] = 'Ваше мнение';
+$aLanguage['ru']['field_rating'] = 'Оценка';
+$aLanguage['ru']['answer_body_template'] = 'На адрес сайта оставлен новый отзыв.';
+$aLanguage['ru']['answer_body_template_client'] = 'Спасибо за ваш отзыв. После прохождения модерации он появится на сайте';
+$aLanguage['ru']['revert'] = 'Отзывы над формой';
+$aLanguage['ru']['settings_rating'] = 'Выводить оценку';
+$aLanguage['ru']['hide_form'] = 'Скрывать форму отзывов';
+$aLanguage['ru']['field_hide_gallery'] = 'Скрыть галерею отзывов';
+$aLanguage['ru']['error_send_gallery'] = 'Загруженный файл не является изображением!';
+$aLanguage['ru']['error_send_file'] = 'Неверный формат отправленного файла';
 
 // ********************************************************************************************************************
 // ***************************************************** ENGLISH ******************************************************
 // ********************************************************************************************************************
 
-$aLanguage['en']['News.Page.tab_name'] = 'News';
+$aLanguage['en']['GuestBook.Page.tab_name'] = 'Guestbook';
 
-$aLanguage['en']['groups_documents'] = 'Output Options News(center)';
-$aLanguage['en']['groups_documents_in_column'] = 'Parameters of documents output (columns)';
+$aLanguage['en']['form_title'] = 'Guestbook form';
 
-$aLanguage['en']['back'] = 'Back';
-$aLanguage['en']['documents_title'] = 'News';
-$aLanguage['en']['all'] = 'All documents';
-$aLanguage['en']['modified'] = 'Last modified date';
-$aLanguage['en']['param_on_page'] = 'News on section';
-$aLanguage['en']['section_all'] = 'Section for links "all documents"';
-$aLanguage['en']['all_section_link'] = 'All the documents';
+$aLanguage['en']['groups_Review'] = 'Output Options reviews(center)';
+$aLanguage['en']['groups_Review_in_column'] = 'Output Options reviews (column)';
+
+$aLanguage['en']['answer_title_template'] = 'Review from site';
+$aLanguage['en']['send_msg'] = 'Your comment has been successfully sent';
+$aLanguage['en']['field_name'] = 'You name';
+$aLanguage['en']['field_email'] = 'E-mail';
+$aLanguage['en']['field_city'] = 'City';
+$aLanguage['en']['field_comment'] = 'Comment';
+$aLanguage['en']['field_rating'] = 'Rating';
+$aLanguage['en']['answer_body_template'] = 'On the website address by a new review.';
+$aLanguage['en']['answer_body_template_client'] = 'On the website address by a new question.';
+$aLanguage['en']['revert'] = 'Change text and form';
+$aLanguage['en']['settings_rating'] = 'Show rating';
+$aLanguage['en']['hide_form'] = 'Hide form';
+$aLanguage['en']['field_hide_gallery'] = 'Hide reviews gallery';
+$aLanguage['en']['error_send_gallery'] = 'The uploaded file is not an image!';
+$aLanguage['en']['error_send_file'] = 'Invalid sent file format';
 
 return $aLanguage;

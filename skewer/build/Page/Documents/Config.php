@@ -4,11 +4,19 @@
 use skewer\base\site\Layer;
 
 $aConfig['name'] = 'Documents';
-$aConfig['version'] = '2.0';
 $aConfig['title'] = 'Документы';
-$aConfig['description'] = 'Модуль документов';
+$aConfig['version'] = '1.000';
+$aConfig['description'] = 'Документы';
 $aConfig['revision'] = '0002';
 $aConfig['layer'] = Layer::PAGE;
+$aConfig['languageCategory'] = 'review';
 
+$aConfig['dependency'] = [
+    ['Documents', Layer::ADM],
+    ['Review', Layer::TOOL],
+];
+
+/* Настраиваемые параметры модуля */
+//$aConfig['param_settings'] = 'skewer\build\Page\GuestBook\ParamSettings';
 
 return $aConfig;
