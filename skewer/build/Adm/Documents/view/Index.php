@@ -1,12 +1,12 @@
 <?php
 
-namespace skewer\build\Adm\News\view;
+namespace skewer\build\Adm\Documents\view;
 
 use skewer\components\ext\view\ListView;
 
 class Index extends ListView
 {
-    /** @var array News[] */
+    /** @var array Documents[] */
     public $items = [];
 
     /**
@@ -16,11 +16,7 @@ class Index extends ListView
     {
         $this->_list
             ->field('id', 'ID', 'string', ['listColumns' => ['flex' => 1]])
-
-            ->field('title', \Yii::t('news', 'field_title'), 'string', ['listColumns' => ['flex' => 3]])
-            ->field('publication_date', \Yii::t('news', 'field_date'), 'datetime', ['listColumns' => ['flex' => 2]])
-            ->field('active', \Yii::t('news', 'field_active'), 'check')
-            ->field('on_main', \Yii::t('news', 'field_onmain'), 'check')
+            ->field('name', \Yii::t('documents', 'field_name'), 'string')
 
             ->buttonRowUpdate()
             ->buttonRowDelete()

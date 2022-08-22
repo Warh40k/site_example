@@ -2,6 +2,7 @@
 
 namespace skewer\build\Page\News;
 
+use skewer\base\log\Logger;
 use skewer\base\site;
 use skewer\base\site_module;
 use skewer\base\SysVar;
@@ -141,9 +142,9 @@ class Module extends site_module\page\ModulePrototype
      *
      * @param null|News $news
      *
-     * @throws NotFoundHttpException
-     *
      * @return int
+     *@throws NotFoundHttpException
+     *
      */
     public function showOne($news)
     {
@@ -182,14 +183,9 @@ class Module extends site_module\page\ModulePrototype
         $album = Album::getById($news->author_photo);
         $count = 1;
         $photo = Photo::getFromAlbum($album->id, false, 1,1, $count)[0]->images_data;
-        ob_start();
-        print_r($photo['small']['file']);
-        $output = ob_get_clean();
-        file_put_contents('var_dump.txt', $output);
 
         $this->setData('author_photo', $photo['small']['file']);
         $this->setTemplate($this->template_detail);
-
         return psComplete;
     }
 

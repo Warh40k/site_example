@@ -16,6 +16,9 @@ use skewer\components\forms\forms\TypeResultPageForm;
 use skewer\components\forms\traits\ParserExtJsTrait;
 use yii\base\UserException;
 
+/**
+ * Манипуляции с формой (клонирование, получение по ид, тд)
+ */
 class FormService
 {
     use ParserExtJsTrait;

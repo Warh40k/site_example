@@ -14,6 +14,9 @@ use skewer\components\forms\traits\ParserExtJsTrait;
 use yii\base\UserException;
 use yii\helpers\ArrayHelper;
 
+/**
+ * Манипуляции раздела с формами
+ */
 class FormSectionService
 {
     use ParserExtJsTrait;

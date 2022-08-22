@@ -3224,3 +3224,420 @@ Stack trace:
     in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
     in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
 2022-08-18 10:03:15 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:07:41 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 10:07:41 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:08:07 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 10:08:07 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:09:32 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 10:09:32 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:09:35 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 10:09:35 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:10:19 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 10:10:19 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:10:21 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 10:10:21 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:10:24 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 10:10:24 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:10:39 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 10:10:39 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:11:01 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 10:11:01 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:12:51 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:13:08 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\templates\index.php:62
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 10:13:08 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:13:09 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:13:09 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:13:17 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:22:58 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\templates\index.php:62
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 10:22:58 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:22:59 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:22:59 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:23:02 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\templates\index.php:62
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 10:23:02 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:23:02 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:23:03 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:24:06 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:24:14 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 10:24:14 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:26:10 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 10:26:10 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:26:22 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:27:52 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 10:27:52 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:27:55 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 10:27:55 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:27:57 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 10:27:57 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:27:59 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 10:27:59 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:28:07 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:42:57 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:43:00 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:43:03 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:43:10 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:43:11 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:43:20 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\templates\index.php:62
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 10:43:20 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:43:21 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:43:21 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:43:32 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:43:42 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:43:54 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 10:43:55 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:44:00 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Page\Main\templates\index.php:163
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 10:44:00 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 10:49:38 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 11:18:24 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\templates\index_new.php:212
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 11:18:24 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 11:18:25 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 11:18:25 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 11:18:25 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 11:18:26 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 11:18:26 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 11:18:28 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 11:18:30 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 11:18:33 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 11:18:35 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 11:18:38 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 11:18:42 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 11:24:29 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\templates\index_new.php:212
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 11:24:29 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 11:24:29 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 11:24:29 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 11:24:30 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 11:24:30 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 11:24:30 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 11:24:32 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 11:24:34 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 11:24:36 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 11:25:28 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\templates\index_new.php:212
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Parser.php:103
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php:215
+2022-08-18 11:25:28 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 11:25:29 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 11:25:29 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 11:25:29 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 11:25:29 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 11:25:29 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 11:25:32 [127.0.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 127.0.0.1
+2022-08-18 13:02:22 [127.0.0.1][-][ssgvkbuu7n9v9ja8m0nle0lvg5rk3gtp][error][yii\base\ErrorException:2] yii\base\ErrorException: imagettftext(): Could not find/open font in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\forms\components\protection\Captcha.php:182
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'imagettftext():...', 'C:\\Users\\\xD0\x9D\xD0\xB8\xD0\xBA...', 182, Array)
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\forms\components\protection\Captcha.php(182): imagettftext(Resource id #184, 18, 31, 14, 27, 1, 'C:\\Users/\xD0\x9D\xD0\xB8\xD0\xBA...', '9')
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\AjaxController.php(64): skewer\components\forms\components\protection\Captcha->show('81caf4ea2f0bbf6...')
+#3 [internal function]: skewer\controllers\AjaxController->actionCaptcha()
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('captcha', Array)
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('ajax/captcha', Array)
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#10 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#11 {main}
+2022-08-18 13:02:23 [127.0.0.1][-][ssgvkbuu7n9v9ja8m0nle0lvg5rk3gtp][error][yii\base\ErrorException:2] yii\base\ErrorException: imagettftext(): Could not find/open font in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\forms\components\protection\Captcha.php:182
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'imagettftext():...', 'C:\\Users\\\xD0\x9D\xD0\xB8\xD0\xBA...', 182, Array)
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\forms\components\protection\Captcha.php(182): imagettftext(Resource id #184, 18, -18, 14, 27, 1, 'C:\\Users/\xD0\x9D\xD0\xB8\xD0\xBA...', '2')
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\AjaxController.php(64): skewer\components\forms\components\protection\Captcha->show('81caf4ea2f0bbf6...')
+#3 [internal function]: skewer\controllers\AjaxController->actionCaptcha()
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('captcha', Array)
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('ajax/captcha', Array)
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#10 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#11 {main}
+2022-08-18 13:03:01 [127.0.0.1][-][ssgvkbuu7n9v9ja8m0nle0lvg5rk3gtp][error][yii\base\ErrorException:2] yii\base\ErrorException: imagettftext(): Could not find/open font in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\forms\components\protection\Captcha.php:182
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'imagettftext():...', 'C:\\Users\\\xD0\x9D\xD0\xB8\xD0\xBA...', 182, Array)
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\forms\components\protection\Captcha.php(182): imagettftext(Resource id #184, 18, 12, 14, 27, 1, 'C:\\Users/\xD0\x9D\xD0\xB8\xD0\xBA...', '3')
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\AjaxController.php(64): skewer\components\forms\components\protection\Captcha->show('81caf4ea2f0bbf6...')
+#3 [internal function]: skewer\controllers\AjaxController->actionCaptcha()
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('captcha', Array)
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('ajax/captcha', Array)
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#10 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#11 {main}
+2022-08-18 13:04:28 [127.0.0.1][-][ssgvkbuu7n9v9ja8m0nle0lvg5rk3gtp][error][yii\base\ErrorException:2] yii\base\ErrorException: imagettftext(): Could not find/open font in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\forms\components\protection\Captcha.php:182
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'imagettftext():...', 'C:\\Users\\\xD0\x9D\xD0\xB8\xD0\xBA...', 182, Array)
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\forms\components\protection\Captcha.php(182): imagettftext(Resource id #184, 18, 6, 12, 27, 1, 'C:\\Users/\xD0\x9D\xD0\xB8\xD0\xBA...', '1')
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\AjaxController.php(64): skewer\components\forms\components\protection\Captcha->show('81caf4ea2f0bbf6...')
+#3 [internal function]: skewer\controllers\AjaxController->actionCaptcha()
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('captcha', Array)
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('ajax/captcha', Array)
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#10 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#11 {main}
+2022-08-22 10:35:29 [127.0.0.1][-][t837qr3lh2d123oto9o2bkbufv3rnj38][error][yii\base\ErrorException:2] yii\base\ErrorException: imagettftext(): Could not find/open font in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\forms\components\protection\Captcha.php:182
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'imagettftext():...', 'C:\\Users\\\xD0\x9D\xD0\xB8\xD0\xBA...', 182, Array)
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\forms\components\protection\Captcha.php(182): imagettftext(Resource id #184, 18, -20, 11, 27, 1, 'C:\\Users/\xD0\x9D\xD0\xB8\xD0\xBA...', '5')
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\AjaxController.php(64): skewer\components\forms\components\protection\Captcha->show('81caf4ea2f0bbf6...')
+#3 [internal function]: skewer\controllers\AjaxController->actionCaptcha()
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('captcha', Array)
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('ajax/captcha', Array)
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#10 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#11 {main}
+2022-08-22 10:35:30 [127.0.0.1][-][t837qr3lh2d123oto9o2bkbufv3rnj38][error][yii\base\ErrorException:2] yii\base\ErrorException: imagettftext(): Could not find/open font in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\forms\components\protection\Captcha.php:182
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'imagettftext():...', 'C:\\Users\\\xD0\x9D\xD0\xB8\xD0\xBA...', 182, Array)
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\forms\components\protection\Captcha.php(182): imagettftext(Resource id #184, 18, -35, 11, 27, 1, 'C:\\Users/\xD0\x9D\xD0\xB8\xD0\xBA...', '2')
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\AjaxController.php(64): skewer\components\forms\components\protection\Captcha->show('81caf4ea2f0bbf6...')
+#3 [internal function]: skewer\controllers\AjaxController->actionCaptcha()
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('captcha', Array)
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('ajax/captcha', Array)
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#10 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#11 {main}
+2022-08-22 11:57:17 [127.0.0.1][-][-][error][application] 
+yii\base\UnknownClassException: Unable to find 'skewer\build\Adm\News\view\Index' in file: C:\Users/Никита/Downloads/OpenServer/domains/shopnews/skewer/build/Adm/News/view/Index.php. Namespace missing? in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('skewer\\build\\Ad...')
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\News\Module.php(64): spl_autoload_call('skewer\\build\\Ad...')
+#2 [internal function]: skewer\build\Adm\News\Module->actionInit()
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\ModulePrototype.php(148): call_user_func(Array)
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\build\Cms\Frame\ModulePrototype->execute()
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php(149): skewer\base\site_module\ProcessList->executeProcessList()
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php(24): skewer\controllers\CmsPrototype->runApplication()
+#8 [internal function]: skewer\controllers\CmsController->actionNewadmin()
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('newadmin', Array)
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('cms/newadmin', Array)
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#15 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#16 {main}
+
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\log\Logger.php:40
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\log\Logger.php:62
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php:170
+2022-08-22 11:57:17 [127.0.0.1][-][-][error][application] yii\base\UnknownClassException: Unable to find 'skewer\build\Adm\News\view\Index' in file: C:\Users/Никита/Downloads/OpenServer/domains/shopnews/skewer/build/Adm/News/view/Index.php. Namespace missing? in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('skewer\\build\\Ad...')
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\News\Module.php(64): spl_autoload_call('skewer\\build\\Ad...')
+#2 [internal function]: skewer\build\Adm\News\Module->actionInit()
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\ModulePrototype.php(148): call_user_func(Array)
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\build\Cms\Frame\ModulePrototype->execute()
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php(149): skewer\base\site_module\ProcessList->executeProcessList()
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php(24): skewer\controllers\CmsPrototype->runApplication()
+#8 [internal function]: skewer\controllers\CmsController->actionNewadmin()
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('newadmin', Array)
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('cms/newadmin', Array)
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#15 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#16 {main}
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php:172
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php:24
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php:103
+2022-08-22 11:58:52 [127.0.0.1][-][-][error][application] 
+yii\base\UnknownClassException: Unable to find 'skewer\build\Adm\News\view\Form' in file: C:\Users/Никита/Downloads/OpenServer/domains/shopnews/skewer/build/Adm/News/view/Form.php. Namespace missing? in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('skewer\\build\\Ad...')
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\News\Module.php(122): spl_autoload_call('skewer\\build\\Ad...')
+#2 [internal function]: skewer\build\Adm\News\Module->actionShow()
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\ModulePrototype.php(148): call_user_func(Array)
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\build\Cms\Frame\ModulePrototype->execute()
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php(149): skewer\base\site_module\ProcessList->executeProcessList()
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php(24): skewer\controllers\CmsPrototype->runApplication()
+#8 [internal function]: skewer\controllers\CmsController->actionNewadmin()
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('newadmin', Array)
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('cms/newadmin', Array)
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#15 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#16 {main}
+
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\log\Logger.php:40
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\log\Logger.php:62
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php:170
+2022-08-22 11:58:52 [127.0.0.1][-][-][error][application] yii\base\UnknownClassException: Unable to find 'skewer\build\Adm\News\view\Form' in file: C:\Users/Никита/Downloads/OpenServer/domains/shopnews/skewer/build/Adm/News/view/Form.php. Namespace missing? in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('skewer\\build\\Ad...')
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Adm\News\Module.php(122): spl_autoload_call('skewer\\build\\Ad...')
+#2 [internal function]: skewer\build\Adm\News\Module->actionShow()
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\ModulePrototype.php(148): call_user_func(Array)
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\build\Cms\Frame\ModulePrototype->execute()
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php(149): skewer\base\site_module\ProcessList->executeProcessList()
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php(24): skewer\controllers\CmsPrototype->runApplication()
+#8 [internal function]: skewer\controllers\CmsController->actionNewadmin()
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('newadmin', Array)
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('cms/newadmin', Array)
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#15 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#16 {main}
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php:172
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php:24
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php:103
+2022-08-22 12:08:52 [127.0.0.1][-][-][error][application] 
+skewer\components\config\Exception: Passed not callable function for event `rss_get_data` [skewer\build\Adm\Documents\models\Documents:getRssRows] in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\config\BuildRegistryUpdater.php:114
+Stack trace:
+#0 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\config\BuildRegistryUpdater.php(57): skewer\components\config\BuildRegistryUpdater->addEventList(Object(skewer\components\config\ModuleConfig))
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\config\installer\system_action\install\RegisterConfig.php(23): skewer\components\config\BuildRegistryUpdater->registerModule(Object(skewer\components\config\ModuleConfig))
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\command\Hub.php(104): skewer\components\config\installer\system_action\install\RegisterConfig->execute()
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\command\Hub.php(104): skewer\base\command\Hub->execute()
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\command\Hub.php(133): skewer\base\command\Hub->execute()
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\config\installer\Api.php(190): skewer\base\command\Hub->executeOrExcept()
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Tool\ModulesManager\Module.php(411): skewer\components\config\installer\Api->install('Documents', 'Adm')
+#7 [internal function]: skewer\build\Tool\ModulesManager\Module->actionInstall()
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\ModulePrototype.php(148): call_user_func(Array)
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\build\Cms\Frame\ModulePrototype->execute()
+#10 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php(149): skewer\base\site_module\ProcessList->executeProcessList()
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php(24): skewer\controllers\CmsPrototype->runApplication()
+#13 [internal function]: skewer\controllers\CmsController->actionNewadmin()
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#15 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('newadmin', Array)
+#17 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('cms/newadmin', Array)
+#18 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#20 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#21 {main}
+
+Next skewer\components\config\Exception: "Passed not callable function for event `rss_get_data` [skewer\build\Adm\Documents\models\Documents:getRssRows]" for module [Documents] in layer [Adm] in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\config\BuildRegistryUpdater.php:61
+Stack trace:
+#0 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\config\installer\system_action\install\RegisterConfig.php(23): skewer\components\config\BuildRegistryUpdater->registerModule(Object(skewer\components\config\ModuleConfig))
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\command\Hub.php(104): skewer\components\config\installer\system_action\install\RegisterConfig->execute()
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\command\Hub.php(104): skewer\base\command\Hub->execute()
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\command\Hub.php(133): skewer\base\command\Hub->execute()
+#4 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\config\installer\Api.php(190): skewer\base\command\Hub->executeOrExcept()
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Tool\ModulesManager\Module.php(411): skewer\components\config\installer\Api->install('Documents', 'Adm')
+#6 [internal function]: skewer\build\Tool\ModulesManager\Module->actionInstall()
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\ModulePrototype.php(148): call_user_func(Array)
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\build\Cms\Frame\ModulePrototype->execute()
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#10 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php(149): skewer\base\site_module\ProcessList->executeProcessList()
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php(24): skewer\controllers\CmsPrototype->runApplication()
+#12 [internal function]: skewer\controllers\CmsController->actionNewadmin()
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#15 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('newadmin', Array)
+#16 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('cms/newadmin', Array)
+#17 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#19 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#20 {main}
+
+Next skewer\base\command\Exception: "Passed not callable function for event `rss_get_data` [skewer\build\Adm\Documents\models\Documents:getRssRows]" for module [Documents] in layer [Adm] in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\command\Hub.php:111
+Stack trace:
+#0 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\command\Hub.php(104): skewer\base\command\Hub->execute()
+#1 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\command\Hub.php(133): skewer\base\command\Hub->execute()
+#2 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\config\installer\Api.php(190): skewer\base\command\Hub->executeOrExcept()
+#3 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Tool\ModulesManager\Module.php(411): skewer\components\config\installer\Api->install('Documents', 'Adm')
+#4 [internal function]: skewer\build\Tool\ModulesManager\Module->actionInstall()
+#5 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\build\Cms\Frame\ModulePrototype.php(148): call_user_func(Array)
+#6 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\Process.php(172): skewer\build\Cms\Frame\ModulePrototype->execute()
+#7 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\site_module\ProcessList.php(117): skewer\base\site_module\Process->execute()
+#8 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsPrototype.php(149): skewer\base\site_module\ProcessList->executeProcessList()
+#9 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\controllers\CmsController.php(24): skewer\controllers\CmsPrototype->runApplication()
+#10 [internal function]: skewer\controllers\CmsController->actionNewadmin()
+#11 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#12 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#13 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('newadmin', Array)
+#14 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('cms/newadmin', Array)
+#15 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\app\Application.php(103): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 C:\Users\Никита\Downloads\OpenServer\domains\shopnews\vendor\yiisoft\yii2\base\Application.php(386): skewer\app\Application->handleRequest(Object(yii\web\Request))
+#17 W:\domains\shopnews\web\index.php(23): yii\base\Application->run()
+#18 {main}
+
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\log\Logger.php:40
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\base\log\Logger.php:62
+    in C:\Users\Никита\Downloads\OpenServer\domains\shopnews\skewer\components\config\installer\Api.php:195

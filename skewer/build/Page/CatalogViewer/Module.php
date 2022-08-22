@@ -2,6 +2,7 @@
 
 namespace skewer\build\Page\CatalogViewer;
 
+use skewer\base\log\Logger;
 use skewer\base\router\Router;
 use skewer\base\section\Parameters;
 use skewer\base\site_module;

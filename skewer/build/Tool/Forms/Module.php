@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace skewer\build\Tool\Forms;
 
+use skewer\base\log\Logger;
 use skewer\base\site\Site;
 use skewer\base\site\Type;
 use skewer\base\ui;
@@ -60,7 +61,7 @@ class Module extends ModulePrototype
         // id текущего раздела
         $this->idCurrentForm = (int) $this->getInDataVal(
             'idForm',
-            $this->getInt('idForm')
+            $this->getInt('idForm') // Post/Json parameter
         );
 
         $this->installService();
@@ -95,6 +96,8 @@ class Module extends ModulePrototype
     {
         $forms = $this->_formService->getForms(true);
 
+        Logger::dump('actionForms');
+
         $this->render(new Index([
             'forms' => $forms,
         ]));
@@ -102,6 +105,7 @@ class Module extends ModulePrototype
 
     protected function actionCreateForm()
     {
+        Logger::dump('actionCreateForm');
         $systemMode = CurrentAdmin::isSystemMode();
 
         $hasFormTarget = (
@@ -138,6 +142,7 @@ class Module extends ModulePrototype
      */
     protected function actionEditForm()
     {
+
         $form = $this->_formService->getFormById($this->idCurrentForm);
 
         $systemMode = CurrentAdmin::isSystemMode();
@@ -176,6 +181,7 @@ class Module extends ModulePrototype
      */
     protected function actionSave()
     {
+        Logger::dump("actionSave");
         try {
             $idForm = $this->_formService->save(
                 $this->getInData()
@@ -237,7 +243,7 @@ class Module extends ModulePrototype
      * @throws UserException
      * @throws \ReflectionException
      */
-    protected function actionFields()
+    protected function actionFields() // Показ полей
     {
         $fields = $this->_formService->combineFieldsForShow(
             $this->_fieldService->getFields()
@@ -248,6 +254,10 @@ class Module extends ModulePrototype
             'hasCatalog' => Type::hasCatalogModule(),
             'hasCRM' => $this->_crmFormService->isInstall(),
         ]));
+/*        ob_start();
+        var_dump($fields);
+        $output = ob_get_clean();
+        file_put_contents('var_dump.txt', $output);*/
     }
 
     /**
@@ -271,6 +281,9 @@ class Module extends ModulePrototype
      */
     protected function actionEditField(): int
     {
+        // Поиск полей или создание нового, возврат исключения в случае ненайдено
+        Logger::dump("editField");
+
         $innerData = $this->getInData();
 
         $idField = isset($innerData['idField'])
@@ -290,7 +303,7 @@ class Module extends ModulePrototype
             'typesOfValidation' => $fieldForm->type->getTypesValid(),
 
             'settings' => $this->_fieldService->combineInOneArray(
-                $fieldForm->getFullObject()
+                $fieldForm->getFullObject() // Получает свойства и формирует многомерный массив объекта
             ),
 
             'maxSizeOfFileSending' => ApiField::getUploadMaxSize(), //todo переделать
@@ -308,8 +321,9 @@ class Module extends ModulePrototype
      * @throws UserException
      * @throws \ReflectionException
      */
-    protected function actionChangeType()
+    protected function actionChangeType() //Изменить тип поля формы, корректирует введенные данные и обновляет
     {
+        Logger::dump("actionChangeType");
         $typeNew = $this->normalizeTypeOfValidByFieldsParams($this->get('formData'));
         $nameOldType = $this->get('fieldOldValue');
 
@@ -363,7 +377,7 @@ class Module extends ModulePrototype
         $this->actionFields();
     }
 
-    protected function actionAnswer()
+    protected function actionAnswer() //
     {
         $answer = $this->_formService->getAnswer($this->idCurrentForm);
         $title = $this->_formService
@@ -374,6 +388,11 @@ class Module extends ModulePrototype
         $this->setPanelName(
             \Yii::t('forms', 'answer_head') . " \"{$title}\""
         );
+        
+        ob_start();
+          var_dump($this);
+          $output = ob_get_clean();
+          file_put_contents('var_dump.txt', $output);
 
         $this->render(new Answer([
             'answer' => $answer,

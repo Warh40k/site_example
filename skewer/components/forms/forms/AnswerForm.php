@@ -8,6 +8,7 @@ use skewer\components\forms\entities\FormExtraDataEntity;
 
 /**
  * Class AnswerForm.
+ * Форма ответа на форму
  *
  * @property FormExtraDataEntity $extraEntity
  * @property string $title
