@@ -16,14 +16,14 @@ class Form extends FormView
     public $item;
 
     /** @var string */
-    public $sPreviewLink;
+//    public $sPreviewLink;
 
     /**
      * Выполняет сборку интерфейса.
      */
     public function build()
     {
-        $this->_form->headText($this->sPreviewLink);
+//        $this->_form->headText($this->sPreviewLink);
 
         $this->_form->field('id', 'ID', 'hide')
             ->field('name', \Yii::t('documents', 'field_name'), 'string')

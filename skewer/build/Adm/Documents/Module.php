@@ -43,7 +43,6 @@ class Module extends Adm\Tree\ModulePrototype
         $this->iDocumentsId = 0;
         // -- сборка интерфейса
         $documents = Documents::find()
-            ->where(['parent_section' => $this->sectionId()])
             ->orderBy(['id' => SORT_ASC])
             ->limit($this->iOnPage)
             ->offset($this->iPageNum * $this->iOnPage)
@@ -51,7 +50,6 @@ class Module extends Adm\Tree\ModulePrototype
             ->all();
 
         $iCount = Documents::find()
-            ->where(['parent_section' => $this->sectionId()])
             ->count();
 
         /*
@@ -96,7 +94,7 @@ class Module extends Adm\Tree\ModulePrototype
     {
         $documents = Documents::getNewRow();
         $this->render(new view\Form([
-            'sPreviewLink' => $documents->getPreviewLink(),
+//            'sPreviewLink' => $documents->getPreviewLink(),
             'item' => $documents,
         ]));
     }
@@ -118,7 +116,7 @@ class Module extends Adm\Tree\ModulePrototype
             throw new UserException(Yii::t('documents', 'error_row_not_found', [$iItemId]));
         }
         $this->render(new view\Form([
-            'sPreviewLink' => $oDocumentsRow->getPreviewLink(),
+//            'sPreviewLink' => $oDocumentsRow->getPreviewLink(),
             'item' => $oDocumentsRow,
         ]));
     }

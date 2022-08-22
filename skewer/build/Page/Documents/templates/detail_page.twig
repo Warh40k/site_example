@@ -1,0 +1,38 @@
+<div class="b-documents b-documents--detal"{{ Design.write(' sktag="modules.documents"') }}>
+    {% if documents is defined %}
+        {{ microData }}
+        {% if not hideDate %}
+            <div class="documents__date"{{ Design.write(' sktag="modules.documents.date"') }}>{{ documents.publication_date | date('d.m.Y') }}</div>
+        {% endif %}
+        <div style="" class="documents__date">{{ documents.author }} </div>
+        <div><img src="{{ author_photo }}"></div>
+        <div class="b-editor {{ html_class }}"{{ Design.write(' sktag="editor"') }}>{{ documents.full_text }}</div>
+        {% if bShowGalleryInDetail and documents.gallery.images %}
+            {{ Design.addAsset('\\skewer\\ext\\fotorama\\Asset') }}
+            <div class="fotorama" data-nav="thumbs" data-width="100%"
+                     {% if iMaxWidth %}data-max-width="{{ iMaxWidth }}px" {% endif %}
+                     {% if iMaxHeight %}data-max-height="{{ iMaxHeight }}px" {% endif %}
+                    {% if documents.gallery.first_img.images_data.mini.height and documents.gallery.first_img.images_data.mini.width %}
+                        data-thumbheight="{{ documents.gallery.first_img.images_data.mini.height }}"
+                        data-thumbwidth="{{ documents.gallery.first_img.images_data.mini.width}}"
+                    {% endif %}
+                     data-keyboard="true"
+                     data-allowfullscreen="true">
+                {% for aPhoto in documents.gallery.images %}
+                    {% if aPhoto.images_data.big.file and aPhoto.images_data.mini.file %}
+                        <a href="{{ aPhoto.images_data.big.file }}" data-thumb="{{ aPhoto.images_data.mini.file }}"
+                           alt="{{ aPhoto.alt_title|escape }}" title="{{ aPhoto.title|escape }}" >
+                            <img src="{{ aPhoto.images_data.mini.file }}" />
+                        </a>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        {% endif %}
+        <p class="documents__linkback"><a rel="nofollow" href="#" onclick="history.go(-1);return false;">{{ Lang.get('page.back') }}</a></p>
+        {% if documents.source_link %}
+            <p>
+                <a rel="nofollow" target="_blank" href="{{ documents.source_link }}" >{{ Lang.get('documents.field_source_link') }}</a>
+            </p>
+        {% endif %}
+    {% endif %}
+</div>

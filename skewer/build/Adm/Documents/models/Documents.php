@@ -2,6 +2,7 @@
 
 namespace skewer\build\Adm\Documents\models;
 
+use skewer\base\log\Logger;
 use skewer\base\router\Router;
 use skewer\base\section\Tree;
 use skewer\base\site\Site;
@@ -33,11 +34,6 @@ use yii\helpers\StringHelper;
  * @property string $name
  * @property string $description
  * @property string $file
- * @property string $documents_alias
- * @property int $parent_section
- * @property string $last_modified_date
- * @property string $hyperlink
-
  *
  * @method static Documents findOne($condition)
  */
@@ -57,10 +53,8 @@ class Documents extends ActiveRecord
     public function rules()
     {
         return [
-            [['parent_section', 'name'], 'required'],
-            [['last_modified_date'], 'safe'],
-            [['parent_section',], 'integer'],
-            [['documents_alias', 'title', 'hyperlink'], 'string', 'max' => 255],
+            [['name'], 'required'],
+            [['name', 'description', 'file', ], 'string'],
         ];
     }
 
@@ -74,26 +68,24 @@ class Documents extends ActiveRecord
             'name' => Yii::t('documents', 'field_name'),
             'description' => Yii::t('documents', 'field_description'),
             'file' => Yii::t('documents', 'field_file'),
-            'parent_section' => Yii::t('documents', 'field_parent'),
-            'documents_alias' => Yii::t('documents', 'field_alias'),
-            'last_modified_date' => Yii::t('documents', 'field_modifydate'),
+//            'documents_alias' => Yii::t('documents', 'field_alias'),
         ];
     }
 
-    public static function getPublicDocumentsByAliasAndSec($sDocumentsAlias, $idSection)
+/*    public static function getPublicDocumentsByAliasAndSec($sDocumentsAlias)
     {
-        return Documents::findOne(['documents_alias' => $sDocumentsAlias, 'parent_section' => $idSection]);
-    }
+        return Documents::findOne(['documents_alias' => $sDocumentsAlias]);
+    }*/
 
     public static function getPublicDocumentsById($iDocumentsId)
     {
         return Documents::findOne(['id' => $iDocumentsId]);
     }
 
-    public function getFormat_Announce()
+/*    public function getFormat_Announce()
     {
         return str_replace('data-fancybox-group="button"', 'data-fancybox-group="documents' . $this->id . '"', $this->announce);
-    }
+    }*/
 
     /**
      * Creates data provider instance with search query applied.
@@ -104,17 +96,15 @@ class Documents extends ActiveRecord
      */
     public static function getPublicList($params)
     {
-        $query = Documents::find()->andFilterWhere(['active' => 1])->orderBy(['id ASC']);
-
-        $params['on_page'] = Yii::$app->getRequest()->getQueryParam('per-page');
+        $query = Documents::find()->orderBy(['id' => SORT_ASC]);
 
         $dataProvider = new ActiveDataProvider([
-               'query' => $query,
-               'pagination' => [
-                   'pageSize' => (isset($params['on_page'])) ? $params['on_page'] : 10,
-                   'page' => $params['page'] - 1,
-               ],
-           ]);
+            'query' => $query,
+            'pagination' => [
+                'pageSize' => (isset($params['on_page'])) ? $params['on_page'] : 10,
+                'page' => $params['page'] - 1,
+            ],
+        ]);
 
         if (isset($params['on_page'])) {
             // добавим рулесы в UrlManager для правильного построителя ЧПУ
@@ -122,9 +112,18 @@ class Documents extends ActiveRecord
             Documents::routerRegister();
         }
 
+        /* Если есть фильтр по дате */
+        /*if (isset($params['byDate']) && !empty($params['byDate'])) {
+            $query->andFilterWhere(['>', 'publication_date', $params['byDate'] . ' 00:00:00']);
+            $query->andFilterWhere(['<', 'publication_date', $params['byDate'] . ' 23:59:59']);
+        }*/
 
-        if (!$params['all_documents'] && $params['section']) {
+       /* if (!$params['all_documents'] && $params['section']) {
             $query->andFilterWhere(['parent_section' => $params['section']]);
+        }
+
+        if ($params['on_main']) {
+            $query->andFilterWhere(['on_main' => 1]);
         }
 
         $aSections = Tree::getAllSubsection(\Yii::$app->sections->languageRoot());
@@ -132,7 +131,7 @@ class Documents extends ActiveRecord
 
         if ($params['future']) {
             $query->andFilterWhere(['>', 'publication_date', date('Y-m-d H:i:s', time())]);
-        }
+        }*/
 
         return $dataProvider;
     }
@@ -152,6 +151,7 @@ class Documents extends ActiveRecord
         $oRow->name = '';
         $oRow->description = '';
         $oRow->file = '';
+        $oRow->documents_alias = '';
 
         if ($aData) {
             $oRow->setAttributes($aData);
@@ -162,8 +162,8 @@ class Documents extends ActiveRecord
 
     public function initSave()
     {
-        if (!$this->documents_alias) {
-            $sValue = Transliterate::change($this->name);
+       /* if (!$this->documents_alias) {
+            $sValue = Transliterate::change($this->title);
         } else {
             $sValue = Transliterate::change($this->documents_alias);
         }
@@ -186,19 +186,28 @@ class Documents extends ActiveRecord
             return false;
         }
 
-/*        $aFieldsLink = ['hyperlink', 'source_link'];
+        // format wyswyg fields
+        if ($this->full_text && $this->parent_section) {
+            $this->full_text = ImageResize::wrapTags($this->full_text, $this->parent_section);
+        }
+
+        if ($this->announce && $this->parent_section) {
+            $this->announce = ImageResize::wrapTags($this->announce, $this->parent_section);
+        }
+
+        $aFieldsLink = ['hyperlink', 'source_link'];
 
         foreach ($aFieldsLink as $item) {
             if (!empty($this->{$item}) && (mb_strpos($this->{$item}, 'http') === false) and !(in_array(mb_substr($this->{$item}, 0, 1), ['/', '[']))) {
                 $this->{$item} = 'http://' . $this->{$item};
             }
-        }*/
+        }
 
-/*        if (!$this->publication_date || ($this->publication_date == 'null')) {
+        if (!$this->publication_date || ($this->publication_date == 'null')) {
             $this->publication_date = date('Y-m-d H:i:s', time());
-        }*/
+        }
 
-/*        $this->last_modified_date = date('Y-m-d H:i:s', time());*/
+        $this->last_modified_date = date('Y-m-d H:i:s', time());*/
 
         return parent::initSave();
     }
@@ -210,10 +219,10 @@ class Documents extends ActiveRecord
     {
         parent::afterSave($insert, $changedAttributes);
 
-        $oSearch = new Search();
+        /*$oSearch = new Search();
         $oSearch->updateByObjectId($this->id);
 
-       /* if (($changedAttributes) && !(isset($changedAttributes['on_main']) && (count($changedAttributes) == 1))) {
+        if (($changedAttributes) && !(isset($changedAttributes['on_main']) && (count($changedAttributes) == 1))) {
             if (in_array($this->parent_section, Rss\Api::getSectionsIncludedInRss())) {
                 Yii::$app->trigger(Rss\Api::EVENT_REBUILD_RSS);
             }
@@ -227,15 +236,18 @@ class Documents extends ActiveRecord
     {
         parent::afterDelete();
 
-        // удаление SEO данных
+        /*// удаление SEO данных
         Api::del('documents', $this->id);
 
+        Album::removeAlbum($this->gallery);
+        Photo::removeImage($this->author_photo);
+
         $oSearch = new Search();
-        $oSearch->deleteByObjectId($this->id);
+        $oSearch->deleteByObjectId($this->id);*/
 
         Yii::$app->router->updateModificationDateSite();
 
-/*        if (in_array($this->parent_section, Rss\Api::getSectionsIncludedInRss())) {
+      /*  if (in_array($this->parent_section, Rss\Api::getSectionsIncludedInRss())) {
             Yii::$app->trigger(Rss\Api::EVENT_REBUILD_RSS);
         }*/
     }
@@ -247,8 +259,8 @@ class Documents extends ActiveRecord
      */
     public static function removeSection(ModelEvent $event)
     {
-//        self::deleteAlbumsBySectionId($event->sender->id);
-
+        self::deleteAlbumsBySectionId($event->sender->id);
+        Logger::dump(self::find()->all());
         self::deleteAll(['parent_section' => $event->sender->id]);
     }
 
@@ -273,11 +285,11 @@ class Documents extends ActiveRecord
     }
 
     /**
-     * Вернет урл документа.
+     * Вернет урл новости.
      *
      * @return string
      */
-    public function getUrl()
+    /*public function getUrl()
     {
         if ($this->hyperlink) {
             return $this->hyperlink;
@@ -285,38 +297,38 @@ class Documents extends ActiveRecord
         $hrefParam = $this->documents_alias ? "documents_alias={$this->documents_alias}" : "documents_id={$this->id}";
 
         return "[{$this->parent_section}][Documents?" . $hrefParam . ']';
-    }
+    }*/
 
     /**
      * Обрезает текст аннонса до указанной длины
      * @param null $textLength
      * @return string
      */
-/*    public function getTruncateAnnounce($textLength = null)
+    public function getTruncateAnnounce($textLength = null)
     {
         if (empty($textLength)) {
             return $this->announce;
         }
 
         return StringHelper::truncate($this->announce, (int)$textLength, ' ...');
-    }*/
+    }
 
     /**
      * Новость имеет ссылку на детальную страницу?
      *
      * @return bool
      */
-    public function hasDetailLink()
+    /*public function hasDetailLink()
     {
         return Html::hasContent($this->full_text) || $this->hyperlink;
-    }
+    }*/
 
     /**
      * Ведет ли ссылка на внешний ресурс
      *
      * @return bool
      */
-    public function isExternalHyperLink(): bool
+    /*public function isExternalHyperLink(): bool
     {
         if (empty($this->hyperlink)) {
             return false;
@@ -330,7 +342,7 @@ class Documents extends ActiveRecord
         }
 
         return false;
-    }
+    }*/
 
     /**
      * Набивает внутренний массив события $oEvent последними новостями.
@@ -395,7 +407,7 @@ class Documents extends ActiveRecord
      * Возвращает html ссылки на предварительный просмотр
      * @return string
      */
-    public function getPreviewLink(): string
+    /*public function getPreviewLink(): string
     {
         $sLinkHtml = '';
         $sItemUrl = Router::rewriteURL($this->getUrl());
@@ -414,5 +426,5 @@ class Documents extends ActiveRecord
             }
         }
         return $sLinkHtml;
-    }
+    }*/
 }
