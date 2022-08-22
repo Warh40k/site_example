@@ -259,9 +259,9 @@ class Documents extends ActiveRecord
      */
     public static function removeSection(ModelEvent $event)
     {
-        self::deleteAlbumsBySectionId($event->sender->id);
+//        self::deleteAlbumsBySectionId($event->sender->id);
         Logger::dump(self::find()->all());
-        self::deleteAll(['parent_section' => $event->sender->id]);
+//        self::deleteAll(['parent_section' => $event->sender->id]);
     }
 
     /**
