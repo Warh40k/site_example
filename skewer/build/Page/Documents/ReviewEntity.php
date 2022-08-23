@@ -115,7 +115,7 @@ class ReviewEntity extends BuilderEntity
 
     public static function tableName(): string
     {
-        return 'form_guestbook';
+        return 'forma-zagruzki-dokumenta';
     }
 
     /**
