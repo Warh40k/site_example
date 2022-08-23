@@ -2,6 +2,7 @@
 
 namespace skewer\build\Page\GuestBook;
 
+use skewer\base\log\Logger;
 use skewer\base\site_module;
 use skewer\base\SysVar;
 use skewer\build\Adm\GuestBook\models\GuestBook;

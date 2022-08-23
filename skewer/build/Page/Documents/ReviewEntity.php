@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace skewer\build\Page\Documents;
 
+use skewer\base\log\Logger;
 use skewer\base\section\Tree;
 use skewer\base\site\Site;
 use skewer\build\Adm\Gallery\Api as GalleryApi;
@@ -109,7 +110,6 @@ class ReviewEntity extends BuilderEntity
     ) {
         $this->_idSection = $idSection;
         $this->_documents = Documents::getNewRow($innerData);
-
         parent::__construct($innerData, $config);
     }
 
@@ -195,7 +195,7 @@ class ReviewEntity extends BuilderEntity
      *
      * @return bool
      */
-    private function sendMailToAdmin(Documents $rowDocuments)
+    /*private function sendMailToAdmin(Documents $rowDocuments)
     {
         $moduleParams = ModulesParams::getByModule('review');
 
@@ -265,9 +265,9 @@ class ReviewEntity extends BuilderEntity
                 $aAttachFile
             )
             : Mailer::sendMailAdmin($sTitle, $sBody, $moduleParams);
-    }
+    }*/
 
-    public function isGoodReview()
+/*    public function isGoodReview()
     {
         $parentClass = $this->getInnerParamByName('parent_class');
 
@@ -275,13 +275,13 @@ class ReviewEntity extends BuilderEntity
             $this->getInnerParamByName('parent')
             && $parentClass
             && $parentClass == Documents::GoodReviews;
-    }
+    }*/
 
     public function setAddParamsForShowForm(TemplateForm &$templateForm)
     {
         $parent = $this->_objectId ?: $this->_idSection;
 
-        if ($this->_parentClass == Documents::GoodReviews) {
+        /*if ($this->_parentClass == Documents::GoodReviews) {
             $tagAction = '#tabs-reviews';
         } else {
             $tagAction = Tree::getSectionAliasPath(
@@ -291,7 +291,8 @@ class ReviewEntity extends BuilderEntity
             if (!$this->formAggregate->result->isExternalResultPage()) {
                 $tagAction .= '#form-answer';
             }
-        }
+        }*/
+        $tagAction = '#tabs-review';
 
         $templateForm->tagAction = $tagAction;
 

@@ -195,7 +195,6 @@ class Module extends site_module\page\ModulePrototype implements site_module\Aja
             $iTotalCount
         );*/
         $aDocs = $this->getList($this->iPage);
-        Logger::dump($aDocs);
         $this->setPaginatorPage($aDocs, $this->iPage, $iTotalCount);
 
         if ($this->template) {
@@ -396,13 +395,8 @@ class Module extends site_module\page\ModulePrototype implements site_module\Aja
      */
     public function setForm()
     {
-        if (!$this->bShowForm()) {
-            return;
-        }
-
         $reviewEntity = new ReviewEntity($this->sectionId());
         $reviewEntity->setParamForGoodReview($this->objectId, $this->className);
-
         $label = $this->get('label') ?: $this->oContext->getLabel();
 
         $formBuilder = new FormBuilder(
