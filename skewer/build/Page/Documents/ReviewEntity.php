@@ -170,18 +170,10 @@ class ReviewEntity extends BuilderEntity
      */
     public function save(int $idAlbum = 0): bool
     {
-        $photoGallery = $this->getField('photo_gallery');
-/*        if ($photoGallery && !$this->addImage($photoGallery)) {
-            return false;
-        }*/
         $privateFilePath = $this->getField('file')->getPathToFormFiles() . $this->getValues()['file'];
         $publicDirPath = str_replace('uploads', '/files', $privateFilePath);
         $publicFilePath = $publicDirPath . $this->getValues()['file'];
 
-        Logger::dump("Пути до файлов");
-        Logger::dump($privateFilePath);
-        Logger::dump($publicDirPath);
-        Logger::dump(WEBPATH . $publicDirPath);
         if(!file_exists(WEBPATH . $publicDirPath)) {
             mkdir(WEBPATH . $publicDirPath, 0777, true);
         }

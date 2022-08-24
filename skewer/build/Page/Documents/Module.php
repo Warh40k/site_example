@@ -76,6 +76,8 @@ class Module extends site_module\page\ModulePrototype implements site_module\Aja
     /** @var string Тип вывода */
     public $typeShow;
 
+    /** @var Documents[] Список документов */
+    public $aDocs;
     /**
      * @return mixed
      */
@@ -179,6 +181,8 @@ class Module extends site_module\page\ModulePrototype implements site_module\Aja
         $iTotalCount = 0;
 
         $aDocs = $this->getList($this->iPage);
+        $this->setData('aDocs', $aDocs);
+
         $this->setPaginatorPage($aDocs, $this->iPage, $iTotalCount);
 
         if ($this->template) {
@@ -195,7 +199,6 @@ class Module extends site_module\page\ModulePrototype implements site_module\Aja
             $sTemplate,
             [
             'items' => $aDocs,
-            'gallerySettings_review' => $this->getSettingsGalOnPage(),
             'aPages' => $this->getData('aPages'),
         ],
             __DIR__ . '/templates'

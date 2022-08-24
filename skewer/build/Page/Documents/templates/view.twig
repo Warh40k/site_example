@@ -1,27 +1,21 @@
-{% if revert==0  %}
+{{ form }}
 
-    {{ form }}
+{#{{ sViewReviews }}#}
 
-    {% if back_link is defined %}
-        {% if msg is defined %}
-            <div class="b-msgbox">
-                {{ msg }}
-            </div>
-        {% endif %}
-    {% endif %}
-{%  endif %}
+{% if msg is not defined %}
+    <h2>Список документов</h2>
+    <table style="border: 2px solid black; width: 100%; border-collapse: separate; display: table; border-spacing: 2px">
+        {% for aItem in aDocs %}
+            <tr>
+                <td><a href="{{ aItem.file }}">{{ aItem.name }}</a></td>
+                <td>{{ aItem.description }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% endif %}
 
-{{ sViewReviews }}
-
-{% if revert==1  %}
-
-    {{ form }}
-
-    {% if back_link is defined %}
-        {% if msg is defined %}
-            <div class="b-msgbox">
-                {{ msg }}
-            </div>
-        {% endif %}
-    {% endif %}
-{%  endif %}
+{% if msg is defined %}
+    <div class="b-msgbox">
+        {{ msg }}
+    </div>
+{% endif %}
