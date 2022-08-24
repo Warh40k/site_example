@@ -174,17 +174,19 @@ class ReviewEntity extends BuilderEntity
 /*        if ($photoGallery && !$this->addImage($photoGallery)) {
             return false;
         }*/
-        $privatePath = PRIVATE_FILEPATH . $this->getField('file')->getPathToFormFiles();
-        $publicPath = FILEPATH . $this->getField('file')->getPathToFormFiles();
+        $privateFilePath = $this->getField('file')->getPathToFormFiles() . $this->getValues()['file'];
+        $publicDirPath = str_replace('uploads', '/files', $privateFilePath);
+        $publicFilePath = $publicDirPath . $this->getValues()['file'];
+
         Logger::dump("Пути до файлов");
-        Logger::dump($privatePath);
-        Logger::dump($publicPath);
-        Logger::dump(WEBPATH . $publicPath);
-        if(!file_exists($publicPath)) {
-            mkdir($publicPath, 0777, true);
+        Logger::dump($privateFilePath);
+        Logger::dump($publicDirPath);
+        Logger::dump(WEBPATH . $publicDirPath);
+        if(!file_exists(WEBPATH . $publicDirPath)) {
+            mkdir(WEBPATH . $publicDirPath, 0777, true);
         }
-        copy($privatePath . $this->getValues()['file'], $publicPath . $this->getValues()['file']);
-        $this->_documents->file = ltrim($publicPath, WEBPATH) . $this->getValues()['file'];
+        copy(PRIVATE_FILEPATH . $privateFilePath,  WEBPATH . $publicFilePath);
+        $this->_documents->file = $publicFilePath;
 
         if (!$this->_documents->save()) {
             return false;
