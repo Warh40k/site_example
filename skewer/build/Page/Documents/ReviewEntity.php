@@ -124,13 +124,13 @@ class ReviewEntity extends BuilderEntity
      * @param int $objectId
      * @param string $parentClass
      */
-    public function setParamForGoodReview(
+/*    public function setParamForGoodReview(
         int $objectId = null,
         string $parentClass = ''
     ) {
         $this->_objectId = $objectId;
         $this->_parentClass = $parentClass;
-    }
+    }*/
 
     /**
      * @throws \Exception
@@ -144,10 +144,10 @@ class ReviewEntity extends BuilderEntity
         $formAggregate->settings->slug = self::tableName();
         $formAggregate->settings->system = 1;
         $formAggregate->settings->button = 'auth.authLoginButton';
-        $formAggregate->settings->emailInReply = true;
+        $formAggregate->settings->emailInReply = false;
 
         $formAggregate->settings->showHeader = 0;
-        $formAggregate->protection->captcha = true;
+        $formAggregate->protection->captcha = false;
 
         $formAggregate->answer->title = \Yii::t('review', 'send_msg');
 
@@ -179,120 +179,17 @@ class ReviewEntity extends BuilderEntity
             return false;
         }
 
-        Api::sendMailToClient($this->_documents);
-        $this->sendMailToAdmin($this->_documents);
-
         return parent::save();
     }
-
-    /**
-     * Отправка письма админу.
-     *
-     * @param Documents $rowDocuments
-     *
-     * @throws \ReflectionException
-     * @throws \yii\base\UserException
-     *
-     * @return bool
-     */
-    /*private function sendMailToAdmin(Documents $rowDocuments)
-    {
-        $moduleParams = ModulesParams::getByModule('review');
-
-        // берем заголовок письма из базы
-        if ($rowDocuments->isGoodReviews()) {
-            $sTitle = ArrayHelper::getValue(
-                $moduleParams,
-                'mail.catalog.title',
-                ''
-            );
-            $sContent = ArrayHelper::getValue(
-                $moduleParams,
-                'mail.catalog.content',
-                ''
-            );
-        } else {
-            $sTitle = ArrayHelper::getValue($moduleParams, 'mail.title' . '');
-            $sContent = ArrayHelper::getValue(
-                $moduleParams,
-                'mail.content',
-                ''
-            );
-        }
-
-        $aUserLabels = \Yii::$app->getI18n()->getValues('review', 'label_user');
-        foreach ($aUserLabels as $sLabel) {
-            $moduleParams[$sLabel] = $rowDocuments->name;
-        }
-        if ($rowDocuments->isGoodReviews()) {
-            $goods = GoodsSelector::get($rowDocuments->parent, 1);
-            $aOrderLabels = \Yii::$app->getI18n()->getValues(
-                'review',
-                'label_order'
-            );
-            foreach ($aOrderLabels as $sLabel) {
-                $moduleParams[$sLabel] = $goods['title'];
-            }
-        }
-        $moduleParams['email'] = $rowDocuments->email;
-        $sNameModule = Module::getNameModule();
-        $moduleParams['link'] = Site::admUrl(
-            $sNameModule,
-            'tools',
-            $rowDocuments->id
-        );
-
-        $templateLetter = new TemplateLetter(
-            $this->formAggregate,
-            $this->getFields()
-        );
-        $sBody = $templateLetter->getBodyForLetter('', $sContent);
-
-        $photoGallery = $this->getField('photo_gallery');
-        if (!$this->formAggregate->settings->noSendDataInLetter && $photoGallery && $photoGallery->value) {
-            $extraData = $photoGallery->type->getFieldObject()->getExtraData($photoGallery->settings->slug);
-            if ($extraData) {
-                $aAttachFile[$photoGallery->value] = $extraData;
-            }
-        }
-
-        return isset($aAttachFile)
-            ? Mailer::sendMailWithAttach(
-                Site::getAdminEmail(),
-                $sTitle,
-                $sBody,
-                $moduleParams,
-                $aAttachFile
-            )
-            : Mailer::sendMailAdmin($sTitle, $sBody, $moduleParams);
-    }*/
-
-/*    public function isGoodReview()
-    {
-        $parentClass = $this->getInnerParamByName('parent_class');
-
-        return
-            $this->getInnerParamByName('parent')
-            && $parentClass
-            && $parentClass == Documents::GoodReviews;
-    }*/
 
     public function setAddParamsForShowForm(TemplateForm &$templateForm)
     {
         $parent = $this->_objectId ?: $this->_idSection;
 
-        /*if ($this->_parentClass == Documents::GoodReviews) {
-            $tagAction = '#tabs-reviews';
-        } else {
-            $tagAction = Tree::getSectionAliasPath(
+        $tagAction = Tree::getSectionAliasPath(
                 $this->_idSection,
                 true
             ) . 'response/';
-            if (!$this->formAggregate->result->isExternalResultPage()) {
-                $tagAction .= '#form-answer';
-            }
-        }*/
-        $tagAction = '#tabs-review';
 
         $templateForm->tagAction = $tagAction;
 
@@ -301,10 +198,6 @@ class ReviewEntity extends BuilderEntity
             'parent_class' => $this->_parentClass,
             'tag_action' => $tagAction,
         ];
-
-        if (!$this->_objectId) {
-            $inputParams['rate_url'] = Tree::getSectionAliasPath($parent);
-        }
 
         $templateForm->paramsForInputTemplate = $inputParams;
     }
@@ -318,6 +211,7 @@ class ReviewEntity extends BuilderEntity
      */
     private function addImage(FieldAggregate $photoGallery)
     {
+        Logger::dump("я тута имг сохраняю");
         if (isset($_FILES['photo_gallery'])) {
             $photoGallery->value = $_FILES['photo_gallery']['name'];
 

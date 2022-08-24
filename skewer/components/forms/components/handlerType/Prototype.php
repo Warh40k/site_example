@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace skewer\components\forms\components\handlerType;
 
+use skewer\base\log\Logger;
 use skewer\build\Page\Forms\FormEntity;
 use skewer\components\forms\forms\FieldAggregate;
 use skewer\helpers\Files;
@@ -32,6 +33,7 @@ class Prototype
     public function saveFiles(&$fieldAggregate, &$files = []): string
     {
         $sDirectoryPath = $fieldAggregate->getPathToFormFiles();
+        Logger::dump($sDirectoryPath);
         Files::createFolderPath($sDirectoryPath, true);
 
         $fileName = Files::generateUniqFileName(
@@ -39,11 +41,13 @@ class Prototype
             $_FILES[$fieldAggregate->settings->slug]['name']
         );
         $fullFileName = PRIVATE_FILEPATH . $fileName;
+        Logger::dump("путь до кэша ".$_FILES[$fieldAggregate->settings->slug]['tmp_name']);
+        Logger::dump("путь до аплода ".$fullFileName);
+        Logger::dump("название файла ".$fileName);
         $bMoveRes = copy(
             $_FILES[$fieldAggregate->settings->slug]['tmp_name'],
             $fullFileName
         );
-
         if ($bMoveRes) {
             chmod($fullFileName, 0644);
             $files[] = $fullFileName;
@@ -54,7 +58,7 @@ class Prototype
             );
             throw new \Exception('validation_error');
         }
-
+        Logger::dump("Живой");
         return basename(
             mb_substr($fullFileName, mb_strlen(ROOTPATH) - 1)
         );

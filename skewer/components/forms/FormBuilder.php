@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace skewer\components\forms;
 
 use skewer\base\ft\Editor;
+use skewer\base\log\Logger;
 use skewer\base\section\models\TreeSection;
 use skewer\base\section\Tree;
 use skewer\base\site\Site;
@@ -102,7 +103,6 @@ class FormBuilder
                     \Yii::t('forms', 'no_form', [$this->_entity::tableName()])
                 );
             }
-
             if (!$this->_entity->validate($this->getHash())) {
                 throw new Exception(
                     current($this->_entity->getErrors())
@@ -111,7 +111,6 @@ class FormBuilder
         } catch (\Exception $e) {
             return false;
         }
-
         return true;
     }
 

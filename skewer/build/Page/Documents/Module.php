@@ -130,11 +130,6 @@ class Module extends site_module\page\ModulePrototype implements site_module\Aja
 
         $this->setParser(parserTwig);
 
-        // Если параметр не задан строго для раздела, то взять глобальную настройку парамера rating
-        if ($this->rating < 0) {
-            $this->rating = $this->showRating();
-        }
-
         if ($this->bOnlyMicrodata) {
             $this->set('cmd', 'getMicroData');
         } elseif (
@@ -163,7 +158,6 @@ class Module extends site_module\page\ModulePrototype implements site_module\Aja
      */
     public function actionInit()
     {
-//        \Yii::$app->router->setLastModifiedDate(Documents::getMaxLastModifyDate());
 
         // Блок отзывов на главной и других страницах(без пагинатора и формы)
         if ($this->showList) {
@@ -187,13 +181,6 @@ class Module extends site_module\page\ModulePrototype implements site_module\Aja
     {
         $iTotalCount = 0;
 
-        /*$aReviews = Api::getReviewList(
-            GuestBook::className(),
-            $this->objectId ? $this->objectId : $this->sectionId(),
-            $this->iPage,
-            $this->onPage,
-            $iTotalCount
-        );*/
         $aDocs = $this->getList($this->iPage);
         $this->setPaginatorPage($aDocs, $this->iPage, $iTotalCount);
 
@@ -207,18 +194,11 @@ class Module extends site_module\page\ModulePrototype implements site_module\Aja
             }
         }
 
-//        $oBundle = Asset::register(\Yii::$app->view);
-
         $sViewReviews = site_module\Parser::parseTwig(
             $sTemplate,
             [
             'items' => $aDocs,
             'gallerySettings_review' => $this->getSettingsGalOnPage(),
-//            'web_path_svg' => $oBundle->baseUrl . \DIRECTORY_SEPARATOR . 'svg',
-//            'show_rating' => $this->rating,
-//            'showGallery' => $this->showGallery(),
-//            'microData' => $this->objectId ? '' : microdata\reviews\Api::buildHtml4SectionReviews($aReviews),
-//            'bIsReview4Good' => $this->objectId,
             'aPages' => $this->getData('aPages'),
         ],
             __DIR__ . '/templates'
@@ -227,13 +207,6 @@ class Module extends site_module\page\ModulePrototype implements site_module\Aja
         $this->setData('sViewReviews', $sViewReviews);
 
         $this->setTemplate($this->template_detail);
-    }
-
-    private function showGallery()
-    {
-        $bHideGallery = SysVar::get('Review.HideGalleryReview', 0);
-
-        return !$bHideGallery;
     }
 
     /**
@@ -307,13 +280,13 @@ class Module extends site_module\page\ModulePrototype implements site_module\Aja
     public function actionSendReview()
     {
         $post = $this->getPost();
+
         foreach ($post as &$psValue) {
             $psValue = strip_tags($psValue);
         }
 
         $reviewEntity = new ReviewEntity($this->sectionId(), $post);
-        $reviewEntity->setParamForGoodReview($this->objectId, $this->className);
-
+//        $reviewEntity->setParamForGoodReview($this->objectId, $this->className);
         $label = $this->get('label') ?: $this->oContext->getLabel();
 
         $formBuilder = new FormBuilder(
@@ -328,7 +301,7 @@ class Module extends site_module\page\ModulePrototype implements site_module\Aja
             $formBuilder->setLegalRedirect();
 
             $aParam = ['form_section' => $this->sectionId()];
-            $aParam['answer_review'] = !$ajaxForm && $reviewEntity->isGoodReview();
+//            $aParam['answer_review'] = !$ajaxForm && $reviewEntity->isGoodReview();
 
             $sAnswer = $formBuilder->buildSuccessAnswer(
                 $ajaxForm,
@@ -359,24 +332,6 @@ class Module extends site_module\page\ModulePrototype implements site_module\Aja
         return psComplete;
     }
 
-    /**
-     * Получить микроразметку отзывов.
-     */
-    public function actionGetMicroData()
-    {
-        $iTotalCount = 0;
-        $aData = Api::getReviewList(
-            $this->className,
-            $this->objectId ? $this->objectId : $this->sectionId(),
-            $this->iPage,
-            $this->onPage,
-            $iTotalCount
-        );
-        $this->setOut(microdata\reviews\Api::buildHtml4GoodReviews($aData));
-        $this->set('cmd', '');
-
-        return psComplete;
-    }
 
     /**
      * Показывать форму?
@@ -396,7 +351,7 @@ class Module extends site_module\page\ModulePrototype implements site_module\Aja
     public function setForm()
     {
         $reviewEntity = new ReviewEntity($this->sectionId());
-        $reviewEntity->setParamForGoodReview($this->objectId, $this->className);
+//        $reviewEntity->setParamForGoodReview($this->objectId, $this->className);
         $label = $this->get('label') ?: $this->oContext->getLabel();
 
         $formBuilder = new FormBuilder(
@@ -407,49 +362,6 @@ class Module extends site_module\page\ModulePrototype implements site_module\Aja
 
         $this->setData('form', $formBuilder->getFormTemplate());
         $this->setData('revert', $this->revert);
-    }
-
-    /**
-     * Установить блок отзывов. Используется на главной и других страницах.
-     */
-    public function setReviewsBlock()
-    {
-        if (!$this->onPage) {
-            return;
-        }
-
-//        $oBundle = Asset::register(\Yii::$app->view);
-
-        $aData = Api::getArrayReviews(
-            $this->onPage,
-            $this->sectionId(),
-            $this->section_id
-        );
-
-        if (empty($aData)) {
-            return psComplete;
-        }
-
-        $this->setData('title', $this->titleOnMain);
-        $this->setData('items', $aData);
-        $this->setData('maxLen', $this->maxLen);
-        $this->setData('showList', $this->showList);
-        $this->setData('section_id', $this->section_id);
-        $this->setData('gallerySettings_review', $this->getSettingsGalOnPage());
-        $this->setData(
-            'web_path_svg',
-            $oBundle->baseUrl . \DIRECTORY_SEPARATOR . 'svg'
-        );
-        $this->setData('show_rating', $this->rating);
-        $this->setData('showGallery', $this->showGallery());
-
-        if ($this->template) {
-            $sTemplate = $this->template;
-        } else {
-            $sTemplate = $this->getTemplateReview();
-        }
-
-        $this->setTemplate($sTemplate);
     }
 
     /**
@@ -466,15 +378,5 @@ class Module extends site_module\page\ModulePrototype implements site_module\Aja
             [$sZone, $this->typeShow, 'file'],
             ''
         );
-    }
-
-    /**
-     * Выводить рейтинг в список отзывов?
-     *
-     * @return int
-     */
-    public function showRating()
-    {
-        return SysVar::get('Review.showRating', 0);
     }
 }

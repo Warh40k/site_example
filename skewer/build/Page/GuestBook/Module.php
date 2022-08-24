@@ -8,10 +8,12 @@ use skewer\base\SysVar;
 use skewer\build\Adm\GuestBook\models\GuestBook;
 use skewer\build\Page\CatalogViewer\Module as CatalogViewerModule;
 use skewer\build\Page\CatalogViewer\State\DetailPage;
+use skewer\build\Tool\Import\view\Log;
 use skewer\build\Tool\LeftList\Group;
 use skewer\build\Tool\Review\Api;
 use skewer\components\catalog\GoodsSelector;
 use skewer\components\forms\FormBuilder;
+use skewer\components\forms\forms\FieldAggregate;
 use skewer\components\GalleryOnPage;
 use skewer\components\microdata;
 use yii\helpers\ArrayHelper;
@@ -279,21 +281,22 @@ class Module extends site_module\page\ModulePrototype implements site_module\Aja
         foreach ($post as &$psValue) {
             $psValue = strip_tags($psValue);
         }
-
+//        Logger::dump("File ".strval(file_exists("C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/")));
         $reviewEntity = new ReviewEntity($this->sectionId(), $post);
         $reviewEntity->setParamForGoodReview($this->objectId, $this->className);
-
         $label = $this->get('label') ?: $this->oContext->getLabel();
-
         $formBuilder = new FormBuilder(
             $reviewEntity,
             $this->sectionId(),
             $label
         );
+//        Logger::dump(is_dir("W:\domains/shopnews/private_files/uploads-52-399/"));
 
         $ajaxForm = $this->getData('ajax') ?: $reviewEntity->formAggregate->result->isPopupResultPage();
 
+
         if ($formBuilder->hasSendData() && $formBuilder->validate() && $formBuilder->save()) {
+
             $formBuilder->setLegalRedirect();
 
             $aParam = ['form_section' => $this->sectionId()];

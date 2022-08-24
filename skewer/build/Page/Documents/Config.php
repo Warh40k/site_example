@@ -16,7 +16,4 @@ $aConfig['dependency'] = [
     ['Review', Layer::TOOL],
 ];
 
-/* Настраиваемые параметры модуля */
-//$aConfig['param_settings'] = 'skewer\build\Page\GuestBook\ParamSettings';
-
 return $aConfig;

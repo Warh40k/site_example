@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace skewer\build\Page\GuestBook;
 
+use skewer\base\log\Logger;
 use skewer\base\section\Tree;
 use skewer\base\site\Site;
 use skewer\build\Adm\Gallery\Api as GalleryApi;
@@ -225,6 +226,7 @@ class ReviewEntity extends BuilderEntity
      */
     public function save(int $idAlbum = 0): bool
     {
+
         $photoGallery = $this->getField('photo_gallery');
         if ($photoGallery && !$this->addImage($photoGallery)) {
             return false;

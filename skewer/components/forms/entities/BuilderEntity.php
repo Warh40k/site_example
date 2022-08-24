@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace skewer\components\forms\entities;
 
+use skewer\base\log\Logger;
 use skewer\build\Adm\Order\ar\OrderRow;
 use skewer\components\forms\components\TemplateForm;
 use skewer\components\forms\forms\FieldAggregate;
@@ -297,8 +298,9 @@ abstract class BuilderEntity
                 if ($field->type->isPhoneValidate()) {
                     $field->type->setTypeOfValid('text');
                 }
-
                 $success = $success && $field->validateValue($this->formAggregate->handler->getTypeObject());
+                Logger::dump($success);
+                Logger::dump("Success file after ".strval(file_exists("C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads-52-399")));
             }
 
             return $success;

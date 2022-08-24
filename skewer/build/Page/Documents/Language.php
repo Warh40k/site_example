@@ -1,5 +1,5 @@
 <?php
-
+/*
 $aLanguage = [];
 
 $aLanguage['ru']['GuestBook.Page.tab_name'] = 'Отзывы';
@@ -52,4 +52,4 @@ $aLanguage['en']['field_hide_gallery'] = 'Hide reviews gallery';
 $aLanguage['en']['error_send_gallery'] = 'The uploaded file is not an image!';
 $aLanguage['en']['error_send_file'] = 'Invalid sent file format';
 
-return $aLanguage;
+return $aLanguage;*/

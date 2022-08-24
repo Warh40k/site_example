@@ -28,9 +28,9 @@ class Install extends InstallPrototype
      */
     public function install()
     {
-        if (!$this->_formService->hasFormWithSlug(ReviewEntity::tableName())) {
+        /*if (!$this->_formService->hasFormWithSlug(ReviewEntity::tableName())) {
             ReviewEntity::createTable();
-        }
+        }*/
 
         return true;
     }
