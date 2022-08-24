@@ -67,9 +67,6 @@ class Module extends site_module\page\ModulePrototype implements site_module\Aja
     /** @var int Показать звёзды голосования в списке отзывов? Если значение <0, то параметр будет браться глобальный параметр */
     public $rating = -1;
 
-    /** @const int Количество отзывов, выводимых на детальную товара */
-    const onPageGoodsReviews = 10;
-
     /** @var string Шаблон списка отзывов. Если шаблон не указан, то он определяется динамически */
     public $template = '';
 
@@ -95,7 +92,7 @@ class Module extends site_module\page\ModulePrototype implements site_module\Aja
 
         $aData = $dataProvider->getModels();
 
-        /** @var GuestBook[] $aData */
+        /** @var Documents[] $aData */
         foreach ($aData as $aItem) {
             $aTmpData = $aItem->toArray();
             $aOut[] = $aTmpData;

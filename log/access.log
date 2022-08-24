@@ -1,872 +1,134 @@
-        [Tue, 23 Aug 2022 17:26:45 +0300](array): Array
-(
-    [photo_gallery] => Array
-        (
-            [name] => images.jpg
-            [type] => image/jpeg
-            [tmp_name] => W:\userdata\php_upload\phpF2EE.tmp
-            [error] => 0
-            [size] => 6146
-        )
-
-)
-
-[Tue, 23 Aug 2022 17:26:45 +0300](str): labelcontent
-[Tue, 23 Aug 2022 17:26:45 +0300](str): Валидирую форму
-[Tue, 23 Aug 2022 17:26:45 +0300](str): validating
-[Tue, 23 Aug 2022 17:26:45 +0300](str): Валидирую форму
-[Tue, 23 Aug 2022 17:27:28 +0300](array): Array
-(
-    [photo_gallery] => Array
-        (
-            [name] => images.jpg
-            [type] => image/jpeg
-            [tmp_name] => W:\userdata\php_upload\php9BE1.tmp
-            [error] => 0
-            [size] => 6146
-        )
-
-)
-
-[Tue, 23 Aug 2022 17:27:28 +0300](str): labelcontent
-[Tue, 23 Aug 2022 17:27:28 +0300](str): Валидирую форму
-[Tue, 23 Aug 2022 17:27:28 +0300](str): validating
-[Tue, 23 Aug 2022 17:27:28 +0300](str): Валидирую форму
-[Tue, 23 Aug 2022 17:27:57 +0300](array): Array
-(
-    [photo_gallery] => Array
-        (
-            [name] => images.jpg
-            [type] => image/jpeg
-            [tmp_name] => W:\userdata\php_upload\phpB07.tmp
-            [error] => 0
-            [size] => 6146
-        )
-
-)
-
-[Tue, 23 Aug 2022 17:27:57 +0300](str): labelcontent
-[Tue, 23 Aug 2022 17:27:57 +0300](str): validating
-[Tue, 23 Aug 2022 17:27:57 +0300](str): Валидирую форму
-[Tue, 23 Aug 2022 17:27:57 +0300](str): Валидирую форму
-[Tue, 23 Aug 2022 17:28:42 +0300](array): Array
-(
-    [photo_gallery] => Array
-        (
-            [name] => images.jpg
-            [type] => image/jpeg
-            [tmp_name] => W:\userdata\php_upload\phpBD7F.tmp
-            [error] => 0
-            [size] => 6146
-        )
-
-)
-
-[Tue, 23 Aug 2022 17:28:42 +0300](str): labelcontent
-[Tue, 23 Aug 2022 17:28:42 +0300](str): Валидирую форму до
-[Tue, 23 Aug 2022 17:28:42 +0300](str): validating
-[Tue, 23 Aug 2022 17:28:42 +0300](str): Валидирую форму
-[Tue, 23 Aug 2022 17:28:42 +0300](str): Валидирую форму до
-[Tue, 23 Aug 2022 17:28:42 +0300](str): Валидирую форму
-[Tue, 23 Aug 2022 17:29:14 +0300](array): Array
-(
-    [photo_gallery] => Array
-        (
-            [name] => images.jpg
-            [type] => image/jpeg
-            [tmp_name] => W:\userdata\php_upload\php3792.tmp
-            [error] => 0
-            [size] => 6146
-        )
-
-)
-
-[Tue, 23 Aug 2022 17:29:14 +0300](str): labelcontent
-[Tue, 23 Aug 2022 17:29:14 +0300](str): Валидирую форму до
-[Tue, 23 Aug 2022 17:29:14 +0300](str): validating
-[Tue, 23 Aug 2022 17:29:14 +0300](str): Валидирую форму
-[Tue, 23 Aug 2022 17:29:14 +0300](str): Валидирую форму до
-[Tue, 23 Aug 2022 17:29:14 +0300](str): Валидирую форму
-[Tue, 23 Aug 2022 17:30:08 +0300](array): Array
-(
-    [photo_gallery] => Array
-        (
-            [name] => images.jpg
-            [type] => image/jpeg
-            [tmp_name] => W:\userdata\php_upload\phpAA2.tmp
-            [error] => 0
-            [size] => 6146
-        )
-
-)
-
-[Tue, 23 Aug 2022 17:30:08 +0300](str): labelcontent
-[Tue, 23 Aug 2022 17:30:08 +0300](str): validating
-[Tue, 23 Aug 2022 17:30:08 +0300](str): Валидирую форму
-[Tue, 23 Aug 2022 17:30:08 +0300](str): Валидирую форму
-[Tue, 23 Aug 2022 17:31:10 +0300](array): Array
-(
-    [photo_gallery] => Array
-        (
-            [name] => images.jpg
-            [type] => image/jpeg
-            [tmp_name] => W:\userdata\php_upload\phpFFA2.tmp
-            [error] => 0
-            [size] => 6146
-        )
-
-)
-
-[Tue, 23 Aug 2022 17:31:10 +0300](str): labelcontent
-[Tue, 23 Aug 2022 17:31:10 +0300](str): Валидирую форму BuilderEntity
-[Tue, 23 Aug 2022 17:31:10 +0300](str): validating
-[Tue, 23 Aug 2022 17:31:10 +0300](str): Валидирую форму BuilderEntity
-[Tue, 23 Aug 2022 17:32:29 +0300](array): Array
-(
-    [photo_gallery] => Array
-        (
-            [name] => images.jpg
-            [type] => image/jpeg
-            [tmp_name] => W:\userdata\php_upload\php3312.tmp
-            [error] => 0
-            [size] => 6146
-        )
-
-)
-
-[Tue, 23 Aug 2022 17:32:29 +0300](str): labelcontent
-[Tue, 23 Aug 2022 17:32:29 +0300](str): validating
-[Tue, 23 Aug 2022 17:32:29 +0300](str): Валидирую форму Builder возле success
-[Tue, 23 Aug 2022 17:32:29 +0300](str): Валидирую форму Builder возле success
-[Tue, 23 Aug 2022 17:32:59 +0300](array): Array
-(
-    [photo_gallery] => Array
-        (
-            [name] => images.jpg
-            [type] => image/jpeg
-            [tmp_name] => W:\userdata\php_upload\phpA68E.tmp
-            [error] => 0
-            [size] => 6146
-        )
-
-)
-
-[Tue, 23 Aug 2022 17:32:59 +0300](str): labelcontent
-[Tue, 23 Aug 2022 17:32:59 +0300](str): validating
-[Tue, 23 Aug 2022 17:32:59 +0300](str): Валидирую форму Builder возле success
-[Tue, 23 Aug 2022 17:32:59 +0300](str): Валидирую форму Builder возле success
-[Tue, 23 Aug 2022 17:34:09 +0300](array): Array
-(
-    [photo_gallery] => Array
-        (
-            [name] => images.jpg
-            [type] => image/jpeg
-            [tmp_name] => W:\userdata\php_upload\phpB8AB.tmp
-            [error] => 0
-            [size] => 6146
-        )
-
-)
-
-[Tue, 23 Aug 2022 17:34:09 +0300](str): labelcontent
-[Tue, 23 Aug 2022 17:34:09 +0300](str): validating
-[Tue, 23 Aug 2022 17:34:09 +0300](bool): FALSE
-[Tue, 23 Aug 2022 17:34:09 +0300](bool): FALSE
-[Tue, 23 Aug 2022 17:35:47 +0300](array): Array
-(
-    [photo_gallery] => Array
-        (
-            [name] => images.jpg
-            [type] => image/jpeg
-            [tmp_name] => W:\userdata\php_upload\php37F9.tmp
-            [error] => 0
-            [size] => 6146
-        )
-
-)
-
-[Tue, 23 Aug 2022 17:35:47 +0300](str): labelcontent
-[Tue, 23 Aug 2022 17:35:47 +0300](str): validating
-[Tue, 23 Aug 2022 17:35:47 +0300](str): Путь до файлов формы
-[Tue, 23 Aug 2022 17:35:47 +0300](bool): FALSE
-[Tue, 23 Aug 2022 17:35:47 +0300](bool): FALSE
-[Tue, 23 Aug 2022 17:43:26 +0300](array): Array
-(
-    [photo_gallery] => Array
-        (
-            [name] => images.jpg
-            [type] => image/jpeg
-            [tmp_name] => W:\userdata\php_upload\php3911.tmp
-            [error] => 0
-            [size] => 6146
-        )
-
-)
-
-[Tue, 23 Aug 2022 17:43:26 +0300](str): labelcontent
-[Tue, 23 Aug 2022 17:43:26 +0300](str): validating
-[Tue, 23 Aug 2022 17:43:26 +0300](str): Путь до файлов формы
-[Tue, 23 Aug 2022 17:43:26 +0300](bool): FALSE
-[Tue, 23 Aug 2022 17:43:26 +0300](bool): FALSE
-[Tue, 23 Aug 2022 17:47:06 +0300](array): Array
-(
-    [photo_gallery] => Array
-        (
-            [name] => images.jpg
-            [type] => image/jpeg
-            [tmp_name] => W:\userdata\php_upload\php94EF.tmp
-            [error] => 0
-            [size] => 6146
-        )
-
-)
-
-[Tue, 23 Aug 2022 17:47:06 +0300](str): validating
-[Tue, 23 Aug 2022 17:47:06 +0300](str): Путь до файлов формы
-[Tue, 23 Aug 2022 17:47:06 +0300](bool): FALSE
-[Tue, 23 Aug 2022 17:47:06 +0300](bool): FALSE
-[Tue, 23 Aug 2022 17:49:52 +0300](bool): FALSE
-[Tue, 23 Aug 2022 17:49:52 +0300](str): validating
-[Tue, 23 Aug 2022 17:50:21 +0300](null): NULL
-[Tue, 23 Aug 2022 17:50:21 +0300](str): validating
-[Tue, 23 Aug 2022 17:50:43 +0300](null): NULL
-[Tue, 23 Aug 2022 17:50:43 +0300](str): validating
-[Tue, 23 Aug 2022 17:50:57 +0300](bool): FALSE
-[Tue, 23 Aug 2022 17:50:57 +0300](str): validating
-[Tue, 23 Aug 2022 17:52:56 +0300](array): Array
-(
-    [name] => Зинкевич Нс
-    [email] => kommunist.bear@gmail.com
-    [city] => dflkjsd
-    [content] => dffsdf
-    [rating] => 
-    [agreed] => on
-    [cmd] => sendReview
-    [form_id] => 52
-    [label] => content
-    [section] => 234
-    [formHash] => 00853b231cfed06cd345b62514180eef
-    [parent] => 234
-    [parent_class] => 
-    [rate_url] => /otzyvy/
-    [useJs] => 1
-)
-
-[Tue, 23 Aug 2022 17:52:56 +0300](str): validating
-[Tue, 23 Aug 2022 17:52:56 +0300](array): Array
-(
-    [name] => Зинкевич Нс
-    [email] => kommunist.bear@gmail.com
-    [city] => dflkjsd
-    [content] => dffsdf
-    [rating] => 
-    [agreed] => on
-    [cmd] => sendReview
-    [form_id] => 52
-    [label] => content
-    [section] => 234
-    [formHash] => 00853b231cfed06cd345b62514180eef
-    [parent] => 234
-    [parent_class] => 
-    [rate_url] => /otzyvy/
-    [useJs] => 1
-)
-
-[Tue, 23 Aug 2022 17:53:39 +0300](bool): TRUE
-[Tue, 23 Aug 2022 17:53:39 +0300](str): validating
-[Tue, 23 Aug 2022 17:54:00 +0300](str): validating
-[Tue, 23 Aug 2022 17:54:00 +0300](bool): FALSE
-[Tue, 23 Aug 2022 17:54:00 +0300](str): validating
-[Tue, 23 Aug 2022 17:55:42 +0300](bool): FALSE
-[Tue, 23 Aug 2022 17:55:42 +0300](bool): FALSE
-[Tue, 23 Aug 2022 17:56:57 +0300](bool): TRUE
-[Tue, 23 Aug 2022 17:56:57 +0300](bool): TRUE
-[Tue, 23 Aug 2022 22:49:02 +0300](bool): TRUE
-[Tue, 23 Aug 2022 22:49:02 +0300](bool): TRUE
-[Tue, 23 Aug 2022 22:51:21 +0300](bool): FALSE
-[Tue, 23 Aug 2022 22:51:21 +0300](bool): TRUE
-[Tue, 23 Aug 2022 22:51:21 +0300](bool): TRUE
-[Tue, 23 Aug 2022 22:52:01 +0300](str): Папка существует 
-[Tue, 23 Aug 2022 22:52:01 +0300](bool): TRUE
-[Tue, 23 Aug 2022 22:52:01 +0300](bool): TRUE
-[Tue, 23 Aug 2022 22:53:47 +0300](str): Папка существует 
-[Tue, 23 Aug 2022 22:55:08 +0300](bool): TRUE
-[Tue, 23 Aug 2022 22:55:41 +0300](bool): FALSE
-[Tue, 23 Aug 2022 22:56:04 +0300](bool): FALSE
-[Tue, 23 Aug 2022 23:24:10 +0300](bool): TRUE
-[Tue, 23 Aug 2022 23:24:37 +0300](bool): TRUE
-[Wed, 24 Aug 2022 08:36:55 +0300](str): File 1
-[Wed, 24 Aug 2022 08:37:54 +0300](str): File 1
-[Wed, 24 Aug 2022 08:38:12 +0300](str): File 1
-[Wed, 24 Aug 2022 08:38:21 +0300](str): File 1
-[Wed, 24 Aug 2022 08:38:31 +0300](str): File 1
-[Wed, 24 Aug 2022 08:39:01 +0300](str): File 1
-[Wed, 24 Aug 2022 08:42:06 +0300](str): Что-то
-[Wed, 24 Aug 2022 08:42:34 +0300](str): Что-то
-[Wed, 24 Aug 2022 08:52:18 +0300](str): Uspeh1
-[Wed, 24 Aug 2022 08:52:18 +0300](str): Uspeh1
-[Wed, 24 Aug 2022 08:52:18 +0300](str): Uspeh1
-[Wed, 24 Aug 2022 08:52:18 +0300](str): Uspeh1
-[Wed, 24 Aug 2022 08:52:18 +0300](str): Uspeh1
-[Wed, 24 Aug 2022 08:52:18 +0300](str): Uspeh
-[Wed, 24 Aug 2022 08:52:18 +0300](str): Uspeh
-[Wed, 24 Aug 2022 08:52:18 +0300](str): Uspeh
-[Wed, 24 Aug 2022 08:53:49 +0300](str): Success file 
-[Wed, 24 Aug 2022 08:53:49 +0300](str): Success file 
-[Wed, 24 Aug 2022 08:53:49 +0300](str): Success file 
-[Wed, 24 Aug 2022 08:53:49 +0300](str): Success file 
-[Wed, 24 Aug 2022 08:53:49 +0300](str): Success file 
-[Wed, 24 Aug 2022 08:53:49 +0300](str): Success file 1
-[Wed, 24 Aug 2022 08:53:49 +0300](str): Success file 1
-[Wed, 24 Aug 2022 08:53:49 +0300](str): Success file 1
-[Wed, 24 Aug 2022 08:55:12 +0300](str): Success file 
-[Wed, 24 Aug 2022 08:55:12 +0300](str): Success file 
-[Wed, 24 Aug 2022 08:55:12 +0300](str): Success file 
-[Wed, 24 Aug 2022 08:55:12 +0300](str): Success file 
-[Wed, 24 Aug 2022 08:55:12 +0300](str): Success file 
-[Wed, 24 Aug 2022 08:55:12 +0300](str): Success file 1
-[Wed, 24 Aug 2022 08:55:12 +0300](str): Success file 1
-[Wed, 24 Aug 2022 08:55:12 +0300](str): Success file 1
-[Wed, 24 Aug 2022 08:56:07 +0300](str): Success file 1
-[Wed, 24 Aug 2022 08:56:07 +0300](bool): TRUE
-[Wed, 24 Aug 2022 08:56:07 +0300](str): Success file 1
-[Wed, 24 Aug 2022 08:56:07 +0300](bool): TRUE
-[Wed, 24 Aug 2022 08:56:07 +0300](str): Success file 1
-[Wed, 24 Aug 2022 08:56:07 +0300](bool): TRUE
-[Wed, 24 Aug 2022 08:56:07 +0300](str): Success file 1
-[Wed, 24 Aug 2022 08:56:07 +0300](bool): TRUE
-[Wed, 24 Aug 2022 08:56:07 +0300](str): Success file 1
-[Wed, 24 Aug 2022 08:56:07 +0300](bool): TRUE
-[Wed, 24 Aug 2022 08:56:07 +0300](str): Success file 1
-[Wed, 24 Aug 2022 08:56:07 +0300](bool): FALSE
-[Wed, 24 Aug 2022 08:56:07 +0300](str): Success file 1
-[Wed, 24 Aug 2022 08:56:07 +0300](bool): FALSE
-[Wed, 24 Aug 2022 08:56:07 +0300](str): Success file 1
-[Wed, 24 Aug 2022 08:56:07 +0300](bool): FALSE
-[Wed, 24 Aug 2022 08:56:18 +0300](str): Success file 
-[Wed, 24 Aug 2022 08:56:18 +0300](bool): TRUE
-[Wed, 24 Aug 2022 08:56:18 +0300](str): Success file 
-[Wed, 24 Aug 2022 08:56:18 +0300](bool): TRUE
-[Wed, 24 Aug 2022 08:56:18 +0300](str): Success file 
-[Wed, 24 Aug 2022 08:56:18 +0300](bool): TRUE
-[Wed, 24 Aug 2022 08:56:18 +0300](str): Success file 
-[Wed, 24 Aug 2022 08:56:18 +0300](bool): TRUE
-[Wed, 24 Aug 2022 08:56:18 +0300](str): Success file 
-[Wed, 24 Aug 2022 08:56:18 +0300](bool): TRUE
-[Wed, 24 Aug 2022 08:56:18 +0300](str): Success file 1
-[Wed, 24 Aug 2022 08:56:18 +0300](bool): FALSE
-[Wed, 24 Aug 2022 08:56:18 +0300](str): Success file 1
-[Wed, 24 Aug 2022 08:56:18 +0300](bool): FALSE
-[Wed, 24 Aug 2022 08:56:18 +0300](str): Success file 1
-[Wed, 24 Aug 2022 08:56:18 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:16:00 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:16:00 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:16:00 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:16:00 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:16:00 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:16:00 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:16:00 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:16:00 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:16:00 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:16:00 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:16:00 +0300](str): uploads/52/399/
-[Wed, 24 Aug 2022 09:19:36 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:19:36 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:19:36 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:19:36 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:19:36 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:19:36 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:19:36 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:19:36 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:19:36 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:19:36 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:19:36 +0300](str): uploads/52/399/
-[Wed, 24 Aug 2022 09:19:36 +0300](str): RootFolderC:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/
-[Wed, 24 Aug 2022 09:19:36 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:19:36 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:19:36 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:19:36 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:19:36 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:19:36 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:20:38 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:20:38 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:20:38 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:20:38 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:20:38 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:20:38 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:20:38 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:20:38 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:20:38 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:20:38 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:20:38 +0300](str): uploads/52/399/
-[Wed, 24 Aug 2022 09:20:38 +0300](str): RootFolderC:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/
-[Wed, 24 Aug 2022 09:20:38 +0300](str): sPathuploads/52/399/
-[Wed, 24 Aug 2022 09:20:38 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:20:38 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:20:38 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:20:38 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:20:38 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:20:38 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:23:31 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:23:31 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:23:31 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:23:31 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:23:31 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:23:31 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:23:31 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:23:31 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:23:31 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:23:31 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:23:31 +0300](str): uploads/52/399/
-[Wed, 24 Aug 2022 09:23:31 +0300](str): RootFolderC:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/
-[Wed, 24 Aug 2022 09:23:31 +0300](str): sPath uploads/52/399/
-[Wed, 24 Aug 2022 09:23:31 +0300](str): aFolders Array
-[Wed, 24 Aug 2022 09:23:31 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:23:31 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:23:31 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:23:31 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:23:31 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:23:31 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:23:56 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:23:56 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:23:56 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:23:56 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:23:56 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:23:56 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:23:56 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:23:56 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:23:56 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:23:56 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:23:56 +0300](str): uploads/52/399/
-[Wed, 24 Aug 2022 09:23:56 +0300](str): RootFolderC:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/
-[Wed, 24 Aug 2022 09:23:56 +0300](str): sPath uploads/52/399/
-[Wed, 24 Aug 2022 09:23:56 +0300](array): Array
-(
-    [0] => uploads/52/399/
-)
-
-[Wed, 24 Aug 2022 09:23:56 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:23:56 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:23:56 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:23:56 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:23:56 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:23:56 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:25:07 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:25:07 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:25:07 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:25:07 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:25:07 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:25:07 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:25:07 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:25:07 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:25:07 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:25:07 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:25:07 +0300](str): uploads/52/399/
-[Wed, 24 Aug 2022 09:25:07 +0300](str): RootFolderC:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/
-[Wed, 24 Aug 2022 09:25:07 +0300](str): sPath uploads/52/399/
-[Wed, 24 Aug 2022 09:25:07 +0300](array): Array
-(
-    [0] => uploads/52/399/
-)
-
-[Wed, 24 Aug 2022 09:25:07 +0300](str): createdFolder C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads-52-399\
-[Wed, 24 Aug 2022 09:25:07 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:25:07 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:25:07 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:25:07 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:25:07 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:25:07 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:25:36 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:25:36 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:25:36 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:25:36 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:25:36 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:25:36 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:25:36 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:25:36 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:25:36 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:25:36 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:25:36 +0300](str): uploads/52/399/
-[Wed, 24 Aug 2022 09:25:36 +0300](str): RootFolderC:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/
-[Wed, 24 Aug 2022 09:25:36 +0300](str): sPath uploads/52/399/
-[Wed, 24 Aug 2022 09:25:36 +0300](array): Array
-(
-    [0] => uploads/52/399/
-)
-
-[Wed, 24 Aug 2022 09:25:36 +0300](str): createdFolder C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads-52-399\
-[Wed, 24 Aug 2022 09:25:36 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:25:36 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:25:36 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:25:36 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:25:36 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:25:36 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:26:35 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:26:35 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:26:35 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:26:35 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:26:35 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:26:35 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:26:35 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:26:35 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:26:35 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:26:35 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:26:35 +0300](str): uploads/52/399/
-[Wed, 24 Aug 2022 09:26:35 +0300](str): RootFolderC:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/
-[Wed, 24 Aug 2022 09:26:35 +0300](str): sPath uploads/52/399/
-[Wed, 24 Aug 2022 09:26:35 +0300](array): Array
-(
-    [0] => uploads/52/399/
-)
-
-[Wed, 24 Aug 2022 09:26:35 +0300](str): createdFolderbefore C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/
-[Wed, 24 Aug 2022 09:26:35 +0300](str): createdFolder C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads-52-399\
-[Wed, 24 Aug 2022 09:26:35 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:26:35 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:26:35 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:26:35 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:26:35 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:26:35 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:27:15 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:27:15 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:27:15 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:27:15 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:27:15 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:27:15 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:27:15 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:27:15 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:27:15 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:27:15 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:27:15 +0300](str): uploads/52/399/
-[Wed, 24 Aug 2022 09:27:15 +0300](str): RootFolderC:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/
-[Wed, 24 Aug 2022 09:27:15 +0300](str): sPath uploads/52/399/
-[Wed, 24 Aug 2022 09:27:15 +0300](array): Array
-(
-    [0] => uploads/52/399/
-)
-
-[Wed, 24 Aug 2022 09:27:15 +0300](str): createdFolderbefore C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads-52-399
-[Wed, 24 Aug 2022 09:27:15 +0300](str): createdFolder C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads-52-399\
-[Wed, 24 Aug 2022 09:27:15 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:27:15 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:27:15 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:27:15 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:27:15 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:27:15 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:27:27 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:27:27 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:27:27 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:27:27 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:27:27 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:27:27 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:27:27 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:27:27 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:27:27 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:27:27 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:27:27 +0300](str): uploads/52/399/
-[Wed, 24 Aug 2022 09:27:27 +0300](str): RootFolderC:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/
-[Wed, 24 Aug 2022 09:27:27 +0300](str): sPath uploads/52/399/
-[Wed, 24 Aug 2022 09:27:27 +0300](array): Array
-(
-    [0] => uploads/52/399/
-)
-
-[Wed, 24 Aug 2022 09:27:27 +0300](str): createdFolderbefore C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads-52-399
-[Wed, 24 Aug 2022 09:27:27 +0300](str): createdFolder C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads-52-399\
-[Wed, 24 Aug 2022 09:27:27 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:27:27 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:27:27 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:27:27 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:27:27 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:27:27 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:28:33 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:28:33 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:28:33 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:28:33 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:28:33 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:28:33 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:28:33 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:28:33 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:28:33 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:28:33 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:28:33 +0300](str): uploads/52/399/
-[Wed, 24 Aug 2022 09:28:33 +0300](str): RootFolderC:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/
-[Wed, 24 Aug 2022 09:28:33 +0300](str): sPath uploads/52/399/
-[Wed, 24 Aug 2022 09:28:33 +0300](str): aFolders Array
-[Wed, 24 Aug 2022 09:28:33 +0300](str): createdFolderbefore C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads-52-399
-[Wed, 24 Aug 2022 09:28:33 +0300](str): createdFolder C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads-52-399\
-[Wed, 24 Aug 2022 09:28:33 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:28:33 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:28:33 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:28:33 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:28:33 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:28:33 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:29:15 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:29:15 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:29:15 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:29:15 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:29:15 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:29:15 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:29:15 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:29:15 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:29:15 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:29:15 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:29:15 +0300](str): uploads/52/399/
-[Wed, 24 Aug 2022 09:29:15 +0300](str): RootFolderC:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/
-[Wed, 24 Aug 2022 09:29:15 +0300](str): sPath uploads/52/399/
-[Wed, 24 Aug 2022 09:29:15 +0300](str): aFolders 1
-[Wed, 24 Aug 2022 09:29:15 +0300](str): createdFolderbefore C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads-52-399
-[Wed, 24 Aug 2022 09:29:15 +0300](str): createdFolder C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads-52-399\
-[Wed, 24 Aug 2022 09:29:15 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:29:15 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:29:15 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:29:15 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:29:15 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:29:15 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:32:36 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:32:36 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:32:36 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:32:36 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:32:36 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:32:36 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:32:36 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:32:36 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:32:36 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:32:36 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:32:36 +0300](str): uploads/52/399/
-[Wed, 24 Aug 2022 09:32:36 +0300](str): RootFolderC:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/
-[Wed, 24 Aug 2022 09:32:36 +0300](str): sPath uploads/52/399/
-[Wed, 24 Aug 2022 09:32:36 +0300](str): aFolders 1
-[Wed, 24 Aug 2022 09:32:36 +0300](str): createdFolderbefore C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads-52-399
-[Wed, 24 Aug 2022 09:32:36 +0300](str): createdFolder C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads-52-399\
-[Wed, 24 Aug 2022 09:32:36 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:32:36 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:32:36 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:32:36 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:32:36 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:32:36 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:37:25 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:37:25 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:37:25 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:37:25 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:37:25 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:37:25 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:37:25 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:37:25 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:37:25 +0300](bool): TRUE
-[Wed, 24 Aug 2022 09:37:25 +0300](str): Success file after 
-[Wed, 24 Aug 2022 09:37:25 +0300](str): uploads/52/399/
-[Wed, 24 Aug 2022 09:37:25 +0300](str): RootFolderC:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/
-[Wed, 24 Aug 2022 09:37:25 +0300](str): sPath uploads/52/399/
-[Wed, 24 Aug 2022 09:37:25 +0300](str): createdFolderbefore C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads-52-399
-[Wed, 24 Aug 2022 09:37:25 +0300](str): createdFolder C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads-52-399\
-[Wed, 24 Aug 2022 09:37:25 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:37:25 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:37:25 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:37:25 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 09:37:25 +0300](bool): FALSE
-[Wed, 24 Aug 2022 09:37:25 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:09:02 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:09:02 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:09:02 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:09:02 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:09:02 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:09:02 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:09:02 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:09:02 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:09:02 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:09:02 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:09:02 +0300](str): uploads/52/399/
-[Wed, 24 Aug 2022 10:09:02 +0300](str): RootFolderC:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/
-[Wed, 24 Aug 2022 10:09:02 +0300](str): sPath uploads/52/399/
-[Wed, 24 Aug 2022 10:09:02 +0300](str): createdFolderbefore C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads-52-399
-[Wed, 24 Aug 2022 10:09:02 +0300](str): createdFolder C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads-52-399\
-[Wed, 24 Aug 2022 10:09:02 +0300](bool): FALSE
-[Wed, 24 Aug 2022 10:09:02 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:09:02 +0300](bool): FALSE
-[Wed, 24 Aug 2022 10:09:02 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:09:02 +0300](bool): FALSE
-[Wed, 24 Aug 2022 10:09:02 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:10:11 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:10:11 +0300](str): Success file after 
-[Wed, 24 Aug 2022 10:10:11 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:10:11 +0300](str): Success file after 
-[Wed, 24 Aug 2022 10:10:11 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:10:11 +0300](str): Success file after 
-[Wed, 24 Aug 2022 10:10:11 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:10:11 +0300](str): Success file after 
-[Wed, 24 Aug 2022 10:10:11 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:10:11 +0300](str): Success file after 
-[Wed, 24 Aug 2022 10:10:11 +0300](str): uploads/52/399/
-[Wed, 24 Aug 2022 10:10:11 +0300](str): RootFolderC:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/
-[Wed, 24 Aug 2022 10:10:11 +0300](str): sPath uploads/52/399/
-[Wed, 24 Aug 2022 10:10:11 +0300](str): createdFolderbefore C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads-52-399
-[Wed, 24 Aug 2022 10:10:11 +0300](str): createdFolder C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads-52-399\
-[Wed, 24 Aug 2022 10:10:11 +0300](str): W:\userdata\php_upload\php9654.tmp
-[Wed, 24 Aug 2022 10:10:11 +0300](bool): FALSE
-[Wed, 24 Aug 2022 10:10:11 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:10:11 +0300](bool): FALSE
-[Wed, 24 Aug 2022 10:10:11 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:10:11 +0300](bool): FALSE
-[Wed, 24 Aug 2022 10:10:11 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:10:59 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:10:59 +0300](str): Success file after 
-[Wed, 24 Aug 2022 10:10:59 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:10:59 +0300](str): Success file after 
-[Wed, 24 Aug 2022 10:10:59 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:10:59 +0300](str): Success file after 
-[Wed, 24 Aug 2022 10:10:59 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:10:59 +0300](str): Success file after 
-[Wed, 24 Aug 2022 10:10:59 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:10:59 +0300](str): Success file after 
-[Wed, 24 Aug 2022 10:10:59 +0300](str): uploads/52/399/
-[Wed, 24 Aug 2022 10:10:59 +0300](str): RootFolderC:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/
-[Wed, 24 Aug 2022 10:10:59 +0300](str): sPath uploads/52/399/
-[Wed, 24 Aug 2022 10:10:59 +0300](str): createdFolderbefore C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads-52-399
-[Wed, 24 Aug 2022 10:10:59 +0300](str): createdFolder C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads-52-399\
-[Wed, 24 Aug 2022 10:10:59 +0300](str): путь до кэша W:\userdata\php_upload\php54A4.tmp
-[Wed, 24 Aug 2022 10:10:59 +0300](bool): FALSE
-[Wed, 24 Aug 2022 10:10:59 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:10:59 +0300](bool): FALSE
-[Wed, 24 Aug 2022 10:10:59 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:10:59 +0300](bool): FALSE
-[Wed, 24 Aug 2022 10:10:59 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:12:43 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:12:43 +0300](str): Success file after 
-[Wed, 24 Aug 2022 10:12:43 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:12:43 +0300](str): Success file after 
-[Wed, 24 Aug 2022 10:12:43 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:12:43 +0300](str): Success file after 
-[Wed, 24 Aug 2022 10:12:43 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:12:43 +0300](str): Success file after 
-[Wed, 24 Aug 2022 10:12:43 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:12:43 +0300](str): Success file after 
-[Wed, 24 Aug 2022 10:12:43 +0300](str): uploads/52/399/
-[Wed, 24 Aug 2022 10:12:43 +0300](str): RootFolderC:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/
-[Wed, 24 Aug 2022 10:12:43 +0300](str): sPath uploads/52/399/
-[Wed, 24 Aug 2022 10:12:43 +0300](str): createdFolderbefore C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads-52-399
-[Wed, 24 Aug 2022 10:12:43 +0300](str): createdFolder C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads-52-399\
-[Wed, 24 Aug 2022 10:12:43 +0300](str): путь до кэша W:\userdata\php_upload\phpEB24.tmp
-[Wed, 24 Aug 2022 10:12:43 +0300](str): путь до аплода C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/52/399/images_1661325163.jpg
-[Wed, 24 Aug 2022 10:12:43 +0300](bool): FALSE
-[Wed, 24 Aug 2022 10:12:43 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:12:43 +0300](bool): FALSE
-[Wed, 24 Aug 2022 10:12:43 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:12:43 +0300](bool): FALSE
-[Wed, 24 Aug 2022 10:12:43 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:13:46 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:13:46 +0300](str): Success file after 
-[Wed, 24 Aug 2022 10:13:46 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:13:46 +0300](str): Success file after 
-[Wed, 24 Aug 2022 10:13:46 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:13:46 +0300](str): Success file after 
-[Wed, 24 Aug 2022 10:13:46 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:13:46 +0300](str): Success file after 
-[Wed, 24 Aug 2022 10:13:46 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:13:46 +0300](str): Success file after 
-[Wed, 24 Aug 2022 10:13:46 +0300](str): uploads/52/399/
-[Wed, 24 Aug 2022 10:13:46 +0300](str): RootFolderC:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/
-[Wed, 24 Aug 2022 10:13:46 +0300](str): sPath uploads/52/399/
-[Wed, 24 Aug 2022 10:13:46 +0300](str): createdFolderbefore C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads-52-399
-[Wed, 24 Aug 2022 10:13:46 +0300](str): createdFolder C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads-52-399\
-[Wed, 24 Aug 2022 10:13:46 +0300](str): путь до кэша W:\userdata\php_upload\phpDF0A.tmp
-[Wed, 24 Aug 2022 10:13:46 +0300](str): путь до аплода C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/52/399/images_1661325225.jpg
-[Wed, 24 Aug 2022 10:13:46 +0300](str): название файла uploads/52/399/images_1661325225.jpg
-[Wed, 24 Aug 2022 10:13:46 +0300](bool): FALSE
-[Wed, 24 Aug 2022 10:13:46 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:13:46 +0300](bool): FALSE
-[Wed, 24 Aug 2022 10:13:46 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:13:46 +0300](bool): FALSE
-[Wed, 24 Aug 2022 10:13:46 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:15:14 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:15:14 +0300](str): Success file after 
-[Wed, 24 Aug 2022 10:15:14 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:15:14 +0300](str): Success file after 
-[Wed, 24 Aug 2022 10:15:14 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:15:14 +0300](str): Success file after 
-[Wed, 24 Aug 2022 10:15:14 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:15:14 +0300](str): Success file after 
-[Wed, 24 Aug 2022 10:15:14 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:15:14 +0300](str): Success file after 
-[Wed, 24 Aug 2022 10:15:14 +0300](str): uploads/52/399/
-[Wed, 24 Aug 2022 10:15:14 +0300](str): RootFolderC:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/
-[Wed, 24 Aug 2022 10:15:14 +0300](str): sPath uploads/52/399/
-[Wed, 24 Aug 2022 10:15:14 +0300](str): createdFolderbefore C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads-52-399
-[Wed, 24 Aug 2022 10:15:14 +0300](str): createdFolder C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads-52-399\
-[Wed, 24 Aug 2022 10:15:14 +0300](str): путь до кэша W:\userdata\php_upload\php369C.tmp
-[Wed, 24 Aug 2022 10:15:14 +0300](str): путь до аплода C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/52/399/images_1661325313.jpg
-[Wed, 24 Aug 2022 10:15:14 +0300](str): название файла uploads/52/399/images_1661325313.jpg
-[Wed, 24 Aug 2022 10:15:14 +0300](bool): FALSE
-[Wed, 24 Aug 2022 10:15:14 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:15:14 +0300](bool): FALSE
-[Wed, 24 Aug 2022 10:15:14 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:15:14 +0300](bool): FALSE
-[Wed, 24 Aug 2022 10:15:14 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:16:48 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:16:48 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:16:48 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:16:48 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:16:48 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:16:48 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:16:48 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:16:48 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:16:48 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:16:48 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:16:48 +0300](str): uploads/52/399/
-[Wed, 24 Aug 2022 10:16:48 +0300](str): RootFolderC:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/
-[Wed, 24 Aug 2022 10:16:48 +0300](str): sPath uploads/52/399/
-[Wed, 24 Aug 2022 10:16:48 +0300](str): createdFolderbefore C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/52/399/
-[Wed, 24 Aug 2022 10:16:48 +0300](str): createdFolder C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/52/399/\
-[Wed, 24 Aug 2022 10:16:48 +0300](str): путь до кэша W:\userdata\php_upload\phpA456.tmp
-[Wed, 24 Aug 2022 10:16:48 +0300](str): путь до аплода C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/52/399/images_1661325407.jpg
-[Wed, 24 Aug 2022 10:16:48 +0300](str): название файла uploads/52/399/images_1661325407.jpg
-[Wed, 24 Aug 2022 10:16:48 +0300](str): Живой
-[Wed, 24 Aug 2022 10:16:48 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:16:48 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:16:48 +0300](str): RootFolderC:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/
-[Wed, 24 Aug 2022 10:16:48 +0300](str): sPath gallery\63\thumbnails
-[Wed, 24 Aug 2022 10:16:48 +0300](str): createdFolderbefore C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/gallery
-[Wed, 24 Aug 2022 10:16:48 +0300](str): createdFolder C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/gallery\
-[Wed, 24 Aug 2022 10:16:48 +0300](str): createdFolderbefore C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/gallery\63
-[Wed, 24 Aug 2022 10:16:48 +0300](str): createdFolder C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/gallery\63\
-[Wed, 24 Aug 2022 10:16:48 +0300](str): createdFolderbefore C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/gallery\63\thumbnails
-[Wed, 24 Aug 2022 10:16:48 +0300](str): createdFolder C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/gallery\63\thumbnails\
-[Wed, 24 Aug 2022 10:16:48 +0300](str): RootFolderC:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/
-[Wed, 24 Aug 2022 10:16:48 +0300](str): sPath gallery\63\main
-[Wed, 24 Aug 2022 10:16:48 +0300](str): createdFolderbefore C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/gallery
-[Wed, 24 Aug 2022 10:16:48 +0300](str): createdFolder C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/gallery\
-[Wed, 24 Aug 2022 10:16:48 +0300](str): createdFolderbefore C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/gallery\63
-[Wed, 24 Aug 2022 10:16:48 +0300](str): createdFolder C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/gallery\63\
-[Wed, 24 Aug 2022 10:16:48 +0300](str): createdFolderbefore C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/gallery\63\main
-[Wed, 24 Aug 2022 10:16:48 +0300](str): createdFolder C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/gallery\63\main\
-[Wed, 24 Aug 2022 10:16:48 +0300](str): RootFolderC:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/
-[Wed, 24 Aug 2022 10:16:48 +0300](str): sPath gallery\63\detail
-[Wed, 24 Aug 2022 10:16:48 +0300](str): createdFolderbefore C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/gallery
-[Wed, 24 Aug 2022 10:16:48 +0300](str): createdFolder C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/gallery\
-[Wed, 24 Aug 2022 10:16:48 +0300](str): createdFolderbefore C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/gallery\63
-[Wed, 24 Aug 2022 10:16:48 +0300](str): createdFolder C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/gallery\63\
-[Wed, 24 Aug 2022 10:16:48 +0300](str): createdFolderbefore C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/gallery\63\detail
-[Wed, 24 Aug 2022 10:16:48 +0300](str): createdFolder C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/gallery\63\detail\
-[Wed, 24 Aug 2022 10:16:48 +0300](bool): FALSE
-[Wed, 24 Aug 2022 10:16:48 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:16:48 +0300](bool): FALSE
-[Wed, 24 Aug 2022 10:16:48 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:19:25 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:19:25 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:19:25 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:19:25 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:19:25 +0300](str): uploads/63/437/
-[Wed, 24 Aug 2022 10:19:25 +0300](str): RootFolderC:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/
-[Wed, 24 Aug 2022 10:19:25 +0300](str): sPath uploads/63/437/
-[Wed, 24 Aug 2022 10:19:25 +0300](str): createdFolderbefore C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/
-[Wed, 24 Aug 2022 10:19:25 +0300](str): createdFolder C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/\
-[Wed, 24 Aug 2022 10:19:25 +0300](str): путь до кэша W:\userdata\php_upload\phpC9D.tmp
-[Wed, 24 Aug 2022 10:19:25 +0300](str): путь до аплода C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/index_1661325565.jpg
-[Wed, 24 Aug 2022 10:19:25 +0300](str): название файла uploads/63/437/index_1661325565.jpg
-[Wed, 24 Aug 2022 10:19:25 +0300](str): Живой
-[Wed, 24 Aug 2022 10:19:25 +0300](bool): TRUE
-[Wed, 24 Aug 2022 10:19:25 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:19:25 +0300](bool): FALSE
-[Wed, 24 Aug 2022 10:19:25 +0300](str): Success file after 1
-[Wed, 24 Aug 2022 10:19:25 +0300](bool): FALSE
-[Wed, 24 Aug 2022 10:19:25 +0300](str): Success file after 1
+[Wed, 24 Aug 2022 11:25:07 +0300](str): uploads/63/437/
+[Wed, 24 Aug 2022 11:25:07 +0300](str): путь до кэша W:\userdata\php_upload\php3316.tmp
+[Wed, 24 Aug 2022 11:25:07 +0300](str): путь до аплода C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/instrukciya-po-zapusku-ca_1661329507.docx
+[Wed, 24 Aug 2022 11:25:07 +0300](str): название файла uploads/63/437/instrukciya-po-zapusku-ca_1661329507.docx
+[Wed, 24 Aug 2022 11:25:07 +0300](str): File 
+[Wed, 24 Aug 2022 11:25:07 +0300](str): 
+[Wed, 24 Aug 2022 11:55:11 +0300](str): uploads/63/437/
+[Wed, 24 Aug 2022 11:55:11 +0300](str): путь до кэша W:\userdata\php_upload\phpB90C.tmp
+[Wed, 24 Aug 2022 11:55:11 +0300](str): путь до аплода C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/instrukciya-po-zapusku-ca_1661331310.docx
+[Wed, 24 Aug 2022 11:55:11 +0300](str): название файла uploads/63/437/instrukciya-po-zapusku-ca_1661331310.docx
+[Wed, 24 Aug 2022 11:55:11 +0300](str): File 
+[Wed, 24 Aug 2022 11:55:11 +0300](str): 
+[Wed, 24 Aug 2022 11:59:25 +0300](str): uploads/63/437/
+[Wed, 24 Aug 2022 11:59:25 +0300](str): путь до кэша W:\userdata\php_upload\php9A76.tmp
+[Wed, 24 Aug 2022 11:59:25 +0300](str): путь до аплода C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/instrukciya-po-zapusku-ca_1661331565.docx
+[Wed, 24 Aug 2022 11:59:25 +0300](str): название файла uploads/63/437/instrukciya-po-zapusku-ca_1661331565.docx
+[Wed, 24 Aug 2022 11:59:25 +0300](str): File 
+[Wed, 24 Aug 2022 11:59:25 +0300](str): instrukciya-po-zapusku-ca_1661331565.docx
+[Wed, 24 Aug 2022 12:00:49 +0300](str): uploads/63/437/
+[Wed, 24 Aug 2022 12:00:49 +0300](str): путь до кэша W:\userdata\php_upload\phpE1BC.tmp
+[Wed, 24 Aug 2022 12:00:49 +0300](str): путь до аплода C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/instrukciya-po-zapusku-ca_1661331648.docx
+[Wed, 24 Aug 2022 12:00:49 +0300](str): название файла uploads/63/437/instrukciya-po-zapusku-ca_1661331648.docx
+[Wed, 24 Aug 2022 12:08:49 +0300](str): uploads/63/437/
+[Wed, 24 Aug 2022 12:08:49 +0300](str): путь до кэша W:\userdata\php_upload\php351B.tmp
+[Wed, 24 Aug 2022 12:08:49 +0300](str): путь до аплода C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/uploads/63/437/instrukciya-po-zapusku-ca_1661332128.docx
+[Wed, 24 Aug 2022 12:08:49 +0300](str): название файла uploads/63/437/instrukciya-po-zapusku-ca_1661332128.docx
+[Wed, 24 Aug 2022 12:12:17 +0300](str): files/63/437/
+[Wed, 24 Aug 2022 12:12:17 +0300](str): путь до кэша W:\userdata\php_upload\php62B5.tmp
+[Wed, 24 Aug 2022 12:12:17 +0300](str): путь до аплода C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/files/63/437/instrukciya-po-zapusku-ca_1661332337.docx
+[Wed, 24 Aug 2022 12:12:17 +0300](str): название файла files/63/437/instrukciya-po-zapusku-ca_1661332337.docx
+[Wed, 24 Aug 2022 12:12:32 +0300](str): /63/437/
+[Wed, 24 Aug 2022 12:12:32 +0300](str): путь до кэша W:\userdata\php_upload\php9D8D.tmp
+[Wed, 24 Aug 2022 12:12:32 +0300](str): путь до аплода C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files//63/437/instrukciya-po-zapusku-ca_1661332352.docx
+[Wed, 24 Aug 2022 12:12:32 +0300](str): название файла /63/437/instrukciya-po-zapusku-ca_1661332352.docx
+[Wed, 24 Aug 2022 12:12:54 +0300](str): 63/437/
+[Wed, 24 Aug 2022 12:12:54 +0300](str): путь до кэша W:\userdata\php_upload\phpF226.tmp
+[Wed, 24 Aug 2022 12:12:54 +0300](str): путь до аплода C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/63/437/instrukciya-po-zapusku-ca_1661332373.docx
+[Wed, 24 Aug 2022 12:12:54 +0300](str): название файла 63/437/instrukciya-po-zapusku-ca_1661332373.docx
+[Wed, 24 Aug 2022 12:17:15 +0300](str): uploads/63/437/
+[Wed, 24 Aug 2022 12:17:15 +0300](str): путь до кэша W:\userdata\php_upload\phpEFE1.tmp
+[Wed, 24 Aug 2022 12:17:15 +0300](str): путь до аплода C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/instrukciya-po-zapusku-ca_1661332635.docx
+[Wed, 24 Aug 2022 12:17:15 +0300](str): название файла uploads/63/437/instrukciya-po-zapusku-ca_1661332635.docx
+[Wed, 24 Aug 2022 12:26:47 +0300](str): uploads/63/437/
+[Wed, 24 Aug 2022 12:26:47 +0300](str): путь до кэша W:\userdata\php_upload\phpA793.tmp
+[Wed, 24 Aug 2022 12:26:47 +0300](str): путь до аплода C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/instrukciya-po-zapusku-ca_1661333206.docx
+[Wed, 24 Aug 2022 12:26:47 +0300](str): название файла uploads/63/437/instrukciya-po-zapusku-ca_1661333206.docx
+[Wed, 24 Aug 2022 12:29:20 +0300](str): uploads/63/437/
+[Wed, 24 Aug 2022 12:29:20 +0300](str): путь до кэша W:\userdata\php_upload\phpFCAF.tmp
+[Wed, 24 Aug 2022 12:29:20 +0300](str): путь до аплода C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/instrukciya-po-zapusku-ca_1661333359.docx
+[Wed, 24 Aug 2022 12:29:20 +0300](str): название файла uploads/63/437/instrukciya-po-zapusku-ca_1661333359.docx
+[Wed, 24 Aug 2022 12:30:08 +0300](str): uploads/63/437/
+[Wed, 24 Aug 2022 12:30:08 +0300](str): путь до кэша W:\userdata\php_upload\phpBB3E.tmp
+[Wed, 24 Aug 2022 12:30:08 +0300](str): путь до аплода C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/instrukciya-po-zapusku-ca_1661333408.docx
+[Wed, 24 Aug 2022 12:30:08 +0300](str): название файла uploads/63/437/instrukciya-po-zapusku-ca_1661333408.docx
+[Wed, 24 Aug 2022 12:30:57 +0300](str): uploads/63/437/
+[Wed, 24 Aug 2022 12:30:57 +0300](str): путь до кэша W:\userdata\php_upload\php79EB.tmp
+[Wed, 24 Aug 2022 12:30:57 +0300](str): путь до аплода C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/instrukciya-po-zapusku-ca_1661333457.docx
+[Wed, 24 Aug 2022 12:30:57 +0300](str): название файла uploads/63/437/instrukciya-po-zapusku-ca_1661333457.docx
+[Wed, 24 Aug 2022 12:32:30 +0300](str): uploads/63/437/
+[Wed, 24 Aug 2022 12:32:30 +0300](str): путь до кэша W:\userdata\php_upload\phpE37F.tmp
+[Wed, 24 Aug 2022 12:32:30 +0300](str): путь до аплода C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/instrukciya-po-zapusku-ca_1661333549.docx
+[Wed, 24 Aug 2022 12:32:30 +0300](str): название файла uploads/63/437/instrukciya-po-zapusku-ca_1661333549.docx
+[Wed, 24 Aug 2022 12:35:08 +0300](str): uploads/63/437/
+[Wed, 24 Aug 2022 12:35:08 +0300](str): путь до кэша W:\userdata\php_upload\php4EA4.tmp
+[Wed, 24 Aug 2022 12:35:08 +0300](str): путь до аплода C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/instrukciya-po-zapusku-ca_1661333708.docx
+[Wed, 24 Aug 2022 12:35:08 +0300](str): название файла uploads/63/437/instrukciya-po-zapusku-ca_1661333708.docx
+[Wed, 24 Aug 2022 12:35:08 +0300](str): Пути до файлов
+[Wed, 24 Aug 2022 12:35:08 +0300](str): C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/
+[Wed, 24 Aug 2022 12:35:08 +0300](str): C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/
+[Wed, 24 Aug 2022 12:35:08 +0300](str): C:\Users/Никита/Downloads/OpenServer/domains/shopnews/C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/
+[Wed, 24 Aug 2022 12:36:15 +0300](str): uploads/63/437/
+[Wed, 24 Aug 2022 12:36:15 +0300](str): путь до кэша W:\userdata\php_upload\php545D.tmp
+[Wed, 24 Aug 2022 12:36:15 +0300](str): путь до аплода C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/instrukciya-po-zapusku-ca_1661333775.docx
+[Wed, 24 Aug 2022 12:36:15 +0300](str): название файла uploads/63/437/instrukciya-po-zapusku-ca_1661333775.docx
+[Wed, 24 Aug 2022 12:36:15 +0300](str): Пути до файлов
+[Wed, 24 Aug 2022 12:36:15 +0300](str): C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/
+[Wed, 24 Aug 2022 12:36:15 +0300](str): C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/
+[Wed, 24 Aug 2022 12:36:15 +0300](str): C:\Users/Никита/Downloads/OpenServer/domains/shopnews/C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/
+[Wed, 24 Aug 2022 12:36:50 +0300](str): uploads/63/437/
+[Wed, 24 Aug 2022 12:36:50 +0300](str): путь до кэша W:\userdata\php_upload\phpDB02.tmp
+[Wed, 24 Aug 2022 12:36:50 +0300](str): путь до аплода C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/instrukciya-po-zapusku-ca_1661333809.docx
+[Wed, 24 Aug 2022 12:36:50 +0300](str): название файла uploads/63/437/instrukciya-po-zapusku-ca_1661333809.docx
+[Wed, 24 Aug 2022 12:36:50 +0300](str): Пути до файлов
+[Wed, 24 Aug 2022 12:36:50 +0300](str): C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/
+[Wed, 24 Aug 2022 12:36:50 +0300](str): C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/
+[Wed, 24 Aug 2022 12:36:50 +0300](str): C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/
+[Wed, 24 Aug 2022 12:37:38 +0300](str): uploads/63/437/
+[Wed, 24 Aug 2022 12:37:38 +0300](str): путь до кэша W:\userdata\php_upload\php9877.tmp
+[Wed, 24 Aug 2022 12:37:38 +0300](str): путь до аплода C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/instrukciya-po-zapusku-ca_1661333858.docx
+[Wed, 24 Aug 2022 12:37:38 +0300](str): название файла uploads/63/437/instrukciya-po-zapusku-ca_1661333858.docx
+[Wed, 24 Aug 2022 12:37:38 +0300](str): Пути до файлов
+[Wed, 24 Aug 2022 12:37:38 +0300](str): C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/
+[Wed, 24 Aug 2022 12:37:38 +0300](str): C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/uploads/63/437/
+[Wed, 24 Aug 2022 12:37:38 +0300](str): C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/uploads/63/437/
+[Wed, 24 Aug 2022 12:38:47 +0300](str): uploads/63/437/
+[Wed, 24 Aug 2022 12:38:47 +0300](str): путь до кэша W:\userdata\php_upload\phpA62F.tmp
+[Wed, 24 Aug 2022 12:38:47 +0300](str): путь до аплода C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/instrukciya-po-zapusku-ca_1661333927.docx
+[Wed, 24 Aug 2022 12:38:47 +0300](str): название файла uploads/63/437/instrukciya-po-zapusku-ca_1661333927.docx
+[Wed, 24 Aug 2022 12:38:47 +0300](str): Пути до файлов
+[Wed, 24 Aug 2022 12:38:47 +0300](str): C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/
+[Wed, 24 Aug 2022 12:38:47 +0300](str): C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/uploads/63/437/
+[Wed, 24 Aug 2022 12:38:47 +0300](str): C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/uploads/63/437/
+[Wed, 24 Aug 2022 12:39:30 +0300](str): uploads/63/437/
+[Wed, 24 Aug 2022 12:39:30 +0300](str): путь до кэша W:\userdata\php_upload\php4F80.tmp
+[Wed, 24 Aug 2022 12:39:30 +0300](str): путь до аплода C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/instrukciya-po-zapusku-ca_1661333970.docx
+[Wed, 24 Aug 2022 12:39:30 +0300](str): название файла uploads/63/437/instrukciya-po-zapusku-ca_1661333970.docx
+[Wed, 24 Aug 2022 12:39:30 +0300](str): Пути до файлов
+[Wed, 24 Aug 2022 12:39:30 +0300](str): C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/
+[Wed, 24 Aug 2022 12:39:30 +0300](str): C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/uploads/63/437/
+[Wed, 24 Aug 2022 12:39:30 +0300](str): C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/uploads/63/437/
+[Wed, 24 Aug 2022 12:41:30 +0300](str): uploads/63/437/
+[Wed, 24 Aug 2022 12:41:30 +0300](str): путь до кэша W:\userdata\php_upload\php22CA.tmp
+[Wed, 24 Aug 2022 12:41:30 +0300](str): путь до аплода C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/instrukciya-po-zapusku-ca_1661334090.docx
+[Wed, 24 Aug 2022 12:41:30 +0300](str): название файла uploads/63/437/instrukciya-po-zapusku-ca_1661334090.docx
+[Wed, 24 Aug 2022 12:41:52 +0300](str): uploads/63/437/
+[Wed, 24 Aug 2022 12:41:52 +0300](str): путь до кэша W:\userdata\php_upload\php765A.tmp
+[Wed, 24 Aug 2022 12:41:52 +0300](str): путь до аплода C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/instrukciya-po-zapusku-ca_1661334111.docx
+[Wed, 24 Aug 2022 12:41:52 +0300](str): название файла uploads/63/437/instrukciya-po-zapusku-ca_1661334111.docx
+[Wed, 24 Aug 2022 12:41:52 +0300](str): Пути до файлов
+[Wed, 24 Aug 2022 12:41:52 +0300](str): C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/
+[Wed, 24 Aug 2022 12:41:52 +0300](str): C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/uploads/63/437/
+[Wed, 24 Aug 2022 12:41:52 +0300](str): C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/uploads/63/437/
+[Wed, 24 Aug 2022 12:42:25 +0300](str): uploads/63/437/
+[Wed, 24 Aug 2022 12:42:25 +0300](str): путь до кэша W:\userdata\php_upload\phpFA11.tmp
+[Wed, 24 Aug 2022 12:42:25 +0300](str): путь до аплода C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/instrukciya-po-zapusku-ca_1661334145.docx
+[Wed, 24 Aug 2022 12:42:25 +0300](str): название файла uploads/63/437/instrukciya-po-zapusku-ca_1661334145.docx
+[Wed, 24 Aug 2022 12:42:33 +0300](str): uploads/63/437/
+[Wed, 24 Aug 2022 12:42:33 +0300](str): путь до кэша W:\userdata\php_upload\php1943.tmp
+[Wed, 24 Aug 2022 12:42:33 +0300](str): путь до аплода C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/instrukciya-po-zapusku-ca_1661334153.docx
+[Wed, 24 Aug 2022 12:42:33 +0300](str): название файла uploads/63/437/instrukciya-po-zapusku-ca_1661334153.docx
+[Wed, 24 Aug 2022 12:42:33 +0300](str): Пути до файлов
+[Wed, 24 Aug 2022 12:42:33 +0300](str): C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads/63/437/
+[Wed, 24 Aug 2022 12:42:33 +0300](str): C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/uploads/63/437/
+[Wed, 24 Aug 2022 12:42:33 +0300](str): C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/C:\Users/Никита/Downloads/OpenServer/domains/shopnews/web/files/uploads/63/437/

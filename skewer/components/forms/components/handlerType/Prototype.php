@@ -58,7 +58,6 @@ class Prototype
             );
             throw new \Exception('validation_error');
         }
-        Logger::dump("Живой");
         return basename(
             mb_substr($fullFileName, mb_strlen(ROOTPATH) - 1)
         );

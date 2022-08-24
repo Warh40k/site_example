@@ -3,7 +3,6 @@
 namespace skewer\helpers;
 
 use Exception;
-use skewer\base\log\Logger;
 use skewer\base\site\Site;
 
 /**
@@ -186,8 +185,7 @@ class Files
     {
         try {
             $sRootFolder = (!$bProtected) ? self::$sUploadPath : self::$sUploadProtectedPath;
-            Logger::dump("RootFolder".$sRootFolder);
-            Logger::dump("sPath ".$sPath);
+
             if (is_dir($sRootFolder . $sPath)) {
                 return $sRootFolder . $sPath;
             }
@@ -202,16 +200,13 @@ class Files
             $sCreatedFolder = $sRootFolder;
 
             foreach ($aFolders as $sFolder) {
-
 //                $sFolder = self::makeURLValidName($sFolder, false);
 
                 if (empty($sFolder)) {
                     return false;
                 }
 
-                Logger::dump("createdFolderbefore ".$sCreatedFolder.$sFolder);
                 $sCreatedFolder .= $sFolder . \DIRECTORY_SEPARATOR;
-                Logger::dump("createdFolder ".$sCreatedFolder);
 
                 if (is_dir($sCreatedFolder)) {
                     continue;

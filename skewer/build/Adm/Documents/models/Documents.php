@@ -3,28 +3,11 @@
 namespace skewer\build\Adm\Documents\models;
 
 use skewer\base\log\Logger;
-use skewer\base\router\Router;
-use skewer\base\section\Tree;
-use skewer\base\site\Site;
-use skewer\build\Adm\Documents\Exporter;
-use skewer\build\Adm\Documents\Importer;
 use skewer\build\Adm\Documents\Search;
-use skewer\build\Tool\Rss;
-use skewer\build\Tool\SeoGen\exporter\GetListExportersEvent;
-use skewer\build\Tool\SeoGen\importer\GetListImportersEvent;
 use skewer\components\ActiveRecord\ActiveRecord;
-use skewer\components\gallery\Album;
-use skewer\components\gallery\Photo;
-use skewer\components\seo\Api;
-use skewer\components\seo\Service;
-use skewer\helpers\Html;
-use skewer\helpers\ImageResize;
-use skewer\helpers\Transliterate;
 use Yii;
 use yii\base\ModelEvent;
-use yii\base\UserException;
 use yii\data\ActiveDataProvider;
-use yii\helpers\ArrayHelper;
 use yii\helpers\StringHelper;
 
 /**
@@ -72,20 +55,11 @@ class Documents extends ActiveRecord
         ];
     }
 
-/*    public static function getPublicDocumentsByAliasAndSec($sDocumentsAlias)
-    {
-        return Documents::findOne(['documents_alias' => $sDocumentsAlias]);
-    }*/
 
     public static function getPublicDocumentsById($iDocumentsId)
     {
         return Documents::findOne(['id' => $iDocumentsId]);
     }
-
-/*    public function getFormat_Announce()
-    {
-        return str_replace('data-fancybox-group="button"', 'data-fancybox-group="documents' . $this->id . '"', $this->announce);
-    }*/
 
     /**
      * Creates data provider instance with search query applied.
@@ -272,158 +246,4 @@ class Documents extends ActiveRecord
     {
         $event->addSearchEngine(Search::className());
     }
-
-    /**
-     * Возвращает максимальную дату модификации сущности.
-     *
-     * @return array|bool
-     */
-    /*public static function getMaxLastModifyDate()
-    {
-        return (new \yii\db\Query())->select('MAX(`last_modified_date`) as max')->from(self::tableName())->one();
-    }*/
-
-    /**
-     * Вернет урл новости.
-     *
-     * @return string
-     */
-    /*public function getUrl()
-    {
-        if ($this->hyperlink) {
-            return $this->hyperlink;
-        }
-        $hrefParam = $this->documents_alias ? "documents_alias={$this->documents_alias}" : "documents_id={$this->id}";
-
-        return "[{$this->parent_section}][Documents?" . $hrefParam . ']';
-    }*/
-
-    /**
-     * Обрезает текст аннонса до указанной длины
-     * @param null $textLength
-     * @return string
-     */
-    public function getTruncateAnnounce($textLength = null)
-    {
-        if (empty($textLength)) {
-            return $this->announce;
-        }
-
-        return StringHelper::truncate($this->announce, (int)$textLength, ' ...');
-    }
-
-    /**
-     * Новость имеет ссылку на детальную страницу?
-     *
-     * @return bool
-     */
-    /*public function hasDetailLink()
-    {
-        return Html::hasContent($this->full_text) || $this->hyperlink;
-    }*/
-
-    /**
-     * Ведет ли ссылка на внешний ресурс
-     *
-     * @return bool
-     */
-    /*public function isExternalHyperLink(): bool
-    {
-        if (empty($this->hyperlink)) {
-            return false;
-        }
-
-        $domainParams = parse_url(Site::httpDomain());
-        $hyperlinkParams = parse_url($this->hyperlink);
-
-        if (isset($domainParams['host']) && isset($hyperlinkParams['host']) && $domainParams['host'] !== $hyperlinkParams['host']) {
-            return true;
-        }
-
-        return false;
-    }*/
-
-    /**
-     * Набивает внутренний массив события $oEvent последними новостями.
-     *
-     * @param Rss\GetRowsEvent $oEvent
-     */
-    /*public static function getRssRows(Rss\GetRowsEvent $oEvent)
-    {
-        $aSections = array_intersect(Tree::getVisibleSections(), Rss\Api::getSectionsIncludedInRss());
-
-        if (!$aSections) {
-            return;
-        }
-
-        $aRecords = self::find()
-            ->where('announce <> :emptyString', ['emptyString' => ''])
-            ->andWhere(['active' => 1])
-            ->andWhere(['parent_section' => $aSections])
-            ->orderBy(['publication_date' => SORT_DESC])
-            ->limit(Rss\Api::COUNT_RECORDS_PER_MODULE)
-            ->all();
-
-        $oEvent->aRows = ArrayHelper::merge($oEvent->aRows, $aRecords);
-    }*/
-
-    /**
-     * Удалит альбомы новостей по id раздела.
-     *
-     * @param int $iSectionId - id раздела
-     */
-   /* private static function deleteAlbumsBySectionId($iSectionId)
-    {
-        $oQuery = Documents::find()
-            ->where(['parent_section' => $iSectionId]);
-
-        foreach ($oQuery->each() as $oNew) {
-            Album::removeAlbum($oNew->gallery);
-        }
-    }*/
-
-    /**
-     * Регистрирует класс Importer, в списке импортёров события $oEvent.
-     *
-     * @param GetListImportersEvent $oEvent
-     */
-    /*public static function getImporter(GetListImportersEvent $oEvent)
-    {
-        $oEvent->addImporter(Importer::className());
-    }*/
-
-    /**
-     * Регистрирует класс Exporter, в списке экпортёров события $oEvent.
-     *
-     * @param GetListExportersEvent $oEvent
-     */
-    /*public static function getExporter(GetListExportersEvent $oEvent)
-    {
-        $oEvent->addExporter(Exporter::className());
-    }*/
-
-    /**
-     * Возвращает html ссылки на предварительный просмотр
-     * @return string
-     */
-    /*public function getPreviewLink(): string
-    {
-        $sLinkHtml = '';
-        $sItemUrl = Router::rewriteURL($this->getUrl());
-        $sUrlText = \Yii::t('documents', 'field_preview_url');
-        if (!$this->id) {
-            $sLinkHtml = \Yii::t('documents', 'preview_no_save_error');
-        } elseif (!Tree::isSectionVisible($this->parent_section)) {
-            $sLinkHtml = \Yii::t('documents', 'preview_visible_error');
-        } else {
-            if ($this->hyperlink) {
-                $sLinkHtml = \Yii::t('documents', 'preview_hyperlink_error');
-                $sLinkHtml .= "<br>";
-                $sLinkHtml .= "<a href='$this->hyperlink' target='_blank'>$sUrlText</a>";
-            } else {
-                $sLinkHtml .= "<a href='$sItemUrl' target='_blank'>$sUrlText</a>";
-            }
-        }
-        return $sLinkHtml;
-    }*/
 }

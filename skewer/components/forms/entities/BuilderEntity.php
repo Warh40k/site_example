@@ -298,9 +298,8 @@ abstract class BuilderEntity
                 if ($field->type->isPhoneValidate()) {
                     $field->type->setTypeOfValid('text');
                 }
+
                 $success = $success && $field->validateValue($this->formAggregate->handler->getTypeObject());
-                Logger::dump($success);
-                Logger::dump("Success file after ".strval(file_exists("C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/uploads-52-399")));
             }
 
             return $success;

@@ -281,7 +281,6 @@ class Module extends site_module\page\ModulePrototype implements site_module\Aja
         foreach ($post as &$psValue) {
             $psValue = strip_tags($psValue);
         }
-//        Logger::dump("File ".strval(file_exists("C:\Users/Никита/Downloads/OpenServer/domains/shopnews/private_files/")));
         $reviewEntity = new ReviewEntity($this->sectionId(), $post);
         $reviewEntity->setParamForGoodReview($this->objectId, $this->className);
         $label = $this->get('label') ?: $this->oContext->getLabel();
@@ -290,7 +289,6 @@ class Module extends site_module\page\ModulePrototype implements site_module\Aja
             $this->sectionId(),
             $label
         );
-//        Logger::dump(is_dir("W:\domains/shopnews/private_files/uploads-52-399/"));
 
         $ajaxForm = $this->getData('ajax') ?: $reviewEntity->formAggregate->result->isPopupResultPage();
 
@@ -298,7 +296,7 @@ class Module extends site_module\page\ModulePrototype implements site_module\Aja
         if ($formBuilder->hasSendData() && $formBuilder->validate() && $formBuilder->save()) {
 
             $formBuilder->setLegalRedirect();
-
+            Logger::dump($reviewEntity->formAggregate->fields());
             $aParam = ['form_section' => $this->sectionId()];
             $aParam['answer_review'] = !$ajaxForm && $reviewEntity->isGoodReview();
 
