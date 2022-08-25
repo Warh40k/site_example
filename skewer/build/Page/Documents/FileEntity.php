@@ -4,19 +4,13 @@ declare(strict_types=1);
 
 namespace skewer\build\Page\Documents;
 
-use skewer\base\log\Logger;
 use skewer\base\section\Tree;
 use skewer\base\site\Site;
 use skewer\build\Adm\Gallery\Api as GalleryApi;
 use skewer\build\Adm\Documents\models\Documents;
-use skewer\build\Tool\Review\Api;
-use skewer\components\catalog\GoodsSelector;
 use skewer\components\forms\components\fields\File;
 use skewer\components\forms\components\fields\Input;
-use skewer\components\forms\components\fields\Rating;
-use skewer\components\forms\components\fields\Textarea;
 use skewer\components\forms\components\TemplateForm;
-use skewer\components\forms\components\TemplateLetter;
 use skewer\components\forms\components\typesOfValid\Email;
 use skewer\components\forms\components\typesOfValid\Text;
 use skewer\components\forms\components\typesOfValid\File as FileTypeOfValid;
@@ -29,10 +23,8 @@ use skewer\components\gallery\Album;
 use skewer\components\gallery\Format;
 use skewer\components\gallery\Photo;
 use skewer\components\gallery\Profile;
-use skewer\components\i18n\ModulesParams;
 use skewer\helpers\Files;
 use skewer\helpers\Image;
-use skewer\helpers\Mailer;
 use yii\helpers\ArrayHelper;
 
 /**
@@ -44,7 +36,7 @@ use yii\helpers\ArrayHelper;
  * @property FormAggregate $formAggregate
  * @property FieldAggregate[] $fields
  */
-class ReviewEntity extends BuilderEntity
+class FileEntity extends BuilderEntity
 {
     public $cmd = 'sendReview';
     public $parent = 0;
@@ -205,91 +197,6 @@ class ReviewEntity extends BuilderEntity
         ];
 
         $templateForm->paramsForInputTemplate = $inputParams;
-    }
-
-    /**
-     * Добавление изображения, отправленного из отзыва.
-     *
-     * @param FieldAggregate $photoGallery
-     *
-     * @return bool
-     */
-    private function addImage(FieldAggregate $photoGallery)
-    {
-        if (isset($_FILES['photo_gallery'])) {
-            $photoGallery->value = $_FILES['photo_gallery']['name'];
-
-            if (ArrayHelper::getValue($_FILES, 'photo_gallery.tmp_name', '')) {
-                if (!(
-                    isset($_FILES['photo_gallery']['type'])
-                    && mb_substr_count($_FILES['photo_gallery']['type'], 'image')
-                )) {
-                    $photoGallery->addError(
-                        'photo_gallery',
-                        \Yii::t('review', 'error_send_gallery')
-                    );
-
-                    return false;
-                }
-
-                $aImageInfo = getimagesize($_FILES['photo_gallery']['tmp_name']);
-                $sTypeImage = $aImageInfo[2];
-                $aAllowImageTypes = array_keys(Image::getAllowImageTypes());
-
-                if (in_array($sTypeImage, $aAllowImageTypes)) {
-                    $sContent = file_get_contents($_FILES['photo_gallery']['tmp_name']);
-
-                    GalleryApi::createTempDir();
-                    $allPath = ROOTPATH . 'web/' . GalleryApi::$sTempPath . $photoGallery->value;
-
-                    file_put_contents($allPath, $sContent);
-
-                    try {
-                        //добавление альбома
-                        $idAlbum = Album::setAlbum([
-                            'owner' => 'section',
-                            // владелец
-                            'section_id' => $this->_idSection,
-                            // родительский раздел
-                            'profile_id' => Profile::getDefaultId(Profile::TYPE_REVIEWS),
-                            // Профиль форматов
-                        ]);
-
-                        $idProfile = Profile::getDefaultId(Profile::TYPE_REVIEWS);
-
-                        $aCrop = Format::getCropTypeProfile(Profile::TYPE_REVIEWS);
-
-                        Photo::addPhotoInAlbum(
-                            $allPath,
-                            $idAlbum,
-                            $aCrop,
-                            $idProfile
-                        );
-                    } catch (\Exception $e) {
-                        $photoGallery->addError(
-                            'photo_gallery',
-                            $e->getMessage()
-                        );
-
-                        return false;
-                    }
-
-                    Files::remove($allPath);
-                    //изменение данных о загруженной фотографии
-                    $this->_documents->photo_gallery = $idAlbum;
-
-                    return true;
-                }
-                $photoGallery->addError(
-                    'photo_gallery',
-                    \Yii::t('review', 'error_send_file')
-                    );
-
-                return false;
-            }
-        }
-
-        return true;
     }
 
     public function getLinkAutoReply(): string

@@ -4,11 +4,11 @@
 
 {% if msg is not defined %}
     <h2>Список документов</h2>
-    <table style="border: 2px solid black; width: 100%; border-collapse: separate; display: table; border-spacing: 2px">
+    <table style="width: 100%; border-collapse: collapse;">
         {% for aItem in aDocs %}
             <tr>
-                <td><a href="{{ aItem.file }}">{{ aItem.name }}</a></td>
-                <td>{{ aItem.description }}</td>
+                <td style="border: 2px solid black"><a href="{{ aItem.file }}">{{ aItem.name }}</a></td>
+                <td style="border: 2px solid black">{{ aItem.description }}</td>
             </tr>
         {% endfor %}
     </table>

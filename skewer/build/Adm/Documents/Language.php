@@ -7,6 +7,7 @@ $aLanguage['ru']['field_id'] = 'ID';
 $aLanguage['ru']['field_name'] = 'Название документа';
 $aLanguage['ru']['field_description'] = 'Описание документа';
 $aLanguage['ru']['field_file'] = 'Файл документа';
+$aLanguage['ru']['field_country'] = 'Страна';
 $aLanguage['ru']['error_id_not_found'] = 'Не передан идентификатор записи';
 $aLanguage['ru']['error_row_not_found'] = 'Запись [{0}] не найдена';
 $aLanguage['ru']['error_empty_data'] = 'Нет данных для сохранения';

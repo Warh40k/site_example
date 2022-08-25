@@ -23,13 +23,12 @@ class Form extends FormView
      */
     public function build()
     {
-//        $this->_form->headText($this->sPreviewLink);
-
         $this->_form->field('id', 'ID', 'hide')
             ->field('name', \Yii::t('documents', 'field_name'), 'string')
             ->field('description', \Yii::t('documents', 'field_description'), 'string')
             ->field('file', \Yii::t('documents', 'field_file'), Editor::FILE)
-            
+            ->field('country', \Yii::t('documents', 'field_country'), Editor::STRING)
+
             ->buttonSave()
             ->buttonSave('saveAndContinue', \Yii::t('documents', 'save_and_continue'))
             ->buttonBack();
