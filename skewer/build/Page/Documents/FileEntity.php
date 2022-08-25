@@ -8,6 +8,7 @@ use skewer\base\section\Tree;
 use skewer\base\site\Site;
 use skewer\build\Adm\Gallery\Api as GalleryApi;
 use skewer\build\Adm\Documents\models\Documents;
+use skewer\components\ext\field\Select;
 use skewer\components\forms\components\fields\File;
 use skewer\components\forms\components\fields\Input;
 use skewer\components\forms\components\TemplateForm;
@@ -83,7 +84,7 @@ class FileEntity extends BuilderEntity
         [
             'settings' => [
                 'slug' => 'file',
-                'title' => 'review.field_city',
+                'title' => 'review.field_file',
                 'required' => 0,
                 'labelPosition' => SettingsFieldForm::LABEL_POSITION_TOP,
                 'newLine' => 0,
@@ -91,6 +92,19 @@ class FileEntity extends BuilderEntity
             'type' => [
                 'name' => File::class,
                 'typeOfValid' => FileTypeOfValid::class,
+            ],
+        ],
+        [
+            'settings' => [
+                'slug' => 'country',
+                'title' => 'review.field_country',
+                'required' => 0,
+                'labelPosition' => SettingsFieldForm::LABEL_POSITION_TOP,
+                'newLine' => 0,
+            ],
+            'type' => [
+                'name' => Select::class,
+                'typeOfValid' => Text::class,
             ],
         ],
     ];

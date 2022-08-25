@@ -26,9 +26,7 @@ class Module extends Tool\Review\Module implements Tool\LeftList\ModuleInterface
         $oContext = $this->oContext;
 
         $oContext->setModuleName('Review');
-        //$oContext->setTplDirectory('/skewer/build/Adm/Order/templates');
         $oContext->setModuleWebDir('/skewer/build/Tool/Review');
-        //$oContext->setModuleDir(RELEASEPATH.'build/Tool/Review');
         $oContext->setModuleLayer('Tool');
 
         $this->iShowSection = $this->sectionId();
